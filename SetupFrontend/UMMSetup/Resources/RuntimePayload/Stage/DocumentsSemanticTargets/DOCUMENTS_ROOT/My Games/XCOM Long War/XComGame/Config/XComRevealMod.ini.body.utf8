@@ -1,0 +1,6 @@
+[RevealMod.RevealModMutator]
+bCallFriendsEndOfTurn=True
+bCallFriendsOnPodReveal=False
+bBailOutOnPodReveal=False
+bDebugLog=False
+

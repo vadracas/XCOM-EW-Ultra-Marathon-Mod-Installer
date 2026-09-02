@@ -1,0 +1,6 @@
+UPK_FILE=umm_clean_foresttrench.upk
+OBJECT=TheWorld.PersistentLevel.XComRebuildWorldDataVolume_1:KEEP
+FIND_HEX=00 00 B0 C4 FF FF DF 43 FC FF FF C0
+[MODDED_CODE]
+<%f -1497.162> <%f 627.2553> <%f -4.496>
+

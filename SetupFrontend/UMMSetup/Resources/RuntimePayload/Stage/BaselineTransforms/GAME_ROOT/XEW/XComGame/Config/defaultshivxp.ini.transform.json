@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "scope": "GAME_ROOT",
+  "path": "XEW\\XComGame\\Config\\defaultshivxp.ini",
+  "inputMode": "EXACT_FILE_SHA256",
+  "inputSha256": "003E4FD0674B193DE24BBDD8C17060E05A6EF5CD78CECC9B31CDC657900BFBB4",
+  "inputBytes": 52,
+  "sourceEncoding": "utf-8",
+  "outputMode": "EXACT_FILE_SHA256",
+  "outputSha256": "8550B96CB0DE6B5469143DB10CF52168B633CE1A2C0BD7E0D7DC6351972E8518",
+  "outputBytes": 56,
+  "outputEncoding": "utf-8",
+  "outputNewline": "CRLF",
+  "trailingNewlines": 1,
+  "preserveIniVersion": false,
+  "operations": [
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 1,
+      "sourceLineSha256Utf8": "4FE7C0DDA58F17652677FDD66B63F34E7176CA4E67D1253F3A2ADE0424EA3265"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2,
+      "sourceLineSha256Utf8": "2F62DE4C87C576E45F23C23A3B243874A2ED947D07071085FCA5BF89681314F6",
+      "prefixUtf16": 16,
+      "suffixUtf16": 1,
+      "replacement": "15000"
+    }
+  ],
+  "stats": {
+    "sourceLines": 2,
+    "targetLines": 2,
+    "copyLines": 1,
+    "patchedLines": 1,
+    "insertOwnedLines": 0,
+    "serializedOperations": 2
+  }
+}

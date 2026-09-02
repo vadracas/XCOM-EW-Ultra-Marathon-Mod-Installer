@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "generator": "Build-BaselineTransformSpecs.py",
+  "oracle": "clean LW1.1 -> current UMM Gold semantics; default NameList preserves clean quoted representation while applying UMM additions/count semantics",
+  "entries": [
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Config\\defaultnamelist.ini",
+      "transformKind": "GENERIC_LINE_RECIPE",
+      "transformSpecStagePath": "BaselineTransforms/GAME_ROOT/XEW/XComGame/Config/defaultnamelist.ini.transform.json",
+      "transformSpecBytes": 44597,
+      "transformSpecSha256": "DABA0C280612D8C9CBEED9BDB7797B37D96DF6344238D7245BFE0BF6690DC00F",
+      "inputMode": "EXACT_FILE_SHA256",
+      "inputBytes": 8127036,
+      "inputSha256": "6D642325B919EA9B20053812490F1E04FD97789F684C5DF2AF9312DAD21BE635",
+      "outputMode": "EXACT_FILE_SHA256",
+      "outputBytes": 8138650,
+      "outputSha256": "20C23530B520564EA4CDD340B436B229C5735274107EB4A916A042E173B9087A",
+      "outputEncoding": "utf-16le-bom",
+      "preserveIniVersion": false,
+      "stats": {
+        "sourceLines": 139662,
+        "targetLines": 139842,
+        "copyLines": 139699,
+        "patchedLines": 143,
+        "insertOwnedLines": 0,
+        "serializedOperations": 190
+      }
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Config\\defaultstrategyaimod.ini",
+      "transformKind": "GENERIC_LINE_RECIPE",
+      "transformSpecStagePath": "BaselineTransforms/GAME_ROOT/XEW/XComGame/Config/defaultstrategyaimod.ini.transform.json",
+      "transformSpecBytes": 654906,
+      "transformSpecSha256": "7D15838E0CCFEAFE606901F67173CE048DDFCE15A523BFB4C1AE88083AF7DC98",
+      "inputMode": "EXACT_FILE_SHA256",
+      "inputBytes": 192345,
+      "inputSha256": "8DBE047BFC67C3428A5793B71528685729DEA9CF4814874B5BD71F70B72672E2",
+      "outputMode": "EXACT_FILE_SHA256",
+      "outputBytes": 246390,
+      "outputSha256": "6193DEA792C1AB081A8FEE81B14F1138404D16C9996AC4313BEBAFB19384918D",
+      "outputEncoding": "utf-8",
+      "preserveIniVersion": false,
+      "stats": {
+        "sourceLines": 1986,
+        "targetLines": 2879,
+        "copyLines": 622,
+        "patchedLines": 1789,
+        "insertOwnedLines": 468,
+        "serializedOperations": 2476
+      }
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Config\\defaultshivxp.ini",
+      "transformKind": "GENERIC_LINE_RECIPE",
+      "transformSpecStagePath": "BaselineTransforms/GAME_ROOT/XEW/XComGame/Config/defaultshivxp.ini.transform.json",
+      "transformSpecBytes": 1148,
+      "transformSpecSha256": "72296D90FF2DFE4877875E88BDAE3F6C57F9B7E8AED3E543405D6D8C3BBD0E9F",
+      "inputMode": "EXACT_FILE_SHA256",
+      "inputBytes": 52,
+      "inputSha256": "003E4FD0674B193DE24BBDD8C17060E05A6EF5CD78CECC9B31CDC657900BFBB4",
+      "outputMode": "EXACT_FILE_SHA256",
+      "outputBytes": 56,
+      "outputSha256": "8550B96CB0DE6B5469143DB10CF52168B633CE1A2C0BD7E0D7DC6351972E8518",
+      "outputEncoding": "utf-8",
+      "preserveIniVersion": false,
+      "stats": {
+        "sourceLines": 2,
+        "targetLines": 2,
+        "copyLines": 1,
+        "patchedLines": 1,
+        "insertOwnedLines": 0,
+        "serializedOperations": 2
+      }
+    },
+    {
+      "scope": "DOCUMENTS_ROOT",
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComNameList.ini",
+      "transformKind": "GENERIC_LINE_RECIPE",
+      "transformSpecStagePath": "BaselineTransforms/DOCUMENTS_ROOT/My Games/XCOM Long War/XComGame/Config/XComNameList.ini.transform.json",
+      "transformSpecBytes": 45466,
+      "transformSpecSha256": "2ACD74A4D1C4C641755274A68688A796A6F8E0CF154F83344624040D378F7233",
+      "inputMode": "CANONICAL_BODY_SHA256_UTF8",
+      "inputBytes": null,
+      "inputSha256": "377C5465559A547F1986A1E2EF531DC9F60E6F8EABC9724E4B39B80B8D3B1D74",
+      "outputMode": "CANONICAL_BODY_SHA256_UTF8",
+      "outputBytes": null,
+      "outputSha256": "5EC5AAE9DD51E6C5A6EFEAE5530086A011744FA0CDE1C40C285A5A58CBFA187A",
+      "outputEncoding": "utf-16le-bom",
+      "preserveIniVersion": true,
+      "stats": {
+        "sourceLines": 138826,
+        "targetLines": 139006,
+        "copyLines": 138861,
+        "patchedLines": 145,
+        "insertOwnedLines": 0,
+        "serializedOperations": 194
+      }
+    },
+    {
+      "scope": "DOCUMENTS_ROOT",
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComStrategyAIMod.ini",
+      "transformKind": "GENERIC_LINE_RECIPE",
+      "transformSpecStagePath": "BaselineTransforms/DOCUMENTS_ROOT/My Games/XCOM Long War/XComGame/Config/XComStrategyAIMod.ini.transform.json",
+      "transformSpecBytes": 719679,
+      "transformSpecSha256": "84032B8DE69D94B16B0AEABA851618D53378BF177FBDEA2EC5C82B4425389F96",
+      "inputMode": "CANONICAL_BODY_SHA256_UTF8",
+      "inputBytes": null,
+      "inputSha256": "6C778917696E07185CE6C14069DD58D80E68A9275DDE3F33492892EF43E67835",
+      "outputMode": "CANONICAL_BODY_SHA256_UTF8",
+      "outputBytes": null,
+      "outputSha256": "636B7854DC5F4A5E2DA42DD841A7AD15B711746824CF9907BC691F36A18E5FDB",
+      "outputEncoding": "utf-8",
+      "preserveIniVersion": true,
+      "stats": {
+        "sourceLines": 1555,
+        "targetLines": 2228,
+        "copyLines": 39,
+        "patchedLines": 1942,
+        "insertOwnedLines": 247,
+        "serializedOperations": 2204
+      }
+    },
+    {
+      "scope": "DOCUMENTS_ROOT",
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComSHIVXP.ini",
+      "transformKind": "GENERIC_LINE_RECIPE",
+      "transformSpecStagePath": "BaselineTransforms/DOCUMENTS_ROOT/My Games/XCOM Long War/XComGame/Config/XComSHIVXP.ini.transform.json",
+      "transformSpecBytes": 1191,
+      "transformSpecSha256": "DE20063AF02671E9797C34D806C62D8C03FD4A568F562DF288946DEA416F4C4A",
+      "inputMode": "CANONICAL_BODY_SHA256_UTF8",
+      "inputBytes": null,
+      "inputSha256": "B54D9D09D220B4759D49F6A69E22B7F28997A89FA8B08505590B75C68DB3E333",
+      "outputMode": "CANONICAL_BODY_SHA256_UTF8",
+      "outputBytes": null,
+      "outputSha256": "64B8C03194EB20662C85E16495FC20C2B30FCEF3C977D406927AE3D770954FCE",
+      "outputEncoding": "utf-8",
+      "preserveIniVersion": true,
+      "stats": {
+        "sourceLines": 2,
+        "targetLines": 2,
+        "copyLines": 1,
+        "patchedLines": 1,
+        "insertOwnedLines": 0,
+        "serializedOperations": 2
+      }
+    }
+  ]
+}

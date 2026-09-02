@@ -1,0 +1,6 @@
+UPK_FILE=umm_clean_dirtroad.upk
+OBJECT=TheWorld.PersistentLevel.XComRebuildWorldDataVolume_2:KEEP
+FIND_HEX=00 00 A8 C4 00 00 5A 45 00 00 10 44
+[MODDED_CODE]
+<%f -2496> <%f 1664> <%f -128>
+

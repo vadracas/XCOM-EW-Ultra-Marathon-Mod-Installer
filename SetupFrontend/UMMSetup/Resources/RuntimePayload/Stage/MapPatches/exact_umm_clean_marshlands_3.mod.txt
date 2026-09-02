@@ -1,0 +1,6 @@
+UPK_FILE=umm_clean_marshlands.upk
+OBJECT=TheWorld.PersistentLevel.XComRebuildWorldDataVolume_6:KEEP
+FIND_HEX=00 00 48 C3 00 00 58 45 00 00 06 44
+[MODDED_CODE]
+<%f -1160> <%f 2400> <%f -104>
+

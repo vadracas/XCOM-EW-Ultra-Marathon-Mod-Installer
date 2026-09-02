@@ -1,0 +1,17 @@
+Ultra Marathon Mod Installer v1.0 - Third-Party Notices
+
+UPKUtils
+- Project: wghost/UPKUtils
+- Upstream repository: https://github.com/wghost/UPKUtils
+- Upstream tag: 7.3
+- Upstream commit: f4a7149cb25389b3d3e0b4ee1bf4bfefd7b02c29
+- License: GNU General Public License v2.0
+- Runtime utilities used by this installer: DecompressLZO.exe, PatchUPK.exe
+- Corresponding UPKUtils 7.3 source and license files are embedded directly in this installer as ordinary resources, not as a nested source archive.
+- The complete embedded source can be exported from this dialog as UPKUtils-v7.3-source.zip.
+- GPL/license files included with the embedded source: COPYING, LICENSE
+
+Long War / XCOM game packages
+The UMM installer does not redistribute complete modified XComGame.upk, XComStrategyGame.upk or MiniModsCollection.u packages. It validates the user's supported Long War 1.1 files and applies UMM patch data locally to the user's own installation.
+
+XCOM: Enemy Unknown / Enemy Within and related game assets are property of their respective rights holders.

@@ -1,0 +1,1264 @@
+{
+  "schemaVersion": 2,
+  "releaseId": "UMM_INSTALLER_LOCAL_BASELINE_TRANSFORM_2026-09-02",
+  "baseline": {
+    "name": "XCOM EW + Long War + Long War 1.1",
+    "strictGameScopeFiles": 88,
+    "gameFiles": [
+      {
+        "path": "XEW\\XComGame\\Config\\_defaultgame.ini",
+        "bytes": 12983,
+        "sha256": "6D5BDC404CE867E9E501B2EC25A5B33B0B2AC50014288E15D975BD9ED9BF8DA2",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultabilitymods.ini",
+        "bytes": 8046,
+        "sha256": "6DE6DC4C475C3DE61F4CF0003D0D361F225B139335904BAA94F36F39FA42D49A",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultbetterblueshirts.ini",
+        "bytes": 3874,
+        "sha256": "FD3A6CC2FEEA9A486236533FC282054BF13115502B48DF4ABBAA84C52C823DB9",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultcamera.ini",
+        "bytes": 106,
+        "sha256": "EF2809A65E411CE5F3BA764295A510EAF1D617ABA0C5D2E7B636633AAC1FE7BB",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultcharacterskins.ini",
+        "bytes": 7126,
+        "sha256": "E01A3020EC92F62F47A942BEFE4D6DEFB0422C592382F3AC6FBB0AE571BA09E0",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultcharacterskins_testing.ini",
+        "bytes": 18440,
+        "sha256": "D84921B5C80E68368B178BC861F7427076A2F680C63C8B120AE71BCD6227EE1F",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultcheats.ini",
+        "bytes": 7276,
+        "sha256": "F72AF042C66BCC4D653C5821E570DFE22391AFC6FC511B45131EFBA5910C471D",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultcheckpoint.ini",
+        "bytes": 2987,
+        "sha256": "AFFE96896C12A713038A3BB9A5770E770DDF8FFB70DF8579C808F4D6E91EB659",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultcompat.ini",
+        "bytes": 1714,
+        "sha256": "EFC535576A0AFE55DB9C942A762FAB7DDBB1893AEB1C20E5CC6F83924D21D045",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultcontent.ini",
+        "bytes": 202489,
+        "sha256": "B3CA925166C73475AB980102F0023784494E5AAB8CE294301D45FAD63CACAEF0",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultdlc.ini",
+        "bytes": 127,
+        "sha256": "B927096AA41B63A804DE7571CA78D4E12171EA52F786185214B1DD6721BCD23C",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaulteditor.ini",
+        "bytes": 2449,
+        "sha256": "2B63007DC95869DCB9A0DDBE1B29E87EE4BDD9D33083CCBC96F9DB6BA14DFC1F",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaulteditorkeybindings.ini",
+        "bytes": 67,
+        "sha256": "1FB6EF15BC2BCD6D12C33D9E7F876B30629F2339237F89C62EAE1099E5021E6E",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaulteditorusersettings.ini",
+        "bytes": 676,
+        "sha256": "D090DCCC01D276111879BD23B89BFB08EF3FB67CC5FE7D7935E3BC5D3AD68837",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultengine.ini",
+        "bytes": 56383,
+        "sha256": "13B66AB2D785A022A5EB7457313F92A78C69B7F82D7634EC0FD2FA8A33409EF0",
+        "class": "UMM_MODIFIED_TEXT_CONFIG"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultexaltmissionmod.ini",
+        "bytes": 543,
+        "sha256": "77C5FB717E8865C37D05FB19999F7372D49588671C3132580FF61A1B181927EF",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultgame.ini",
+        "bytes": 12977,
+        "sha256": "A84500BD117E9A858930A46A6353267BDBF9B2C1D4677988FA8844E1012D053D",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\DefaultGameCore - Training.ini",
+        "bytes": 449072,
+        "sha256": "91AFA4B7BCBD94A45064B8D0BA5DF8041C32EC9F48AF2BFDAAA66F34DDC2DA2C",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultgamecore.ini",
+        "bytes": 465112,
+        "sha256": "573C79CF6B8E9F2A6A89B231492BB276A9B5C849E6ED4FA55EAAB68563E49DC4",
+        "class": "UMM_MODIFIED_TEXT_CONFIG"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultgamedata.ini",
+        "bytes": 56264,
+        "sha256": "D0163A0587B0A09F5108C569D4DC299466353DEB4523C0951AA001D7745D5B19",
+        "class": "UMM_MODIFIED_TEXT_CONFIG"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultinput.ini",
+        "bytes": 76464,
+        "sha256": "6180713C7872B729C4FFDA4B11E7DFE524CCAB033D414B25E666128E46191638",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultlightmass.ini",
+        "bytes": 474,
+        "sha256": "E24C970092EE637C1A037DCC504CB1D35B2B60196A31B02F64C64BB559C556B2",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultloadouts.ini",
+        "bytes": 12829,
+        "sha256": "8DBADF71B850DCB86DD3E1124C60A09C3226B99D28798689D9670081CE9DCE89",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultlwdebugger.ini",
+        "bytes": 224,
+        "sha256": "4F6B6F00B29D841209D9BFAF4174F919C039D0C09430758EC4CCD34845EE9B10",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultlzmutator.ini",
+        "bytes": 56554,
+        "sha256": "53B9121B37B9EAE82B9C58B84FC2B3427D0920CDB57CF486945B75E5A01962A7",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultmaps.ini",
+        "bytes": 179255,
+        "sha256": "CCF32B13ADBF407D137DFCBBEF99F336F721DA237DEEE991871808139EAF30A2",
+        "class": "UMM_MODIFIED_TEXT_CONFIG"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultmetadata.ini",
+        "bytes": 10423,
+        "sha256": "3D26373C3946B4763BE28EC17723DB11DB6D9E8A6119C95EC35982B5A82E55AD",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultminimods.ini",
+        "bytes": 44741,
+        "sha256": "4267BD220E38A9C4E39C7B184D3591751A429E5EEB334A2D2AB26649B08E0EFD",
+        "class": "UMM_MODIFIED_TEXT_CONFIG"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultmodbridge.ini",
+        "bytes": 109,
+        "sha256": "F1C5A3FB9EBBF3438A1C69B0AC9F4A0EEA1BE4636B217EB988C4B5EA494726C4",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultmodcompacthp.ini",
+        "bytes": 1416,
+        "sha256": "28934202E0488FB3C9E5474EBAA7015CE23DA0C8DAE305B070A5F4938C29D056",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultmodshivslot.ini",
+        "bytes": 2128,
+        "sha256": "8AB4B8089A865589AD4345569F8A08FE6910C678E0643E80A5C596675F8D715A",
+        "class": "UMM_MODIFIED_TEXT_CONFIG"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultmodsprofile.ini",
+        "bytes": 156720,
+        "sha256": "18C7FAD37A747CA522C795B890D2A5482DCF1CFB9836036286EC56F00FD2F777",
+        "class": "UMM_MODIFIED_TEXT_CONFIG"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultmpgame.ini",
+        "bytes": 19422,
+        "sha256": "F15C57CD35EC126F2877F068CAC1B2485CCE78B324BE7140C0A1727ABFC8E3D8",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultmutatorloader.ini",
+        "bytes": 1481,
+        "sha256": "B3788264DAD135B91463D36CAE1117F686BD14B1126BA34764954BB72C257BAD",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultnamelist.ini",
+        "bytes": 8127036,
+        "sha256": "6D642325B919EA9B20053812490F1E04FD97789F684C5DF2AF9312DAD21BE635",
+        "class": "UMM_MODIFIED_TEXT_CONFIG"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultnarrative.ini",
+        "bytes": 65104,
+        "sha256": "9CF0B4390BEDEC6A797A7EADB708784CB55803FD01827D62353103F629627A42",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultrandomspawns.ini",
+        "bytes": 562,
+        "sha256": "29B4AE4D026C9064FC930EDBDA4C830AC9CC2B1E8ED7E183BD24119B35274635",
+        "class": "UMM_MODIFIED_TEXT_CONFIG"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultrevealmod.ini",
+        "bytes": 136,
+        "sha256": "2F567AC02A0AC5CBFD7A30FC02AADFFA1CE1FE796EFC3751C1E7A9516D8CBD29",
+        "class": "UMM_MODIFIED_TEXT_CONFIG"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultshivxp.ini",
+        "bytes": 52,
+        "sha256": "003E4FD0674B193DE24BBDD8C17060E05A6EF5CD78CECC9B31CDC657900BFBB4",
+        "class": "UMM_MODIFIED_TEXT_CONFIG"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultsightlines.ini",
+        "bytes": 2311,
+        "sha256": "E0C61CE5E31DEA2AB907D4FF97158F88B29B8924A0F054D3233E142B4B2E9CFB",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultsquadronunleashed.ini",
+        "bytes": 49244,
+        "sha256": "3A655D6224F8056BFB9A2FFA7C4CD7489E28B3B02887FB7834A3B04B66701028",
+        "class": "UMM_MODIFIED_TEXT_CONFIG"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultstrategyaimod.ini",
+        "bytes": 192345,
+        "sha256": "8DBE047BFC67C3428A5793B71528685729DEA9CF4814874B5BD71F70B72672E2",
+        "class": "UMM_MODIFIED_TEXT_CONFIG"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaulttints.ini",
+        "bytes": 19073,
+        "sha256": "4033B0B4259A14FD033672476749D0AAFF4EAC4EA3FA50CEAB92FE48CDA4A144",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Config\\defaultui.ini",
+        "bytes": 257,
+        "sha256": "5A272C1264433356B496B17E13DCF8C2B585FF1F3F522DE4B7221038DFA68E38",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\CookedPCConsole\\mutators\\minimodscollection.u",
+        "bytes": 1082538,
+        "sha256": "C944AB9B81F61D00B684980F691E380F97088FFF28E2647613A191B08563DB6F",
+        "class": "UMM_MODIFIED_U_PACKAGE"
+      },
+      {
+        "path": "XEW\\XComGame\\CookedPCConsole\\xcomgame.upk",
+        "bytes": 12637065,
+        "sha256": "86D101AD6ED1CC8B0BE9883DD3EB47B09B798C2CB5236653ABD1B3B83CEDD323",
+        "class": "UMM_MODIFIED_UPK"
+      },
+      {
+        "path": "XEW\\XComGame\\CookedPCConsole\\xcomstrategygame.upk",
+        "bytes": 5203585,
+        "sha256": "B4285450936833228C1C1EFACC26858372889FC498A84A899B7264D1723D8906",
+        "class": "UMM_MODIFIED_UPK"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\CHT\\xcommodshell.cht",
+        "bytes": 127812,
+        "sha256": "A1989E19C24B6F4206C7FE772DD60F02FE9290EB2A2CC0240DAE07A8C097034C",
+        "class": "UMM_MODIFIED_LOCALIZATION"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\DEU\\xcommodshell.deu",
+        "bytes": 65214,
+        "sha256": "14E1E0FF8E7BFDD979E143E67F03E3BEB6AD0CAD59BF01C61E6F835B160C199F",
+        "class": "UMM_MODIFIED_LOCALIZATION"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\DO_NOT_DELETE.TXT",
+        "bytes": 0,
+        "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\ESN\\xcommodshell.esn",
+        "bytes": 65248,
+        "sha256": "CBEA840AA9A9FFA25DD150F5FD62156E468D4D3C9AE736F693B8F392F514CA55",
+        "class": "UMM_MODIFIED_LOCALIZATION"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\FRA\\xcommodshell.fra",
+        "bytes": 70512,
+        "sha256": "54E9DC78ADB565603C20E32BD083649454EE34DE337C11D476B3746F13A6F08B",
+        "class": "UMM_MODIFIED_LOCALIZATION"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\INT\\minimodscollection.int",
+        "bytes": 116980,
+        "sha256": "985209B394B885D19E82029C64C65E9E09BA8DCA443697221ED7D5728C123544",
+        "class": "UMM_MODIFIED_LOCALIZATION"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\INT\\xcommodshell.int",
+        "bytes": 64850,
+        "sha256": "BDB7DDB09863EE8E7C7CEFE4C424FA1E2ACE918721335E38466673F06C5CA505",
+        "class": "UMM_MODIFIED_LOCALIZATION"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\INT\\xcomstrategygame.int",
+        "bytes": 970810,
+        "sha256": "C878F8599F8FFB896F83909A7B088290CF45792BA4587DDD687385453367327B",
+        "class": "UMM_MODIFIED_LOCALIZATION"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\ITA\\xcommodshell.ita",
+        "bytes": 65104,
+        "sha256": "CD1FD2DFAC2CE4BFC47512A448AF0E30AD33AC6B26A0E5946F8CA6348E64AC0A",
+        "class": "UMM_MODIFIED_LOCALIZATION"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\JPN\\xcommodshell.jpn",
+        "bytes": 100872,
+        "sha256": "3778B7DEC792421B2C36E1932AFB9399778C03A2A20A8FD3B4B8CEAA8DA04848",
+        "class": "UMM_MODIFIED_LOCALIZATION"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\KOR\\CentralWaveData.kor",
+        "bytes": 88190,
+        "sha256": "75A8947C16063BA0D0A22E3D60E304438EDB3D307163BD8679B8660B8EAC1C6C",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\KOR\\ChiefEngineerWaveData.kor",
+        "bytes": 38304,
+        "sha256": "1C47D48FB1F55191559DEB96E123E8AA201636B69BF070F633CB4A55946A6345",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\KOR\\ChiefScientistWaveData.kor",
+        "bytes": 46870,
+        "sha256": "07609649DCA6E55E3AA4A375058D7E2E67E30BAA6761D982A383F15CAD02A042",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\KOR\\DLC60TacticalWaveData.kor",
+        "bytes": 36254,
+        "sha256": "505B333A4A54BB5DC2226C0D62757CD492D7496414FDB0A71D7B48DC4E484EB5",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\KOR\\DLC90TacticalWaveData.kor",
+        "bytes": 36794,
+        "sha256": "04B9CA9F5B7A332FBB9AE5B6A67648FBB2BD0E400155E16371A9951C9D43612C",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\KOR\\DropshipWaveData.kor",
+        "bytes": 32398,
+        "sha256": "59E1FEC4A2D9EB62E54C3AE6FAE6234A67AD75FE01D58C2525809EF0DF239160",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\KOR\\Engine.kor",
+        "bytes": 19492,
+        "sha256": "B497539B008F6EB2BA73F5612321B112940934A98F78B9611B0A2C326DA56254",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\KOR\\EWITacticalWaveData.kor",
+        "bytes": 97342,
+        "sha256": "A0F47D231CCD2D4F782832709C24E9F72DF3339371D78130A221AE705F3CE43B",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\KOR\\FundingCouncilWaveData.kor",
+        "bytes": 18056,
+        "sha256": "C92B4E4334E7DC56B289BBF8715348F2F8633161CA3B970AB68006FD3B74FEA0",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\KOR\\GFxUI.kor",
+        "bytes": 612,
+        "sha256": "9C1E47C9DE70CA4C2D7A42A8708A73C25EDEC1379B8C5332D2C451EA7628881D",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\KOR\\Launch.kor",
+        "bytes": 198,
+        "sha256": "36011C3D5E6D44232BEEF130310E64E3E88DE5C92D605075E4081C553912E570",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\KOR\\OnlineSubsystemPSN.kor",
+        "bytes": 342,
+        "sha256": "1D4593D54D38DA3B51352303BE558FC4BA1A86682096CD24F5C7F59887D68A12",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\KOR\\StrategyMiscWaveData.kor",
+        "bytes": 49776,
+        "sha256": "BEC468E54BD95337C2D9A4FA384186E486780C53F81F7D946C987EAFAC92726C",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\KOR\\Subtitles.kor",
+        "bytes": 45272,
+        "sha256": "673B5B94F8EAAEBD86E20C5362B894266139AC0B29B1D4DEF732740AD7E2A5F1",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\KOR\\TaticalMiscWaveData.kor",
+        "bytes": 43320,
+        "sha256": "ECF6354CC8D53105E3D0BED0B47EF034B46874161B4BBAAC482EE725EB54D7D7",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\KOR\\TellMeMoreWaveData.kor",
+        "bytes": 15692,
+        "sha256": "4490A912B04235610FDF137EE14212D2DAB637744233C211CB53C983AF99CA66",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\KOR\\TentpoleWaveData.kor",
+        "bytes": 53530,
+        "sha256": "B56D00E7393221953D15F29FDC4326EC349EBE58E0FA79DEA84C776CE2D34D1C",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\KOR\\TutorialWaveData.kor",
+        "bytes": 45904,
+        "sha256": "7BAFE8A62629645F47E9321028F0EC5847A471A08184B832D029B026921B1701",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\KOR\\XComGame.kor",
+        "bytes": 504696,
+        "sha256": "167DB652714B37748A59C6E75EEBC2F3A37D5E2FE8EB8002956271C84F05DFC1",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\KOR\\XComGameTutorial.kor",
+        "bytes": 13054,
+        "sha256": "31A1F911622861765879675E3ACA32ACBF5432A5CFDF756E4DD7FA81B5C24603",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\KOR\\XComStrategyGame.kor",
+        "bytes": 539010,
+        "sha256": "14295700C851C88A45455FAADFCF718351ED9A9BCE34102F7C1FBCD3B7935BE4",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\KOR\\XComUIShell.kor",
+        "bytes": 29402,
+        "sha256": "5A5742E10363B406F9AB8BD0165D4A97675A118761A6C2B7FFB6848D8E15B8D9",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\KOR\\XPackStrategyWaveData.kor",
+        "bytes": 82844,
+        "sha256": "AF9324EE539CB0FF6A73CE67B29A36C348506E4B0DDE81A0D85EAFE62E9690FF",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\MCP\\XComGame.int",
+        "bytes": 728,
+        "sha256": "556457F88C934932632F02F126B84C6A84F1610BC3218A8B36993F6CF9AA7623",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\POL\\xcommodshell.pol",
+        "bytes": 135602,
+        "sha256": "33677F334DF6C99A0713E624EF9BE00C261DF2EF9F6404D75F274062923DE746",
+        "class": "UMM_MODIFIED_LOCALIZATION"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\RUS\\xcommodshell.rus",
+        "bytes": 138886,
+        "sha256": "7467F7F2FDF5A24BC629AD2675FC6060591B0886CC772A0B908C6FDE0206E0B1",
+        "class": "UMM_MODIFIED_LOCALIZATION"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\ukr\\xcommodshell.ukr",
+        "bytes": 137288,
+        "sha256": "F7C21E0C5DC7FD1B5B4FE82F7A5603FED80717DE9DDB9B918E097F330510AA39",
+        "class": "UMM_MODIFIED_LOCALIZATION"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\XXX\\Descriptions.xxx",
+        "bytes": 79,
+        "sha256": "2BDBFECCD14007559DDEF6872774AC0EBD26543BF02E5095EC1D1870FD54EEFA",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\XXX\\Editor.xxx",
+        "bytes": 2254,
+        "sha256": "D343DFD55C076B466B43D0EA729BF8949699ABAF1EB7E2EB72A73B899AB6DE28",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\XXX\\Launch.xxx",
+        "bytes": 52,
+        "sha256": "416DA47025B9E6F9245C59B37B05FFE2863A9B5D47B64F91D1B53B2A95107D36",
+        "class": "UNCHANGED_FROM_LW11"
+      },
+      {
+        "path": "XEW\\XComGame\\Localization\\XXX\\XComGame.xxx",
+        "bytes": 28618,
+        "sha256": "221BF05248A921886D1AF0C3B8DE024CAE46A328F9BF274864327BA90AFE6EB8",
+        "class": "UNCHANGED_FROM_LW11"
+      }
+    ]
+  },
+  "directPayload": [
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Config\\defaultengine.ini",
+      "stagePath": "AllowedPayload/GAME_ROOT/XEW/XComGame/Config/defaultengine.ini",
+      "bytes": 56570,
+      "sha256": "DAD30C2F1F1196D925B35574F7FABAD935AF3AB1E1CC82918880827CC507E541",
+      "class": "UMM_MODIFIED_TEXT_CONFIG"
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Config\\defaultgamecore.ini",
+      "stagePath": "AllowedPayload/GAME_ROOT/XEW/XComGame/Config/defaultgamecore.ini",
+      "bytes": 465531,
+      "sha256": "57A6A391E91EA88A0D4A5AD23C04081F102C0A6E5B73D1451ACC97C9BFCA6B30",
+      "class": "UMM_MODIFIED_TEXT_CONFIG"
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Config\\defaultgamedata.ini",
+      "stagePath": "AllowedPayload/GAME_ROOT/XEW/XComGame/Config/defaultgamedata.ini",
+      "bytes": 53776,
+      "sha256": "FD05E1261470B186354E287B3E86BCFBC68E8F31E9CAAC5B3A669E9C8F2483ED",
+      "class": "UMM_MODIFIED_TEXT_CONFIG"
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Config\\defaultmaps.ini",
+      "stagePath": "AllowedPayload/GAME_ROOT/XEW/XComGame/Config/defaultmaps.ini",
+      "bytes": 186917,
+      "sha256": "83B8AFCFF5CE58E31878A84E9AB71F4B79E4004F1259CAACF269E0BBF35E8F8E",
+      "class": "UMM_MODIFIED_TEXT_CONFIG"
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Config\\defaultminimods.ini",
+      "stagePath": "AllowedPayload/GAME_ROOT/XEW/XComGame/Config/defaultminimods.ini",
+      "bytes": 35250,
+      "sha256": "0A5C3EBD6943648752AD672EB6360AB6C6055D086BBD17AD8D04362681E4BBE1",
+      "class": "UMM_MODIFIED_TEXT_CONFIG"
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Config\\defaultmodshivslot.ini",
+      "stagePath": "AllowedPayload/GAME_ROOT/XEW/XComGame/Config/defaultmodshivslot.ini",
+      "bytes": 4512,
+      "sha256": "78CA47394F55DD18F361040CBF041975ABA76F4FD680730314EA17080537C7BC",
+      "class": "UMM_MODIFIED_TEXT_CONFIG"
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Config\\defaultmodsprofile.ini",
+      "stagePath": "AllowedPayload/GAME_ROOT/XEW/XComGame/Config/defaultmodsprofile.ini",
+      "bytes": 136891,
+      "sha256": "D4767C9FCB20C28746BAFD5592430ECBB78F311C04167C122E0038E358EC75F7",
+      "class": "UMM_MODIFIED_TEXT_CONFIG"
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Config\\defaultrandomspawns.ini",
+      "stagePath": "AllowedPayload/GAME_ROOT/XEW/XComGame/Config/defaultrandomspawns.ini",
+      "bytes": 625,
+      "sha256": "6D28F6A174596A4F09BE49C70A0C494667B72C025FF0138BC4A990D7AFA841AE",
+      "class": "UMM_MODIFIED_TEXT_CONFIG"
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Config\\defaultrevealmod.ini",
+      "stagePath": "AllowedPayload/GAME_ROOT/XEW/XComGame/Config/defaultrevealmod.ini",
+      "bytes": 135,
+      "sha256": "1993C2095AE2DA5AAA12EE183A761F0A461A63ED658F3C9ED58D88BAE3E3B310",
+      "class": "UMM_MODIFIED_TEXT_CONFIG"
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Config\\defaultsquadronunleashed.ini",
+      "stagePath": "AllowedPayload/GAME_ROOT/XEW/XComGame/Config/defaultsquadronunleashed.ini",
+      "bytes": 34632,
+      "sha256": "B47A3A0292DAAA8C6FD9F6E227E505E70E0CEC6DEC069E343490F79259C7417C",
+      "class": "UMM_MODIFIED_TEXT_CONFIG"
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Localization\\CHT\\xcommodshell.cht",
+      "stagePath": "AllowedPayload/GAME_ROOT/XEW/XComGame/Localization/CHT/xcommodshell.cht",
+      "bytes": 129442,
+      "sha256": "CDD4FA7F78517F4EBB531813936704C1599F35A702A9167AC89C00EEC626A1B7",
+      "class": "UMM_MODIFIED_LOCALIZATION"
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Localization\\DEU\\xcommodshell.deu",
+      "stagePath": "AllowedPayload/GAME_ROOT/XEW/XComGame/Localization/DEU/xcommodshell.deu",
+      "bytes": 66029,
+      "sha256": "56DC955C7580B6FDFD7BFB56B9EDB03F2F5DDA1B2C15B7ABFB95A2486E477A7F",
+      "class": "UMM_MODIFIED_LOCALIZATION"
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Localization\\ESN\\xcommodshell.esn",
+      "stagePath": "AllowedPayload/GAME_ROOT/XEW/XComGame/Localization/ESN/xcommodshell.esn",
+      "bytes": 66063,
+      "sha256": "13AC56A7137AED30D1607E844AA0C79470F59778B26EB0978B2A40DC50A19FCD",
+      "class": "UMM_MODIFIED_LOCALIZATION"
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Localization\\FRA\\xcommodshell.fra",
+      "stagePath": "AllowedPayload/GAME_ROOT/XEW/XComGame/Localization/FRA/xcommodshell.fra",
+      "bytes": 71327,
+      "sha256": "7C47319AC982B821A12435977E1D4FA59DDFBB33A89787580A41559F833B46EA",
+      "class": "UMM_MODIFIED_LOCALIZATION"
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Localization\\INT\\minimodscollection.int",
+      "stagePath": "AllowedPayload/GAME_ROOT/XEW/XComGame/Localization/INT/minimodscollection.int",
+      "bytes": 117488,
+      "sha256": "85A187C6E5F9D8F10D0659968B1485B741F09AD12BF17A82058647860AA31B49",
+      "class": "UMM_MODIFIED_LOCALIZATION"
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Localization\\INT\\xcommodshell.int",
+      "stagePath": "AllowedPayload/GAME_ROOT/XEW/XComGame/Localization/INT/xcommodshell.int",
+      "bytes": 70014,
+      "sha256": "08C95A5B1378734D3D1E92A0B011716A95A8AEE08E4D39BDECD3FCF483B003FA",
+      "class": "UMM_MODIFIED_LOCALIZATION"
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Localization\\INT\\xcomstrategygame.int",
+      "stagePath": "AllowedPayload/GAME_ROOT/XEW/XComGame/Localization/INT/xcomstrategygame.int",
+      "bytes": 970750,
+      "sha256": "660695C156B0E1DD50ACCBF0EF614E289C0B6B48B2C359D20FF4EDA3CCF0554F",
+      "class": "UMM_MODIFIED_LOCALIZATION"
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Localization\\ITA\\xcommodshell.ita",
+      "stagePath": "AllowedPayload/GAME_ROOT/XEW/XComGame/Localization/ITA/xcommodshell.ita",
+      "bytes": 65919,
+      "sha256": "6F8DD857B5314570A780E3F73DD84464AA168F549638EE96C57A10C0FC1EA8FE",
+      "class": "UMM_MODIFIED_LOCALIZATION"
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Localization\\JPN\\xcommodshell.jpn",
+      "stagePath": "AllowedPayload/GAME_ROOT/XEW/XComGame/Localization/JPN/xcommodshell.jpn",
+      "bytes": 102502,
+      "sha256": "F3F4B29F9EB1ED7EA5004DCE20FB6BF32126DF50ED616E2BD89555C819B3F778",
+      "class": "UMM_MODIFIED_LOCALIZATION"
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Localization\\POL\\xcommodshell.pol",
+      "stagePath": "AllowedPayload/GAME_ROOT/XEW/XComGame/Localization/POL/xcommodshell.pol",
+      "bytes": 137232,
+      "sha256": "832369C74B2F76B6ACD080362CD95DD713142B12C2C01630D672DEEDC1212B15",
+      "class": "UMM_MODIFIED_LOCALIZATION"
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Localization\\RUS\\xcommodshell.rus",
+      "stagePath": "AllowedPayload/GAME_ROOT/XEW/XComGame/Localization/RUS/xcommodshell.rus",
+      "bytes": 140516,
+      "sha256": "099093D88E504421177CCBB3C8E25B59984C53DD788FEBFF7E6CDC3F340E6AEB",
+      "class": "UMM_MODIFIED_LOCALIZATION"
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Localization\\ukr\\xcommodshell.ukr",
+      "stagePath": "AllowedPayload/GAME_ROOT/XEW/XComGame/Localization/ukr/xcommodshell.ukr",
+      "bytes": 138918,
+      "sha256": "5336E7662943DCF92AEFCE1A0DA111FBCDF29D51C7B2F29EE5FB7F2ACFC3BA2A",
+      "class": "UMM_MODIFIED_LOCALIZATION"
+    },
+    {
+      "scope": "DOCUMENTS_ROOT",
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComTints.ini",
+      "stagePath": "AllowedPayload/DOCUMENTS_ROOT/My Games/XCOM Long War/XComGame/Config/XComTints.ini",
+      "bytes": 18591,
+      "sha256": "007D2AAA98EF20E9450DB124B68122B8F2187B6D4C1E69002B6A396D28083D30",
+      "class": "DOCUMENTS_RUNTIME_NEW_FILE"
+    }
+  ],
+  "baselineTextTransforms": [
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Config\\defaultnamelist.ini",
+      "transformKind": "GENERIC_LINE_RECIPE",
+      "transformSpecStagePath": "BaselineTransforms/GAME_ROOT/XEW/XComGame/Config/defaultnamelist.ini.transform.json",
+      "transformSpecBytes": 44597,
+      "transformSpecSha256": "DABA0C280612D8C9CBEED9BDB7797B37D96DF6344238D7245BFE0BF6690DC00F",
+      "inputMode": "EXACT_FILE_SHA256",
+      "inputBytes": 8127036,
+      "inputSha256": "6D642325B919EA9B20053812490F1E04FD97789F684C5DF2AF9312DAD21BE635",
+      "outputMode": "EXACT_FILE_SHA256",
+      "outputBytes": 8138650,
+      "outputSha256": "20C23530B520564EA4CDD340B436B229C5735274107EB4A916A042E173B9087A",
+      "outputEncoding": "utf-16le-bom",
+      "preserveIniVersion": false
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Config\\defaultstrategyaimod.ini",
+      "transformKind": "GENERIC_LINE_RECIPE",
+      "transformSpecStagePath": "BaselineTransforms/GAME_ROOT/XEW/XComGame/Config/defaultstrategyaimod.ini.transform.json",
+      "transformSpecBytes": 654906,
+      "transformSpecSha256": "7D15838E0CCFEAFE606901F67173CE048DDFCE15A523BFB4C1AE88083AF7DC98",
+      "inputMode": "EXACT_FILE_SHA256",
+      "inputBytes": 192345,
+      "inputSha256": "8DBE047BFC67C3428A5793B71528685729DEA9CF4814874B5BD71F70B72672E2",
+      "outputMode": "EXACT_FILE_SHA256",
+      "outputBytes": 246390,
+      "outputSha256": "6193DEA792C1AB081A8FEE81B14F1138404D16C9996AC4313BEBAFB19384918D",
+      "outputEncoding": "utf-8",
+      "preserveIniVersion": false
+    },
+    {
+      "scope": "GAME_ROOT",
+      "path": "XEW\\XComGame\\Config\\defaultshivxp.ini",
+      "transformKind": "GENERIC_LINE_RECIPE",
+      "transformSpecStagePath": "BaselineTransforms/GAME_ROOT/XEW/XComGame/Config/defaultshivxp.ini.transform.json",
+      "transformSpecBytes": 1148,
+      "transformSpecSha256": "72296D90FF2DFE4877875E88BDAE3F6C57F9B7E8AED3E543405D6D8C3BBD0E9F",
+      "inputMode": "EXACT_FILE_SHA256",
+      "inputBytes": 52,
+      "inputSha256": "003E4FD0674B193DE24BBDD8C17060E05A6EF5CD78CECC9B31CDC657900BFBB4",
+      "outputMode": "EXACT_FILE_SHA256",
+      "outputBytes": 56,
+      "outputSha256": "8550B96CB0DE6B5469143DB10CF52168B633CE1A2C0BD7E0D7DC6351972E8518",
+      "outputEncoding": "utf-8",
+      "preserveIniVersion": false
+    },
+    {
+      "scope": "DOCUMENTS_ROOT",
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComNameList.ini",
+      "transformKind": "GENERIC_LINE_RECIPE",
+      "transformSpecStagePath": "BaselineTransforms/DOCUMENTS_ROOT/My Games/XCOM Long War/XComGame/Config/XComNameList.ini.transform.json",
+      "transformSpecBytes": 45466,
+      "transformSpecSha256": "2ACD74A4D1C4C641755274A68688A796A6F8E0CF154F83344624040D378F7233",
+      "inputMode": "CANONICAL_BODY_SHA256_UTF8",
+      "inputBytes": null,
+      "inputSha256": "377C5465559A547F1986A1E2EF531DC9F60E6F8EABC9724E4B39B80B8D3B1D74",
+      "outputMode": "CANONICAL_BODY_SHA256_UTF8",
+      "outputBytes": null,
+      "outputSha256": "5EC5AAE9DD51E6C5A6EFEAE5530086A011744FA0CDE1C40C285A5A58CBFA187A",
+      "outputEncoding": "utf-16le-bom",
+      "preserveIniVersion": true
+    },
+    {
+      "scope": "DOCUMENTS_ROOT",
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComStrategyAIMod.ini",
+      "transformKind": "GENERIC_LINE_RECIPE",
+      "transformSpecStagePath": "BaselineTransforms/DOCUMENTS_ROOT/My Games/XCOM Long War/XComGame/Config/XComStrategyAIMod.ini.transform.json",
+      "transformSpecBytes": 719679,
+      "transformSpecSha256": "84032B8DE69D94B16B0AEABA851618D53378BF177FBDEA2EC5C82B4425389F96",
+      "inputMode": "CANONICAL_BODY_SHA256_UTF8",
+      "inputBytes": null,
+      "inputSha256": "6C778917696E07185CE6C14069DD58D80E68A9275DDE3F33492892EF43E67835",
+      "outputMode": "CANONICAL_BODY_SHA256_UTF8",
+      "outputBytes": null,
+      "outputSha256": "636B7854DC5F4A5E2DA42DD841A7AD15B711746824CF9907BC691F36A18E5FDB",
+      "outputEncoding": "utf-8",
+      "preserveIniVersion": true
+    },
+    {
+      "scope": "DOCUMENTS_ROOT",
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComSHIVXP.ini",
+      "transformKind": "GENERIC_LINE_RECIPE",
+      "transformSpecStagePath": "BaselineTransforms/DOCUMENTS_ROOT/My Games/XCOM Long War/XComGame/Config/XComSHIVXP.ini.transform.json",
+      "transformSpecBytes": 1191,
+      "transformSpecSha256": "DE20063AF02671E9797C34D806C62D8C03FD4A568F562DF288946DEA416F4C4A",
+      "inputMode": "CANONICAL_BODY_SHA256_UTF8",
+      "inputBytes": null,
+      "inputSha256": "B54D9D09D220B4759D49F6A69E22B7F28997A89FA8B08505590B75C68DB3E333",
+      "outputMode": "CANONICAL_BODY_SHA256_UTF8",
+      "outputBytes": null,
+      "outputSha256": "64B8C03194EB20662C85E16495FC20C2B30FCEF3C977D406927AE3D770954FCE",
+      "outputEncoding": "utf-8",
+      "preserveIniVersion": true
+    }
+  ],
+  "runtimePolicies": [
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComAbilityMods.ini",
+      "policy": "NO_ACTION_INIVERSION_ONLY",
+      "goldEncoding": "utf-8"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComBetterBlueshirts.ini",
+      "policy": "NO_ACTION_INIVERSION_ONLY",
+      "goldEncoding": "utf-8"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComCamera.ini",
+      "policy": "NO_ACTION_INIVERSION_ONLY",
+      "goldEncoding": "utf-8"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComCharacterSkins.ini",
+      "policy": "NO_ACTION_INIVERSION_ONLY",
+      "goldEncoding": "utf-8"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComCheckpoint.ini",
+      "policy": "NO_ACTION_INIVERSION_ONLY",
+      "goldEncoding": "utf-8"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComCompat.ini",
+      "policy": "NO_ACTION_INIVERSION_ONLY",
+      "goldEncoding": "utf-8"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComContent.ini",
+      "policy": "NO_ACTION_INIVERSION_ONLY",
+      "goldEncoding": "utf-8"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComEngine.ini",
+      "policy": "PRESERVE_MACHINE_GRAPHICS_RUNTIME",
+      "goldEncoding": "utf-8",
+      "bodyStagePath": "DocumentsSemanticTargets/DOCUMENTS_ROOT/My Games/XCOM Long War/XComGame/Config/XComEngine.ini.body.utf8",
+      "bodyBytes": 81525,
+      "bodySha256": "90E8B634DA91DC2CE4002264682DA2721875330C270FB28E8DDDBB18422032FA",
+      "goldBodySha256Utf8": "90E8B634DA91DC2CE4002264682DA2721875330C270FB28E8DDDBB18422032FA",
+      "canonicalBodySha256Utf8": "B211B474702D835EC36343D1F41BD33B813A027E3CB26D0121C0799F575CEB99"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComExaltMissionMod.ini",
+      "policy": "NO_ACTION_INIVERSION_ONLY",
+      "goldEncoding": "utf-8"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComGame.ini",
+      "policy": "NO_ACTION_INIVERSION_ONLY",
+      "goldEncoding": "utf-8"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComGameCore.ini",
+      "policy": "APPLY_GOLD_BODY_PRESERVE_INIVERSION",
+      "goldEncoding": "utf-8",
+      "bodyStagePath": "DocumentsSemanticTargets/DOCUMENTS_ROOT/My Games/XCOM Long War/XComGame/Config/XComGameCore.ini.body.utf8",
+      "bodyBytes": 433095,
+      "bodySha256": "36609B4DAF32E275E85566B803684D0E42188B02A7B8C37B52963925B39DD332",
+      "goldBodySha256Utf8": "36609B4DAF32E275E85566B803684D0E42188B02A7B8C37B52963925B39DD332",
+      "canonicalBodySha256Utf8": "AC88E657522626462996C5670FDA5FD491029C981E4E5B1FEA0CF2F4B42E208A"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComGameData.ini",
+      "policy": "APPLY_GOLD_BODY_PRESERVE_INIVERSION",
+      "goldEncoding": "utf-16le-bom",
+      "bodyStagePath": "DocumentsSemanticTargets/DOCUMENTS_ROOT/My Games/XCOM Long War/XComGame/Config/XComGameData.ini.body.utf8",
+      "bodyBytes": 53248,
+      "bodySha256": "6685E532C1D1A5276BC74D0B3B4579A0496E79F8C1B1897018B6E9633FA67BBD",
+      "goldBodySha256Utf8": "6685E532C1D1A5276BC74D0B3B4579A0496E79F8C1B1897018B6E9633FA67BBD",
+      "canonicalBodySha256Utf8": "6B387FF918BCEEB9AE398812DF5E579351EB246702090B36B690C52999ED70A3"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComInput.ini",
+      "policy": "PRESERVE_USER_INPUT_AND_CONSOLE_HISTORY",
+      "goldEncoding": "utf-8",
+      "bodyStagePath": "DocumentsSemanticTargets/DOCUMENTS_ROOT/My Games/XCOM Long War/XComGame/Config/XComInput.ini.body.utf8",
+      "bodyBytes": 83590,
+      "bodySha256": "31DC7F5EB465A3A88A4FA99BB0B1689C10A1CC03C584CB69355F2D3B7CA09503",
+      "goldBodySha256Utf8": "31DC7F5EB465A3A88A4FA99BB0B1689C10A1CC03C584CB69355F2D3B7CA09503",
+      "canonicalBodySha256Utf8": "390B06A62BD5C48C752E27F6B3E0F6670F7F6995BF046A8BB1BEB9447C90560B"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComLightmass.ini",
+      "policy": "NO_ACTION_INIVERSION_ONLY",
+      "goldEncoding": "utf-8"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComLoadouts.ini",
+      "policy": "NO_ACTION_INIVERSION_ONLY",
+      "goldEncoding": "utf-8"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComLWDebugger.ini",
+      "policy": "NO_ACTION_INIVERSION_ONLY",
+      "goldEncoding": "utf-8"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComLZMutator.ini",
+      "policy": "NO_ACTION_INIVERSION_ONLY",
+      "goldEncoding": "utf-8"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComMaps.ini",
+      "policy": "APPLY_GOLD_BODY_PRESERVE_INIVERSION",
+      "goldEncoding": "utf-8",
+      "bodyStagePath": "DocumentsSemanticTargets/DOCUMENTS_ROOT/My Games/XCOM Long War/XComGame/Config/XComMaps.ini.body.utf8",
+      "bodyBytes": 171882,
+      "bodySha256": "000513E66467DC80398F9D09B75998F5AE8329637F45F3E31CC50017E723C55D",
+      "goldBodySha256Utf8": "000513E66467DC80398F9D09B75998F5AE8329637F45F3E31CC50017E723C55D",
+      "canonicalBodySha256Utf8": "58B9EC9B892FA43991243AC23F1B31C7C693DDF71F7448A057672A91486F6758"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComMetaData.ini",
+      "policy": "NO_ACTION_INIVERSION_ONLY",
+      "goldEncoding": "utf-8"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComMiniMods.ini",
+      "policy": "APPLY_GOLD_BODY_PRESERVE_INIVERSION",
+      "goldEncoding": "utf-8",
+      "bodyStagePath": "DocumentsSemanticTargets/DOCUMENTS_ROOT/My Games/XCOM Long War/XComGame/Config/XComMiniMods.ini.body.utf8",
+      "bodyBytes": 35091,
+      "bodySha256": "FAE2E7536B5D86DB2E531577846BB01DEA7E2B38A684E49A4E1D7A3AB4A7C909",
+      "goldBodySha256Utf8": "FAE2E7536B5D86DB2E531577846BB01DEA7E2B38A684E49A4E1D7A3AB4A7C909",
+      "canonicalBodySha256Utf8": "AA4D6934439DF127039DB393233B77E2BA9C7586B0FD7EFD4A5035C8C5252EA9"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComModBridge.ini",
+      "policy": "NO_ACTION_INIVERSION_ONLY",
+      "goldEncoding": "utf-8"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComModCompactHP.ini",
+      "policy": "NO_ACTION_SERIALIZATION_EQUIVALENT",
+      "goldEncoding": "utf-8",
+      "bodyStagePath": "DocumentsSemanticTargets/DOCUMENTS_ROOT/My Games/XCOM Long War/XComGame/Config/XComModCompactHP.ini.body.utf8",
+      "bodyBytes": 779,
+      "bodySha256": "668F8578F7AB940FD07F3FB93F2DA8B3289A957E0A30D978478ED7F810FCA57C",
+      "goldBodySha256Utf8": "668F8578F7AB940FD07F3FB93F2DA8B3289A957E0A30D978478ED7F810FCA57C",
+      "canonicalBodySha256Utf8": "EDA59A8CC1816452439AB5B10E67646BC92523B4C17DE9EBDF82E3EC3D0E6085"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComModShivSlot.ini",
+      "policy": "APPLY_GOLD_BODY_PRESERVE_INIVERSION",
+      "goldEncoding": "utf-8",
+      "bodyStagePath": "DocumentsSemanticTargets/DOCUMENTS_ROOT/My Games/XCOM Long War/XComGame/Config/XComModShivSlot.ini.body.utf8",
+      "bodyBytes": 1565,
+      "bodySha256": "8DF5FA73DD13DB2A80A0EB50A1A7198CC648AB70EE64C9F2DB5E05824EF33D77",
+      "goldBodySha256Utf8": "8DF5FA73DD13DB2A80A0EB50A1A7198CC648AB70EE64C9F2DB5E05824EF33D77",
+      "canonicalBodySha256Utf8": "EF51D5548DE2F8BCE00D2D7904945133E6650E0FE69DAF4563C4FFC4A000B542"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComModsProfile.ini",
+      "policy": "APPLY_GOLD_BODY_PRESERVE_INIVERSION",
+      "goldEncoding": "utf-8",
+      "bodyStagePath": "DocumentsSemanticTargets/DOCUMENTS_ROOT/My Games/XCOM Long War/XComGame/Config/XComModsProfile.ini.body.utf8",
+      "bodyBytes": 131966,
+      "bodySha256": "077D8B124A901D8D386A4E22D975F40201D98606DBB5577942529981E8BA1E4F",
+      "goldBodySha256Utf8": "077D8B124A901D8D386A4E22D975F40201D98606DBB5577942529981E8BA1E4F",
+      "canonicalBodySha256Utf8": "B4F9C96D378A214ACC60C1E0AB835F901F41D51264D7B78C40BC1B8D5E06BB1B"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComMutatorLoader.ini",
+      "policy": "APPLY_GOLD_BODY_PRESERVE_INIVERSION",
+      "goldEncoding": "utf-8",
+      "bodyStagePath": "DocumentsSemanticTargets/DOCUMENTS_ROOT/My Games/XCOM Long War/XComGame/Config/XComMutatorLoader.ini.body.utf8",
+      "bodyBytes": 1393,
+      "bodySha256": "826750C3D764837F1E39B68F599ED0FA6670B04C941F9D3DCB39DCB1DCD13302",
+      "goldBodySha256Utf8": "826750C3D764837F1E39B68F599ED0FA6670B04C941F9D3DCB39DCB1DCD13302",
+      "canonicalBodySha256Utf8": "A5B93A21609015AA40E3682BCCB3DC8928AEBD075849F5FD0131DD1DBAC0FAFB"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComNameList.ini",
+      "policy": "APPLY_LOCAL_BASELINE_TRANSFORM_PRESERVE_INIVERSION",
+      "goldEncoding": "utf-16le-bom"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComNarrative.ini",
+      "policy": "NO_ACTION_INIVERSION_ONLY",
+      "goldEncoding": "utf-8"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComRandomSpawns.ini",
+      "policy": "APPLY_GOLD_BODY_PRESERVE_INIVERSION",
+      "goldEncoding": "utf-8",
+      "bodyStagePath": "DocumentsSemanticTargets/DOCUMENTS_ROOT/My Games/XCOM Long War/XComGame/Config/XComRandomSpawns.ini.body.utf8",
+      "bodyBytes": 588,
+      "bodySha256": "04A36D4C2CB31CB8C6F9D9CF1A91221ACDD8C8441661EE6DB91842527511EBF4",
+      "goldBodySha256Utf8": "04A36D4C2CB31CB8C6F9D9CF1A91221ACDD8C8441661EE6DB91842527511EBF4",
+      "canonicalBodySha256Utf8": "171FA623233B55E9C90FFE02C5B858105A34A1E0BF37ADCE1A2649D874A5E78B"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComRevealMod.ini",
+      "policy": "APPLY_GOLD_BODY_PRESERVE_INIVERSION",
+      "goldEncoding": "utf-8",
+      "bodyStagePath": "DocumentsSemanticTargets/DOCUMENTS_ROOT/My Games/XCOM Long War/XComGame/Config/XComRevealMod.ini.body.utf8",
+      "bodyBytes": 135,
+      "bodySha256": "955B1837F0047F4E0D1EF6BEA858984207EC02A3C10A071DB82A1C80DE8AD5BB",
+      "goldBodySha256Utf8": "955B1837F0047F4E0D1EF6BEA858984207EC02A3C10A071DB82A1C80DE8AD5BB",
+      "canonicalBodySha256Utf8": "C3D5FDAB2027B9FEB7E7F28EA81376C19F708CDBB2E23175811C45018B1B8213"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComSHIVXP.ini",
+      "policy": "APPLY_LOCAL_BASELINE_TRANSFORM_PRESERVE_INIVERSION",
+      "goldEncoding": "utf-8"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComSightlines.ini",
+      "policy": "NO_ACTION_INIVERSION_ONLY",
+      "goldEncoding": "utf-8"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComSquadronUnleashed.ini",
+      "policy": "APPLY_GOLD_BODY_PRESERVE_INIVERSION",
+      "goldEncoding": "utf-8",
+      "bodyStagePath": "DocumentsSemanticTargets/DOCUMENTS_ROOT/My Games/XCOM Long War/XComGame/Config/XComSquadronUnleashed.ini.body.utf8",
+      "bodyBytes": 34582,
+      "bodySha256": "1BCD1CFB9354160D524F7EB1BAD808567C4A4D8FAE7B9EEBEA9A291E956111F9",
+      "goldBodySha256Utf8": "1BCD1CFB9354160D524F7EB1BAD808567C4A4D8FAE7B9EEBEA9A291E956111F9",
+      "canonicalBodySha256Utf8": "0FEB45C2D21622C56C7C15A209A865F7D77AD122700D7B7AB93C7DDF700BC67A"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComStrategyAIMod.ini",
+      "policy": "APPLY_LOCAL_BASELINE_TRANSFORM_PRESERVE_INIVERSION",
+      "goldEncoding": "utf-8"
+    },
+    {
+      "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComUI.ini",
+      "policy": "NO_ACTION_INIVERSION_ONLY",
+      "goldEncoding": "utf-8"
+    }
+  ],
+  "binaryDeltas": [
+    {
+      "path": "XEW\\XComGame\\CookedPCConsole\\xcomgame.upk",
+      "patchStagePath": "BinaryPatches/xcomgame.upk.gitbinary.patch",
+      "patchBytes": 4770,
+      "patchSha256": "85E3DC9643F46D6B212F118745093B73261CFC3E9C84080EA904DB6DD18CD2C1",
+      "sourceBytes": 12637065,
+      "sourceSha256": "86D101AD6ED1CC8B0BE9883DD3EB47B09B798C2CB5236653ABD1B3B83CEDD323",
+      "targetBytes": 12732167,
+      "targetSha256": "A57600076B9C2A4016DAFBEC800196B1DA8937AB3CA69670891538FF36D42581"
+    },
+    {
+      "path": "XEW\\XComGame\\CookedPCConsole\\xcomstrategygame.upk",
+      "patchStagePath": "BinaryPatches/xcomstrategygame.upk.gitbinary.patch",
+      "patchBytes": 439958,
+      "patchSha256": "5F3DDB41F8B1DD733B33EF320B27EDE20BD47B1BB4138C7D97C20D3E238296F7",
+      "sourceBytes": 5203585,
+      "sourceSha256": "B4285450936833228C1C1EFACC26858372889FC498A84A899B7264D1723D8906",
+      "targetBytes": 5214696,
+      "targetSha256": "E9F48BD30E006981B78A4A33E4E4C6A5519416B91868B13FD6C4F0CE7AD4733A"
+    },
+    {
+      "path": "XEW\\XComGame\\CookedPCConsole\\mutators\\minimodscollection.u",
+      "patchStagePath": "BinaryPatches/minimodscollection.u.gitbinary.patch",
+      "patchBytes": 50369,
+      "patchSha256": "1E9BF3DECC327835B472B1E6FF769C40C928F2FA35149D85F29B86AF8005AFE0",
+      "sourceBytes": 1082538,
+      "sourceSha256": "C944AB9B81F61D00B684980F691E380F97088FFF28E2647613A191B08563DB6F",
+      "targetBytes": 1101207,
+      "targetSha256": "C64A0E481EDACBFD7F1A8EF825FF0AF75FFA08A65DF911FAED00BB4D441A9ACD"
+    }
+  ],
+  "mapBuilds": [
+    {
+      "targetPath": "XEW\\XComGame\\CookedPCConsole\\umm_clean_dirtroad.upk",
+      "targetBytes": 1168232,
+      "targetSha256": "41DF46790E4ECC88BFDB28F0864A5A911FC0EDAECD8A228D03247F21B3CF623D",
+      "sourcePath": "XEW\\XComGame\\CookedPCConsole\\patch_clean_nukedcity.upk",
+      "sourceBytes": 618415,
+      "sourceSha256": "9FAFC8197E0135F3D7130E959E7559DA8A0D709C5E3B0663377579EF28B90218",
+      "patchScripts": [
+        {
+          "stagePath": "MapPatches/dr_exact_0.mod.txt",
+          "bytes": 194,
+          "sha256": "9B1BB82317B6E96744F0EBD99D7F6D5F016859689F8E5422356741312559FD66"
+        },
+        {
+          "stagePath": "MapPatches/dr_exact_1.mod.txt",
+          "bytes": 194,
+          "sha256": "2A2A80AEFCCF3C2C88CB670B676C73DF8A8B5D3A71BBFADE9A23CF915A618339"
+        },
+        {
+          "stagePath": "MapPatches/dr_exact_2.mod.txt",
+          "bytes": 195,
+          "sha256": "298B28264FC0B0961CDFFB96A156FFF0EB59163C51D71C8F68DF2AD7E0233B66"
+        },
+        {
+          "stagePath": "MapPatches/dr_exact_3.mod.txt",
+          "bytes": 195,
+          "sha256": "6A8F17EBD6975DD93DAE9AA151A3D4EC765F67CB7CE67E4A98ED18BEF788AA31"
+        }
+      ]
+    },
+    {
+      "targetPath": "XEW\\XComGame\\CookedPCConsole\\umm_clean_marshlands.upk",
+      "targetBytes": 1168232,
+      "targetSha256": "820863665A886525024DDE8BABDE436490B1F7D02EE83E3920B3E2763C18FEA6",
+      "sourcePath": "XEW\\XComGame\\CookedPCConsole\\patch_clean_nukedcity.upk",
+      "sourceBytes": 618415,
+      "sourceSha256": "9FAFC8197E0135F3D7130E959E7559DA8A0D709C5E3B0663377579EF28B90218",
+      "patchScripts": [
+        {
+          "stagePath": "MapPatches/exact_umm_clean_marshlands_0.mod.txt",
+          "bytes": 195,
+          "sha256": "5FCB86234F663371A9D6BDD742DF31F8ED60BE350D92612B3CEB85CC5C257A4D"
+        },
+        {
+          "stagePath": "MapPatches/exact_umm_clean_marshlands_1.mod.txt",
+          "bytes": 197,
+          "sha256": "2613327727928459C851DD2123C4B7391178CD348784FC8537CA109D2C683468"
+        },
+        {
+          "stagePath": "MapPatches/exact_umm_clean_marshlands_2.mod.txt",
+          "bytes": 196,
+          "sha256": "9C1B557DBC46EE3588798822889A955BFB46073988BA7D6C42F0BAAB37E5BCAD"
+        },
+        {
+          "stagePath": "MapPatches/exact_umm_clean_marshlands_3.mod.txt",
+          "bytes": 197,
+          "sha256": "53A9FC108C6D1C9774AA0F758E85B55DDC8B71FFC838953751F4AAE6A3E49469"
+        }
+      ]
+    },
+    {
+      "targetPath": "XEW\\XComGame\\CookedPCConsole\\umm_clean_quagmire.upk",
+      "targetBytes": 1168232,
+      "targetSha256": "820863665A886525024DDE8BABDE436490B1F7D02EE83E3920B3E2763C18FEA6",
+      "sourcePath": "XEW\\XComGame\\CookedPCConsole\\patch_clean_nukedcity.upk",
+      "sourceBytes": 618415,
+      "sourceSha256": "9FAFC8197E0135F3D7130E959E7559DA8A0D709C5E3B0663377579EF28B90218",
+      "patchScripts": [
+        {
+          "stagePath": "MapPatches/exact_umm_clean_quagmire_0.mod.txt",
+          "bytes": 193,
+          "sha256": "4AE39285CD7FEA7B27E507057B2205B87C939634B7D93CF64551AEE51EEC2D2B"
+        },
+        {
+          "stagePath": "MapPatches/exact_umm_clean_quagmire_1.mod.txt",
+          "bytes": 195,
+          "sha256": "276355C5EAB8259113B758C3224CB32508819367BE20657846C6ED6259096593"
+        },
+        {
+          "stagePath": "MapPatches/exact_umm_clean_quagmire_2.mod.txt",
+          "bytes": 194,
+          "sha256": "58294643EB877A08B09D38CB2C41299281DC4ACEA987A97DCD0E4315034DEF79"
+        },
+        {
+          "stagePath": "MapPatches/exact_umm_clean_quagmire_3.mod.txt",
+          "bytes": 195,
+          "sha256": "5F209FC894B5837F8438693A9B5634C0A8CF88A509B77386F090983819B6C71E"
+        }
+      ]
+    },
+    {
+      "targetPath": "XEW\\XComGame\\CookedPCConsole\\umm_clean_deepwoods.upk",
+      "targetBytes": 99535,
+      "targetSha256": "F70EA74FAAE6A6D0B982066064AC67F99CE77C251CB509903911E0E379670988",
+      "sourcePath": "XEW\\XComGame\\CookedPCConsole\\patch_clean_overseer_deepwoods.upk",
+      "sourceBytes": 17353,
+      "sourceSha256": "2C16C183B2619AFEA491DEDC95CFDC0FA94E6161059D2E9EA7018F0F6A374530",
+      "patchScripts": [
+        {
+          "stagePath": "MapPatches/exact_umm_clean_deepwoods_0.mod.txt",
+          "bytes": 205,
+          "sha256": "82D4494C65D75EFBADD20522EBEB0E3AFE5952EF726BAA3DDC504F1355808F53"
+        },
+        {
+          "stagePath": "MapPatches/exact_umm_clean_deepwoods_1.mod.txt",
+          "bytes": 206,
+          "sha256": "087B079CFA040A2C32677E02681E8A8CDD4EEFC68143B98F359D7F23DBCA8C5E"
+        },
+        {
+          "stagePath": "MapPatches/exact_umm_clean_deepwoods_2.mod.txt",
+          "bytes": 207,
+          "sha256": "14BA44EA543D022EC17DB2FFC5C44AA74F83AC539A70D59E769742F0A68F714A"
+        },
+        {
+          "stagePath": "MapPatches/exact_umm_clean_deepwoods_3.mod.txt",
+          "bytes": 206,
+          "sha256": "A3B39D7803383DB78B1DB47ABD77E520003DC378D553012D4874459B15DCA4EA"
+        }
+      ]
+    },
+    {
+      "targetPath": "XEW\\XComGame\\CookedPCConsole\\umm_clean_foresttrench.upk",
+      "targetBytes": 99532,
+      "targetSha256": "6EA827AC8E4EC541734136DE1415753168404E355CF12C4F33831393583FF4CB",
+      "sourcePath": "XEW\\XComGame\\CookedPCConsole\\patch_clean_overseer_trench.upk",
+      "sourceBytes": 17334,
+      "sourceSha256": "A80AF9FF94A462F1ABBBFCE488D3E1F692BE27950A74EE34F17106E420024015",
+      "patchScripts": [
+        {
+          "stagePath": "MapPatches/exact_umm_clean_foresttrench_0.mod.txt",
+          "bytes": 209,
+          "sha256": "C66768C5C5FC561AB8D9AD3CCCFB19402882CD5CDA3A8B6D0EF5EF8A51F60E57"
+        },
+        {
+          "stagePath": "MapPatches/exact_umm_clean_foresttrench_1.mod.txt",
+          "bytes": 209,
+          "sha256": "11B198BFDECB25684C8D9C0FEEB1DC8ED45DB19B95D1D3BD3660147B23B09247"
+        },
+        {
+          "stagePath": "MapPatches/exact_umm_clean_foresttrench_2.mod.txt",
+          "bytes": 210,
+          "sha256": "4703C3D24B0A010E5CB2F6E7BF09BC52303EF24D5467517BBFB1AA8C704E376D"
+        },
+        {
+          "stagePath": "MapPatches/exact_umm_clean_foresttrench_3.mod.txt",
+          "bytes": 211,
+          "sha256": "3FEC1E66B0DE98602E41242BB0FF682A4BE717B9D74E832595AF99E58F1AD693"
+        }
+      ]
+    }
+  ],
+  "requiredThirdPartyTools": [
+    {
+      "name": "DecompressLZO.exe",
+      "bytes": 1173405,
+      "sha256": "49BDDD80AAE5A6AAC5923E5ED0A012EFF9F04727F6C78D69B49AEC52EC1DBDD9"
+    },
+    {
+      "name": "PatchUPK.exe",
+      "bytes": 1464138,
+      "sha256": "57B666E97CD5E695A561E09618A0BE1AC1FCA02B247BFF5FED42A2949E639DA7"
+    }
+  ],
+  "validationPolicy": {
+    "goldMasterScopeFiles": 128,
+    "exactGoldTargets": 93,
+    "goldBodySemanticTargets": 31,
+    "normalizedSemanticTargets": 1,
+    "preserveLocalTargets": 2,
+    "baselineTransformTargets": 6,
+    "localBaselineSemanticTargets": 1
+  }
+}

@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>Ultra Marathon Mod Setup</AssemblyName>
+    <RootNamespace>UMMSetup</RootNamespace>
+    <Version>1.0.0</Version>
+    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <Deterministic>true</Deterministic>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <ApplicationIcon>Resources\UMMFlank.ico</ApplicationIcon>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <EnableCompressionInSingleFile>false</EnableCompressionInSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <PublishTrimmed>false</PublishTrimmed>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\InstallerCore\UMMInstallerCore\GitBinaryPatch.cs" Link="Core\GitBinaryPatch.cs" />
+    <Compile Include="..\..\InstallerCore\UMMInstallerCore\RuntimeIniPatch.cs" Link="Core\RuntimeIniPatch.cs" />
+    <Compile Include="..\..\InstallerCore\UMMInstallerCore\BaselineTextTransformer.cs" Link="Core\BaselineTextTransformer.cs" />
+    <Compile Include="..\..\InstallerCore\UMMInstallerCore\ReleaseManifest.cs" Link="Core\ReleaseManifest.cs" />
+    <Compile Include="..\..\InstallerCore\UMMInstallerCore\InstallerOrchestrator.cs" Link="Core\InstallerOrchestrator.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\RuntimePayload\**\*">
+      <LogicalName>UMMSetup.RuntimePayload/%(RecursiveDir)%(Filename)%(Extension)</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\UPKUtilsSource\**\*" Exclude="Resources\UPKUtilsSource\.git\**\*">
+      <LogicalName>UMMSetup.UPKUtilsSource/%(RecursiveDir)%(Filename)%(Extension)</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\THIRD_PARTY_NOTICES.txt" LogicalName="UMMSetup.Resources.THIRD_PARTY_NOTICES.txt" />
+    <EmbeddedResource Include="Resources\README_RC1.txt" LogicalName="UMMSetup.Resources.README_RC1.txt" />
+    <EmbeddedResource Include="Resources\InstallerHero.png" LogicalName="UMMSetup.Resources.InstallerHero.png" />
+    <EmbeddedResource Include="Resources\InstallerAudio.wav" LogicalName="UMMSetup.Resources.InstallerAudio.wav" />
+    <EmbeddedResource Include="Resources\UMMFlank.ico" LogicalName="UMMSetup.Resources.UMMFlank.ico" />
+  </ItemGroup>
+</Project>

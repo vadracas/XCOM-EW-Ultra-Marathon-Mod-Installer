@@ -1,0 +1,416 @@
+[SquadronUnleashed.SU_UFOSquadron]
+DISABLE_UFO_ESCORTS=FALSE
+PossibleEscort=(iUFOType=4, iReqResearch=610, iReqResourceLvl=1)
+PossibleEscort=(iUFOType=10, iReqResearch=880, iReqResourceLvl=2)
+PossibleEscort=(iUFOType=11, iReqResearch=1470, iReqResourceLvl=3)
+PossibleEscort=(iUFOType=5, iReqResearch=1960, iReqResourceLvl=4)
+RANDOMIZE_NUMBER_OF_ESCORTS=true
+RANDOMIZE_TYPE_OF_ESCORTS=true
+RANDOMIZE_STANCE_OF_ESCORTS=true
+ENABLE_ESCORT_REWARDS=true
+EscortReward=(iCategory=0, iCash=500)
+EscortReward=(iCategory=1, iCash=100)
+EscortReward=(iCategory=2, iCash=200)
+EscortReward=(iCategory=3, iCash=300)
+EscortReward=(iCategory=4, iCash=500)
+EscortReward=(iCategory=5, iCash=750)
+
+[SquadronUnleashed.SquadronUnleashed]
+PilotVoiceSet=PilotVoice1_Ruby
+PilotVoiceSet=PilotVoice2_Ruby
+PilotVoiceSet=PilotVoice3_Ruby
+PilotVoiceSet=PilotVoice4_Ruby
+PilotVoiceSet=PilotVoice5_Ruby
+PilotVoiceSet=PilotVoice6_Ruby
+PilotVoiceSet=PilotVoice7_Ruby
+PilotVoiceSet=PilotVoice8_Ruby
+PilotVoiceSet=PilotVoice9_Ruby
+PilotVoiceSet=PilotVoice10_Ruby
+PilotVoiceSet=PilotVoice11_Ruby
+PilotVoiceSet=PilotVoice12_Ruby
+PilotVoiceSet=PilotVoice13_Ruby
+PilotVoiceSet=PilotVoice14_Ruby
+PilotVoiceSet=PilotVoice15_Ruby
+PilotVoiceSet=PilotVoice16_Ruby
+bVerboseLog=false
+m_bTutorialPrompt=true
+eUFOStanceAIsetting=1
+eFixedUFOStance=0
+bAutoSortShipList=False
+ALWAYS_SHOW_UFO_HP=false
+bInterceptionTweakOn=true
+INTERCEPTION_TWEAK_SCALER=1
+TIME_SLOMO_FACTOR=0.500000
+GLOBAL_ENGAGEMENT_TIME_MULTIPLIER=1.000000
+AGGRO_FOR_WEAPON[0]=0	;None(Vulcan Cannon)
+AGGRO_FOR_WEAPON[1]=2	;Stingray
+AGGRO_FOR_WEAPON[2]=4	;Avalanche
+AGGRO_FOR_WEAPON[3]=6	;Cannon (Phoenix)
+AGGRO_FOR_WEAPON[4]=8	;Laser
+AGGRO_FOR_WEAPON[5]=10	;Plasma
+AGGRO_FOR_WEAPON[6]=12	;EMP
+AGGRO_FOR_WEAPON[7]=14	;Fusion
+AGGRO_FOR_WEAPON[8]=7	;UFO Plasma I
+AGGRO_FOR_WEAPON[9]=10	;UFO Plasma II
+AGGRO_FOR_WEAPON[10]=15	;UFO Fusion
+AGGRO_FOR_BAL=0
+AGGRO_FOR_DEF=-3
+AGGRO_FOR_AGG=3
+AGGRO_FOR_FIRESTORM=5
+AGG_JET_AIM_BONUS=15
+AGG_JET_DMG_VULNERABILITY=0.000000
+AGG_JET_DMG_BONUS=0
+AGG_UFO_AIM_BONUS=15
+AGG_UFO_SPEED_DOWN=0.650000
+AGG_UFO_FIRERATE_BOOST=1.000000
+AGG_JET_FORCE_HIT_CHANCE=20
+DEF_JET_AIM_PENALTY=15
+DEF_JET_DODGE_CHANCE=20
+DEF_UFO_AIM_PENALTY=15
+DEF_UFO_SPEED_BOOST=1.330000
+DEF_MAX_HIT_CHANCE=75
+BAL_MAX_HIT_CHANCE=85
+AGG_MAX_HIT_CHANCE=95
+LONE_BULLET_CHANCE_BAL=10
+LONE_BULLET_CHANCE_AGG=20
+LONE_BULLET_DMG_MOD=0.500000
+AIM_PENALTY_VS_SMALL_UFO=5
+AIM_BONUS_VS_LARGE_UFO=10
+AIM_BONUS_PER_KILL=1
+MAX_AIM_BONUS_FOR_KILLS=20
+EXTRA_DMG_PCT_PER_KILL=0.010000
+DAMAGED_JET_AIM_PENALTY=0
+DAMAGED_SPEED_PENALTY=0.800000
+DAMAGED_JET_HP_PCT_CAN_FIGHT=1.000000
+CRIT_DMG_MULTIPLIER=2.000000
+CRIT_MIN_CHANCE=5
+CRIT_MAX_CHANCE=75
+EXTRA_DMG_FOR_RESEARCH=0.020000
+SECONDARY_WPN_DMG_MOD=0.500000
+MIN_SQUADRON_SIZE=2
+MAX_SQUADRON_SIZE=6
+AGG_TACTIC_AUTOBACKOFF_HP_PCT=0.200000
+AGG_TACTIC_AUTOABORT_HP_PCT=0.200000
+AGG_TACTIC_START_CLOSE=true
+BAL_TACTIC_AUTOBACKOFF_HP_PCT=0.300000
+BAL_TACTIC_AUTOABORT_HP_PCT=0.300000
+BAL_TACTIC_START_CLOSE=false
+DEF_TACTIC_AUTOBACKOFF_HP_PCT=0.400000
+DEF_TACTIC_AUTOABORT_HP_PCT=0.400000
+DEF_TACTIC_START_CLOSE=false
+HANGAR_CAPACITY=24
+INTERCEPTOR_REFUEL_HOURS=4
+PILOT_TRANSFER_HOURS=12
+PILOT_RECOVER_AFTER_COMBAT_HOURS=6
+PILOT_HEAL_DAYS=16
+PILOT_SURVIVAL_CHANCE_FLAT=25
+PILOT_SURVIVAL_CHANCE_PER_RANK=5
+PILOT_CMDR_NEVER_DIES=False
+PILOT_WOUND_CHANCE_ON_SHOTDOWN=65
+PILOT_COST_TO_HIRE=10
+PILOT_COST_MONTHLY=1
+VulcanCannon=(eType=eShipWeapon_None,iDamage=45,iArmorPen=0,iToHit=33,iAvionicsBonus=10,iCooldown=40)
+AIM_BONUS_CLOSE_DISTANCE_GLOBAL=5
+XCOM_DMG_MODIFIER_GLOBAL=1.000000
+UFO_HP_MODIFIER_GLOBAL=1.500000
+ShipWeapons=(iWeaponType=0,bPrimary=False,bSecondary=True,bClose=True,iAmmo=24,RearmHours=6,iAimMod=0,iAimModClose=0,iCritChanceMod=0,fDmgMod=0.000000,iDmgMod=0,fCritDmgMod=0.000000,iCritDmgMod=0)
+ShipWeapons=(iWeaponType=1,bPrimary=True,bSecondary=True,bClose=False,iAmmo=-1,RearmHours=0,iAimMod=0,iAimModClose=0,iCritChanceMod=0,fDmgMod=0.000000,iDmgMod=0,fCritDmgMod=0.000000,iCritDmgMod=0)
+ShipWeapons=(iWeaponType=2,bPrimary=True,bSecondary=False,bClose=False,iAmmo=-1,RearmHours=12,iAimMod=0,iAimModClose=0,iCritChanceMod=0,fDmgMod=0.000000,iDmgMod=0,fCritDmgMod=0.000000,iCritDmgMod=0)
+ShipWeapons=(iWeaponType=3,bPrimary=True,bSecondary=False,bClose=False,iAmmo=-1,RearmHours=12,iAimMod=0,iAimModClose=0,iCritChanceMod=0,fDmgMod=0.000000,iDmgMod=0,fCritDmgMod=0.000000,iCritDmgMod=0)
+ShipWeapons=(iWeaponType=4,bPrimary=True,bSecondary=True,bClose=False,iAmmo=-1,RearmHours=0,iAimMod=0,iAimModClose=0,iCritChanceMod=0,fDmgMod=0.000000,iDmgMod=0,fCritDmgMod=0.000000,iCritDmgMod=0)
+ShipWeapons=(iWeaponType=5,bPrimary=True,bSecondary=True,bClose=False,iAmmo=-1,RearmHours=0,iAimMod=0,iAimModClose=0,iCritChanceMod=0,fDmgMod=0.000000,iDmgMod=0,fCritDmgMod=0.000000,iCritDmgMod=0)
+ShipWeapons=(iWeaponType=6,bPrimary=True,bSecondary=True,bClose=False,iAmmo=-1,RearmHours=0,iAimMod=0,iAimModClose=0,iCritChanceMod=0,fDmgMod=0.000000,iDmgMod=0,fCritDmgMod=0.000000,iCritDmgMod=0)
+ShipWeapons=(iWeaponType=7,bPrimary=True,bSecondary=False,bClose=False,iAmmo=-1,RearmHours=0,iAimMod=0,iAimModClose=0,iCritChanceMod=0,fDmgMod=0.000000,iDmgMod=0,fCritDmgMod=0.000000,iCritDmgMod=0)
+ShipWeapons=(iWeaponType=8,bPrimary=False,bSecondary=False,bClose=False,iAmmo=-1,RearmHours=0,iAimMod=0,iAimModClose=5,iCritChanceMod=0,fDmgMod=0.000000,iDmgMod=0,fCritDmgMod=0.000000,iCritDmgMod=0)
+ShipWeapons=(iWeaponType=9,bPrimary=False,bSecondary=False,bClose=False,iAmmo=-1,RearmHours=0,iAimMod=0,iAimModClose=5,iCritChanceMod=0,fDmgMod=0.000000,iDmgMod=0,fCritDmgMod=0.000000,iCritDmgMod=0)
+ShipWeapons=(iWeaponType=10,bPrimary=False,bSecondary=False,bClose=False,iAmmo=-1,RearmHours=0,iAimMod=0,iAimModClose=5,iCritChanceMod=0,fDmgMod=0.000000,iDmgMod=0,fCritDmgMod=0.000000,iCritDmgMod=0)
+Balance_ShipWeapons=(iDifficulty=0,iWeaponType=4,iAimMod=0,fDmgMod=0.000000,iAPMod=0)
+Balance_ShipWeapons=(iDifficulty=1,iWeaponType=4,iAimMod=0,fDmgMod=0.000000,iAPMod=0)
+Balance_ShipWeapons=(iDifficulty=2,iWeaponType=4,iAimMod=0,fDmgMod=0.000000,iAPMod=0)
+Balance_ShipWeapons=(iDifficulty=3,iWeaponType=4,iAimMod=0,fDmgMod=0.000000,iAPMod=0)
+Balance_Ships=(iDifficulty=0,iShipType=4,fHPMod=0.000000,iHPMod=0,iArmorMod=0,iAPMod=0,iSpeedMod=0,fHPMonthlyMod=0.000000,iHPMonthlyMod=0)
+Balance_Ships=(iDifficulty=1,iShipType=4,fHPMod=0.000000,iHPMod=0,iArmorMod=0,iAPMod=0,iSpeedMod=0,fHPMonthlyMod=0.000000,iHPMonthlyMod=0)
+Balance_Ships=(iDifficulty=2,iShipType=4,fHPMod=0.000000,iHPMod=0,iArmorMod=0,iAPMod=0,iSpeedMod=0,fHPMonthlyMod=0.000000,iHPMonthlyMod=0)
+Balance_Ships=(iDifficulty=3,iShipType=4,fHPMod=0.000000,iHPMod=0,iArmorMod=0,iAPMod=0,iSpeedMod=0,fHPMonthlyMod=0.000000,iHPMonthlyMod=0)
+m_strVulcanCanonImgPath=SquadronUnleashed_SF.InventoryImages.VulcanCannon_grey
+PilotVoiceSet=Test
+m_bDisablePilotXP=False
+AGGRO_FOR_WEAPON=0
+AGGRO_FOR_WEAPON=2
+AGGRO_FOR_WEAPON=4
+AGGRO_FOR_WEAPON=6
+AGGRO_FOR_WEAPON=8
+AGGRO_FOR_WEAPON=10
+AGGRO_FOR_WEAPON=12
+AGGRO_FOR_WEAPON=14
+AGGRO_FOR_WEAPON=7
+AGGRO_FOR_WEAPON=10
+AGGRO_FOR_WEAPON=15
+UFO_HP_MONTHLY_GLOBAL=0.000000
+
+[SquadronUnleashed.SU_PilotRankMgr]
+m_PilotRank=(CareerPath=1,iReqXP=0,iKills=0,iSize=1,iAim=0,iDef=0,iTeamAim=0,iTeamDef=0,fDamage=1.000000,iTraitType=0)
+m_PilotRank=(CareerPath=1,iReqXP=300,iKills=1,iSize=2,iAim=4,iDef=4,iTeamAim=0,iTeamDef=0,fDamage=1.000000,iTraitType=0)
+m_PilotRank=(CareerPath=1,iReqXP=1600,iKills=3,iSize=3,iAim=8,iDef=8,iTeamAim=0,iTeamDef=0,fDamage=1.000000,iTraitType=2)
+m_PilotRank=(CareerPath=1,iReqXP=3200,iKills=5,iSize=3,iAim=10,iDef=12,iTeamAim=0,iTeamDef=0,fDamage=1.000000,iTraitType=0)
+m_PilotRank=(CareerPath=1,iReqXP=7200,iKills=7,iSize=4,iAim=12,iDef=16,iTeamAim=0,iTeamDef=0,fDamage=1.000000,iTraitType=0)
+m_PilotRank=(CareerPath=1,iReqXP=12500,iKills=10,iSize=4,iAim=16,iDef=20,iTeamAim=0,iTeamDef=0,fDamage=1.000000,iTraitType=4)
+m_PilotRank=(CareerPath=2,iReqXP=0,iKills=0,iSize=1,iAim=0,iDef=0,iTeamAim=0,iTeamDef=0,fDamage=1.000100,iTraitType=0)
+m_PilotRank=(CareerPath=2,iReqXP=300,iKills=1,iSize=1,iAim=4,iDef=0,iTeamAim=0,iTeamDef=0,fDamage=1.100100,iTraitType=0)
+m_PilotRank=(CareerPath=2,iReqXP=1750,iKills=3,iSize=2,iAim=8,iDef=0,iTeamAim=0,iTeamDef=0,fDamage=1.200100,iTraitType=1)
+m_PilotRank=(CareerPath=2,iReqXP=3500,iKills=5,iSize=2,iAim=12,iDef=0,iTeamAim=0,iTeamDef=0,fDamage=1.300100,iTraitType=0)
+m_PilotRank=(CareerPath=2,iReqXP=8400,iKills=7,iSize=3,iAim=16,iDef=0,iTeamAim=0,iTeamDef=0,fDamage=1.400100,iTraitType=0)
+m_PilotRank=(CareerPath=2,iReqXP=13500,iKills=10,iSize=3,iAim=20,iDef=0,iTeamAim=0,iTeamDef=0,fDamage=1.500100,iTraitType=6)
+m_PilotRank=(CareerPath=3,iReqXP=0,iKills=0,iSize=1,iAim=0,iDef=0,iTeamAim=0,iTeamDef=0,fDamage=1.000000,iTraitType=0)
+m_PilotRank=(CareerPath=3,iReqXP=300,iKills=1,iSize=3,iAim=0,iDef=0,iTeamAim=2,iTeamDef=2,fDamage=1.000000,iTraitType=0)
+m_PilotRank=(CareerPath=3,iReqXP=1250,iKills=3,iSize=5,iAim=0,iDef=0,iTeamAim=4,iTeamDef=4,fDamage=1.000000,iTraitType=3)
+m_PilotRank=(CareerPath=3,iReqXP=2800,iKills=5,iSize=6,iAim=0,iDef=0,iTeamAim=6,iTeamDef=6,fDamage=1.000000,iTraitType=0)
+m_PilotRank=(CareerPath=3,iReqXP=6700,iKills=7,iSize=6,iAim=0,iDef=0,iTeamAim=8,iTeamDef=8,fDamage=1.000000,iTraitType=0)
+m_PilotRank=(CareerPath=3,iReqXP=10500,iKills=10,iSize=6,iAim=0,iDef=0,iTeamAim=10,iTeamDef=10,fDamage=1.000000,iTraitType=5)
+m_strCareerImgPath[0]=
+m_strCareerImgPath[1]=gfxXcomIcons.XComIcons_I27B
+m_strCareerImgPath[2]=gfxXcomIcons.XComIcons_I27B
+m_strCareerImgPath[3]=gfxXcomIcons.XComIcons_I27B
+XP_PER_ENGAGMEMENT_SECOND=1
+XP_FOR_KILL_SHOT=200
+XP_FOR_WIN=125
+XP_FOR_HIT=10
+PILOT_SWAP_CAREER_DAYS_FIXED=7
+PILOT_SWAP_CAREER_DAYS_PER_RANK=7
+m_PilotTraits=(iTraitType=2,iBonusAim=0,iBonusTeamAim=0,iBonusDef=0,iBonusTeamDef=0,iBonusDodge=10,iBonusDmgPct=0,iBonusCritChance=0,iBonusCritDmgPct=0,iBonusTime=0)
+m_TraitReqs=(iTraitType=2,bCloseDistance=False,bFireStorm=False,iSquadronSize=0,iTactic=-1)
+m_PilotTraits=(iTraitType=4,iBonusAim=0,iBonusTeamAim=0,iBonusDef=10,iBonusTeamDef=0,iBonusDodge=10,iBonusDmgPct=0,iBonusCritChance=0,iBonusCritDmgPct=0,iBonusTime=0)
+m_TraitReqs=(iTraitType=4,bCloseDistance=False,bFireStorm=True,iSquadronSize=0,iTactic=2)
+m_PilotTraits=(iTraitType=1,iBonusAim=0,iBonusTeamAim=0,iBonusDef=0,iBonusTeamDef=0,iBonusDodge=0,iBonusDmgPct=0,iBonusCritChance=0,iBonusCritDmgPct=20,iBonusTime=0)
+m_TraitReqs=(iTraitType=1,bCloseDistance=False,bFireStorm=False,iSquadronSize=0,iTactic=-1)
+m_PilotTraits=(iTraitType=6,iBonusAim=0,iBonusTeamAim=0,iBonusDef=0,iBonusTeamDef=0,iBonusDodge=0,iBonusDmgPct=0,iBonusCritChance=20,iBonusCritDmgPct=20,iBonusTime=0)
+m_TraitReqs=(iTraitType=6,bCloseDistance=False,bFireStorm=True,iSquadronSize=0,iTactic=1)
+m_PilotTraits=(iTraitType=3,iBonusAim=0,iBonusTeamAim=0,iBonusDef=0,iBonusTeamDef=0,iBonusDodge=0,iBonusDmgPct=0,iBonusCritChance=0,iBonusCritDmgPct=0,iBonusTime=5)
+m_TraitReqs=(iTraitType=3,bCloseDistance=False,bFireStorm=False,iSquadronSize=0,iTactic=-1)
+m_PilotTraits=(iTraitType=5,iBonusAim=0,iBonusTeamAim=5,iBonusDef=0,iBonusTeamDef=5,iBonusDodge=0,iBonusDmgPct=0,iBonusCritChance=0,iBonusCritDmgPct=0,iBonusTime=5)
+m_TraitReqs=(iTraitType=5,bCloseDistance=False,bFireStorm=True,iSquadronSize=0,iTactic=0)
+m_strCareerImgPath=
+m_strCareerImgPath=gfxXcomIcons.XComIcons_I27B
+m_strCareerImgPath=gfxXcomIcons.XComIcons_I27B
+m_strCareerImgPath=gfxXcomIcons.XComIcons_I27B
+
+[SquadronUnleashed.SU_PilotTrainingCentre]
+m_arrTrainingProgramsLvl=(	iCostPerMonth=0,	iCostToUnlock=0,		iImpactFactor1=20,			iImpactFactor2=20)
+m_arrTrainingProgramsLvl=(	iCostPerMonth=0,	iCostToUnlock=50,		iImpactFactor1=25,			iImpactFactor2=18)
+m_arrTrainingProgramsLvl=(	iCostPerMonth=0,	iCostToUnlock=150,		iImpactFactor1=30,			iImpactFactor2=15)
+m_arrTrainingProgramsLvl=(	iCostPerMonth=0,	iCostToUnlock=300,		iImpactFactor1=35,			iImpactFactor2=13)
+m_arrTrainingProgramsLvl=(	iCostPerMonth=0,	iCostToUnlock=500,		iImpactFactor1=40,			iImpactFactor2=10)
+m_arrTrainingFacilitiesLvl=(iCostPerMonth=0,	iCostToUnlock=0,		iImpactFactor1=3)
+m_arrTrainingFacilitiesLvl=(iCostPerMonth=5,	iCostToUnlock=100,		iImpactFactor1=4)
+m_arrTrainingFacilitiesLvl=(iCostPerMonth=15,	iCostToUnlock=300,		iImpactFactor1=6)
+m_arrTrainingFacilitiesLvl=(iCostPerMonth=25,	iCostToUnlock=500,		iImpactFactor1=8)
+m_arrTrainingFacilitiesLvl=(iCostPerMonth=35,	iCostToUnlock=700,		iImpactFactor1=10)
+m_arrTrainingFacilitiesLvl=(iCostPerMonth=45,	iCostToUnlock=900,		iImpactFactor1=12)
+m_arrTrainingStaffLvl=(		iCostPerMonth=0,	iCostToUnlock=0,		iImpactFactor1=200)
+m_arrTrainingStaffLvl=(		iCostPerMonth=20,	iCostToUnlock=0,		iImpactFactor1=400)
+m_arrTrainingStaffLvl=(		iCostPerMonth=40,	iCostToUnlock=0,		iImpactFactor1=700)
+m_arrTrainingStaffLvl=(		iCostPerMonth=60,	iCostToUnlock=0,		iImpactFactor1=1100)
+m_arrTrainingStaffLvl=(		iCostPerMonth=80,	iCostToUnlock=0,		iImpactFactor1=1600)
+m_arrTrainingStaffLvl=(		iCostPerMonth=100,	iCostToUnlock=0,		iImpactFactor1=2200)
+
+[SquadronUnleashed.SU_XGInterceptionUI]
+GENERAL_SELECTED_COLOR=5		;color index for Name/Weapon label of selected fighter (both good and damaged)
+DAMAGED_CAPABLE_COLOR=10		;color index for status label of damaged fighter which can be launched
+DAMAGED_SELECTED_AGGRO_COLOR=10	;color index for 'launch, aggro..' label of selected damaged fighter
+GOOD_SELECTED_AGGRO_COLOR=4		;color index for 'launch, aggro..' label of selected 'good' fighter
+
+[SquadronUnleashed.SU_XGInterceptionEngagement]
+HP_OVERKILL_THRESHOLD[0]=0	;small scout size
+HP_OVERKILL_THRESHOLD[1]=0	;medium scout size
+HP_OVERKILL_THRESHOLD[2]=0	;medium
+HP_OVERKILL_THRESHOLD[3]=0	;large
+HP_OVERKILL_THRESHOLD[4]=0	;very large
+HP_OVERKILL_THRESHOLD[5]=0	;overseer
+HP_OVERKILL_PER_ONE_PCT_DESTR_CHANCE[0]=5	;Scout / Fighter
+HP_OVERKILL_PER_ONE_PCT_DESTR_CHANCE[1]=6	;Destroyer / Raider
+HP_OVERKILL_PER_ONE_PCT_DESTR_CHANCE[2]=7	;Abductor / Harvester
+HP_OVERKILL_PER_ONE_PCT_DESTR_CHANCE[3]=8	;Terror / Transport
+HP_OVERKILL_PER_ONE_PCT_DESTR_CHANCE[4]=10	;Battleship / Assault Carrier
+HP_OVERKILL_PER_ONE_PCT_DESTR_CHANCE[5]=1000;Overseer (large number = immune to destruction actually)
+HP_BAR_LENGTH=24
+HP_BAR_GOOD_COLOR_INDEX=7
+UFO_DESTRUCTION_CHANCE_MODIFICATOR=0.000000
+HP_OVERKILL_PER_ONE_PCT_DESTR_CHANCE=5
+HP_OVERKILL_PER_ONE_PCT_DESTR_CHANCE=6
+HP_OVERKILL_PER_ONE_PCT_DESTR_CHANCE=7
+HP_OVERKILL_PER_ONE_PCT_DESTR_CHANCE=8
+HP_OVERKILL_PER_ONE_PCT_DESTR_CHANCE=10
+HP_OVERKILL_PER_ONE_PCT_DESTR_CHANCE=1000
+HP_OVERKILL_THRESHOLD=0
+HP_OVERKILL_THRESHOLD=0
+HP_OVERKILL_THRESHOLD=0
+HP_OVERKILL_THRESHOLD=0
+HP_OVERKILL_THRESHOLD=0
+HP_OVERKILL_THRESHOLD=0
+START_DAY=1
+START_MONTH=3
+START_YEAR=2016
+LOSE_CONDITION_NUM_DESERTERS=16
+HQASSAULT_REINFORCEMENT_CAPACITY=12
+BLUESHIRT_WILL_MOD=0
+BLUESHIRT_HP_MOD=40
+BLUESHIRT_AIM_MOD=0
+
+[SquadronUnleashed.SU_UIInterceptionEngagement]
+SHOW_DAMAGE_BARS=TRUE
+SHOW_DAMAGE_COLORED_JETS=TRUE
+DAMAGE_BAR_BG_COLOR=(B=37,G=28,R=235,A=0)
+DAMAGE_BAR_HP_COLOR=(B=0,G=128,R=0,A=0)
+DAMAGED_BATTLE_COLOR_ID=12
+GOOD_BATTLE_COLOR_ID=5
+LEADER_BATTLE_FONTSIZE=20
+
+[SquadronUnleashed.SUTickMutator]
+DODGE_EFFECT_SECONDS=0.000000
+
+[SquadronUnleashed.SU_UIAirforceCommand]
+m_strCombatTacticsImgPath=img:///UILibrary_StrategyImages.InventoryIcons.Inv_UFOTracking
+m_strTrainingGuidelinesImgPth=img:///gfxMissionControl.portrait_pilot
+m_strTacticsTabImgPath=img:///UILibrary_StrategyImages.InventoryIcons.Inv_SatelliteTargeting
+m_strTrainingTabImgPth=img:///UILibrary_StrategyImages.InventoryIcons.Inv_ExaltLoot3
+
+[SquadronUnleashed.SU_HelpManager]
+arrHelpImgPath[0]=
+arrHelpImgPath[1]=
+arrHelpImgPath[2]=
+arrHelpImgPath[3]=
+arrHelpImgPath[4]=
+arrHelpImgPath[5]=
+arrHelpImgPath[6]=
+arrHelpImgPath[7]=
+arrHelpImgPath[8]=
+arrHelpImgPath[9]=
+arrHelpImgPath[10]=
+arrHelpImgPath[11]=
+arrHelpImgPath[12]=
+arrHelpImgPath[13]=
+arrHelpImgPath[14]=
+arrHelpImgPath[15]=
+arrHelpImgPath[16]=
+arrHelpImgPath[17]=
+arrHelpImgPath[18]=
+arrHelpImgPath[19]=
+arrHelpImgPath[20]=
+arrHelpImgPath[21]=
+arrHelpImgPath[22]=
+arrHelpImgPath[23]=
+
+[SquadronUnleashed.SU_ModOptionsContainer]
+ModRecord=(ModName="SquadronUnleashed", ModClassList=("SquadronUnleashed.SquadronUnleashed"), bEnabledByDefault=false)
+ModOptionBool=(Idx="A", ModName="SquadronUnleashed", VarName="GlobalMods", ReadOnly=true)
+ModOptionInt=(Idx="A.01",   ModName="SquadronUnleashed", VarName="MIN_SQUADRON_SIZE", VarPath="SquadronUnleashed.MIN_SQUADRON_SIZE", iMin=1, iMax=4, iDefault=1)
+ModOptionInt=(Idx="A.02",   ModName="SquadronUnleashed", VarName="MAX_SQUADRON_SIZE", VarPath="SquadronUnleashed.MAX_SQUADRON_SIZE", iMin=1, iMax=6, iDefault=6)
+ModOptionFloat=(Idx="A.03", ModName="SquadronUnleashed", VarName="UFO_HP_MODIFIER_GLOBAL", VarPath="SquadronUnleashed.UFO_HP_MODIFIER_GLOBAL", fMin=0.1, fMax=5.0, fStep=0.1, fDefault=1.0)
+ModOptionFloat=(Idx="A.04", ModName="SquadronUnleashed", VarName="XCOM_DMG_MODIFIER_GLOBAL", VarPath="SquadronUnleashed.XCOM_DMG_MODIFIER_GLOBAL", fMin=0.1, fMax=5.0, fStep=0.1, fDefault=1.0)
+ModOptionFloat=(Idx="A.05", ModName="SquadronUnleashed", VarName="INTERCEPTION_TWEAK_SCALER", VarPath="SquadronUnleashed.INTERCEPTION_TWEAK_SCALER", fMin=1.0, fStep=0.5, fDefault=1.5, fMax=3.0)
+ModOptionFloat=(Idx="A.06", ModName="SquadronUnleashed", VarName="TIME_SLOMO_FACTOR", VarPath="SquadronUnleashed.TIME_SLOMO_FACTOR", fMin=0.1, fDefault=0.2, fMax=1.5)
+ModOptionFloat=(Idx="A.07", ModName="SquadronUnleashed", VarName="GLOBAL_ENGAGEMENT_TIME_MULTIPLIER", VarPath="SquadronUnleashed.GLOBAL_ENGAGEMENT_TIME_MULTIPLIER", fMin=0.1, fDefault=1.0, fMax=2.0, eWidgetType=eWidget_Spinner)
+ModOptionInt=(Idx="A.08",   ModName="SquadronUnleashed", VarName="AIM_BONUS_CLOSE_DISTANCE_GLOBAL", VarPath="SquadronUnleashed.AIM_BONUS_CLOSE_DISTANCE_GLOBAL", iMin=-50, iMax=50, iDefault=0)
+ModOptionInt=(Idx="A.09",   ModName="SquadronUnleashed", VarName="HANGAR_CAPACITY", VarPath="SquadronUnleashed.HANGAR_CAPACITY", iMin=12, iMax=24, iStep=1, iDefault=24)
+ModOptionBool=(Idx="A.10",  ModName="SquadronUnleashed", VarName="ALWAYS_SHOW_UFO_HP", VarPath="SquadronUnleashed.ALWAYS_SHOW_UFO_HP", bDefault=false)
+ModOptionBool=(Idx="B", ModName="SquadronUnleashed",VarName="CombatMods", ReadOnly=true)
+ModOptionBool=(Idx="B.Aim",    ModName="SquadronUnleashed", VarName="CombatAimMods", ReadOnly=true)
+ModOptionBool=(Idx="B.Dmg",    ModName="SquadronUnleashed", VarName="CombatDmgMods", ReadOnly=true)
+ModOptionBool=(Idx="B.Crit",   ModName="SquadronUnleashed", VarName="CombatCritMods", ReadOnly=true)
+ModOptionBool=(Idx="B.Misc",   ModName="SquadronUnleashed", VarName="CombatMiscMods", ReadOnly=true)
+ModOptionInt=(Idx="B.Aim.1",   ModName="SquadronUnleashed", VarName="AIM_PENALTY_VS_SMALL_UFO", VarPath="SquadronUnleashed.AIM_PENALTY_VS_SMALL_UFO", iMax=25, iDefault=5)
+ModOptionInt=(Idx="B.Aim.2",   ModName="SquadronUnleashed", VarName="AIM_BONUS_VS_LARGE_UFO", VarPath="SquadronUnleashed.AIM_BONUS_VS_LARGE_UFO", iMax=25, iDefault=10)
+ModOptionInt=(Idx="B.Aim.3",   ModName="SquadronUnleashed", VarName="AIM_BONUS_PER_KILL", VarPath="SquadronUnleashed.AIM_BONUS_PER_KILL", iMax=5, iDefault=1)
+ModOptionInt=(Idx="B.Aim.4",   ModName="SquadronUnleashed", VarName="MAX_AIM_BONUS_FOR_KILLS", VarPath="SquadronUnleashed.MAX_AIM_BONUS_FOR_KILLS", iMax=50, iDefault=20)
+ModOptionInt=(Idx="B.Aim.5",   ModName="SquadronUnleashed", VarName="DAMAGED_JET_AIM_PENALTY", VarPath="SquadronUnleashed.DAMAGED_JET_AIM_PENALTY", iMax=50, iDefault=15)
+ModOptionFloat=(Idx="B.Dmg.1", ModName="SquadronUnleashed", VarName="EXTRA_DMG_PCT_PER_KILL", VarPath="SquadronUnleashed.EXTRA_DMG_PCT_PER_KILL", fMax=0.10, fDefault=0.0101, eWidgetType=eWidget_Spinner)
+ModOptionFloat=(Idx="B.Dmg.2", ModName="SquadronUnleashed", VarName="EXTRA_DMG_FOR_RESEARCH", VarPath="SquadronUnleashed.EXTRA_DMG_FOR_RESEARCH", fDefault=0.1, eWidgetType=eWidget_Spinner)
+ModOptionFloat=(Idx="B.Dmg.3", ModName="SquadronUnleashed", VarName="SECONDARY_WPN_DMG_MOD", VarPath="SquadronUnleashed.SECONDARY_WPN_DMG_MOD", fMin=0.0, fMax=1.0, fStep=0.05, fDefault=0.5)
+ModOptionFloat=(Idx="B.Dmg.4", ModName="SquadronUnleashed", VarName="LONE_BULLET_DMG_MOD", VarPath="SquadronUnleashed.LONE_BULLET_DMG_MOD", fStep=0.05, fDefault=0.5)
+ModOptionInt=(Idx="B.Crit.1",  ModName="SquadronUnleashed", VarName="CRIT_MIN_CHANCE", VarPath="SquadronUnleashed.CRIT_MIN_CHANCE", iMax=15, iDefault=5)
+ModOptionInt=(Idx="B.Crit.2",  ModName="SquadronUnleashed", VarName="CRIT_MAX_CHANCE", VarPath="SquadronUnleashed.CRIT_MAX_CHANCE", iMax=50, iDefault=25)
+ModOptionFloat=(Idx="B.Crit.3",ModName="SquadronUnleashed", VarName="CRIT_DMG_MULTIPLIER", VarPath="SquadronUnleashed.CRIT_DMG_MULTIPLIER", fMin=1.10, fMax=3.0, fStep=0.05, fDefault=1.50)
+ModOptionInt=(Idx="B.Misc.1",  ModName="SquadronUnleashed", VarName="LONE_BULLET_CHANCE_BAL", VarPath="SquadronUnleashed.LONE_BULLET_CHANCE_BAL", iMax=40, iStep=5, iDefault=10)
+ModOptionInt=(Idx="B.Misc.2",  ModName="SquadronUnleashed", VarName="LONE_BULLET_CHANCE_AGG", VarPath="SquadronUnleashed.LONE_BULLET_CHANCE_AGG", iMax=80, iStep=5, iDefault=20)
+ModOptionFloat=(Idx="B.Misc.3",ModName="SquadronUnleashed", VarName="DODGE_EFFECT_SECONDS", VarPath="SUTickMutator.DODGE_EFFECT_SECONDS", fMax=10.0, fStep=1.0, fDefault=0.0)
+ModOptionFloat=(Idx="B.Misc.4",ModName="SquadronUnleashed", VarName="DAMAGED_SPEED_PENALTY",VarPath="SquadronUnleashed.DAMAGED_SPEED_PENALTY", fMin=0.50, fStep=0.05, fDefault=0.80, eWidgetType=eWidget_Spinner)
+ModOptionFloat=(Idx="B.Misc.5",ModName="SquadronUnleashed", VarName="DAMAGED_JET_HP_PCT_CAN_FIGHT", VarPath="SquadronUnleashed.DAMAGED_JET_HP_PCT_CAN_FIGHT", fMin=0.10, fStep=0.05, fDefault=0.50)
+ModOptionBool=(Idx="C", ModName="SquadronUnleashed",VarName="StanceMods", ReadOnly=true)
+ModOptionInt=(Idx="C.Gagg", ModName="SquadronUnleashed", VarName="DEF_MAX_HIT_CHANCE", VarPath="SquadronUnleashed.DEF_MAX_HIT_CHANCE", iMin=50, iMax=95, iDefault=75)
+ModOptionInt=(Idx="C.Gbal", ModName="SquadronUnleashed", VarName="BAL_MAX_HIT_CHANCE", VarPath="SquadronUnleashed.BAL_MAX_HIT_CHANCE", iMin=50, iMax=95, iDefault=85)
+ModOptionInt=(Idx="C.Gdef", ModName="SquadronUnleashed", VarName="AGG_MAX_HIT_CHANCE", VarPath="SquadronUnleashed.AGG_MAX_HIT_CHANCE", iMin=50, iMax=95, iDefault=95)
+ModOptionBool=(Idx="C.U",   ModName="SquadronUnleashed", VarName="StancesForUFO", ReadOnly=true)
+ModOptionInt=(Idx="C.U.1",  ModName="SquadronUnleashed", VarName="eUFOStanceAIsetting", VarPath="SquadronUnleashed.eUFOStanceAIsetting", arrValues=(0,1), iDefault=1, eWidgetType=eWidget_Combobox)
+ModOptionInt=(Idx="C.U.2",  ModName="SquadronUnleashed", VarName="eFixedUFOStance", VarPath="SquadronUnleashed.eFixedUFOStance", arrValues=(0,1,2), iDefault=0, eWidgetType=eWidget_Combobox)
+ModOptionInt=(Idx="C.U.3",  ModName="SquadronUnleashed", VarName="AGG_UFO_AIM_BONUS", VarPath="SquadronUnleashed.AGG_UFO_AIM_BONUS", iMax=50, iDefault=15)
+ModOptionFloat=(Idx="C.U.4",ModName="SquadronUnleashed", VarName="AGG_UFO_SPEED_DOWN", VarPath="SquadronUnleashed.AGG_UFO_SPEED_DOWN", fMin=0.2, fMax=1.0, fDefault=0.67, eWidgetType=eWidget_Spinner)
+ModOptionFloat=(Idx="C.U.5",ModName="SquadronUnleashed", VarName="AGG_UFO_FIRERATE_BOOST", VarPath="SquadronUnleashed.AGG_UFO_FIRERATE_BOOST", fMin=1.0, fMax=2.0, fStep=0.1, fDefault=1.0, eWidgetType=eWidget_Spinner)
+ModOptionInt=(Idx="C.U.6",  ModName="SquadronUnleashed", VarName="DEF_UFO_AIM_PENALTY", VarPath="SquadronUnleashed.DEF_UFO_AIM_PENALTY", iMax=50, iDefault=15)
+ModOptionFloat=(Idx="C.U.7",ModName="SquadronUnleashed", VarName="DEF_UFO_SPEED_BOOST", VarPath="SquadronUnleashed.DEF_UFO_SPEED_BOOST", fMin=1.0, fMax=2.0, fDefault=1.33, eWidgetType=eWidget_Spinner)
+ModOptionBool=(Idx="C.X",   ModName="SquadronUnleashed", VarName="StancesForXCom", ReadOnly=true)
+ModOptionInt=(Idx="C.X.1",  ModName="SquadronUnleashed", VarName="AGG_JET_AIM_BONUS", VarPath="SquadronUnleashed.AGG_JET_AIM_BONUS", iMax=50, iDefault=15)
+ModOptionFloat=(Idx="C.X.2",ModName="SquadronUnleashed", VarName="AGG_JET_DMG_VULNERABILITY", VarPath="SquadronUnleashed.AGG_JET_DMG_VULNERABILITY", fStep=0.05, eWidgetType=eWidget_Spinner)
+ModOptionFloat=(Idx="C.X.3",ModName="SquadronUnleashed", VarName="AGG_JET_DMG_BONUS",VarPath="SquadronUnleashed.AGG_JET_DMG_BONUS", fStep=0.05, eWidgetType=eWidget_Spinner)
+ModOptionInt=(Idx="C.X.4",  ModName="SquadronUnleashed", VarName="AGG_JET_FORCE_HIT_CHANCE", VarPath="SquadronUnleashed.AGG_JET_FORCE_HIT_CHANCE", iMax=50, iStep=5, iDefault=20)
+ModOptionInt=(Idx="C.X.5",  ModName="SquadronUnleashed", VarName="DEF_JET_AIM_PENALTY", VarPath="SquadronUnleashed.DEF_JET_AIM_PENALTY", iMax=50, iDefault=15)
+ModOptionInt=(Idx="C.X.6",  ModName="SquadronUnleashed", VarName="DEF_JET_DODGE_CHANCE", VarPath="SquadronUnleashed.DEF_JET_DODGE_CHANCE", iMax=50, iDefault=20)
+ModOptionBool=(Idx="D", ModName="SquadronUnleashed", VarName="Aggromod", ReadOnly=true)
+ModOptionInt=(Idx="D.00", ModName="SquadronUnleashed", VarName="AGGRO_FOR_WEAPON[0]", VarPath="SquadronUnleashed.AGGRO_FOR_WEAPON[0]", iMin=-10, iMax=20, iStep=1, iDefault=0)
+ModOptionInt=(Idx="D.01", ModName="SquadronUnleashed", VarName="AGGRO_FOR_WEAPON[1]", VarPath="SquadronUnleashed.AGGRO_FOR_WEAPON[1]", iMin=-10, iMax=20, iStep=1, iDefault=2)
+ModOptionInt=(Idx="D.02", ModName="SquadronUnleashed", VarName="AGGRO_FOR_WEAPON[2]", VarPath="SquadronUnleashed.AGGRO_FOR_WEAPON[2]", iMin=-10, iMax=20, iStep=1, iDefault=4)
+ModOptionInt=(Idx="D.03", ModName="SquadronUnleashed", VarName="AGGRO_FOR_WEAPON[3]", VarPath="SquadronUnleashed.AGGRO_FOR_WEAPON[3]", iMin=-10, iMax=20, iStep=1, iDefault=6)
+ModOptionInt=(Idx="D.04", ModName="SquadronUnleashed", VarName="AGGRO_FOR_WEAPON[4]", VarPath="SquadronUnleashed.AGGRO_FOR_WEAPON[4]", iMin=-10, iMax=20, iStep=1, iDefault=8)
+ModOptionInt=(Idx="D.05", ModName="SquadronUnleashed", VarName="AGGRO_FOR_WEAPON[5]", VarPath="SquadronUnleashed.AGGRO_FOR_WEAPON[5]", iMin=-10, iMax=20, iStep=1, iDefault=10)
+ModOptionInt=(Idx="D.06", ModName="SquadronUnleashed", VarName="AGGRO_FOR_WEAPON[6]", VarPath="SquadronUnleashed.AGGRO_FOR_WEAPON[6]", iMin=-10, iMax=20, iStep=1, iDefault=12)
+ModOptionInt=(Idx="D.07", ModName="SquadronUnleashed", VarName="AGGRO_FOR_WEAPON[7]", VarPath="SquadronUnleashed.AGGRO_FOR_WEAPON[7]", iMin=-10, iMax=20, iStep=1, iDefault=14)
+ModOptionInt=(Idx="D.11", ModName="SquadronUnleashed", VarName="AGGRO_FOR_BAL", VarPath="SquadronUnleashed.AGGRO_FOR_BAL", iMin=-10, iMax=20, iStep=1, iDefault=0)
+ModOptionInt=(Idx="D.12", ModName="SquadronUnleashed", VarName="AGGRO_FOR_DEF", VarPath="SquadronUnleashed.AGGRO_FOR_DEF", iMin=-10, iMax=20, iStep=1, iDefault=-3)
+ModOptionInt=(Idx="D.13", ModName="SquadronUnleashed", VarName="AGGRO_FOR_AGG", VarPath="SquadronUnleashed.AGGRO_FOR_AGG", iMin=-10, iMax=20, iStep=1, iDefault=3)
+ModOptionInt=(Idx="D.14", ModName="SquadronUnleashed", VarName="AGGRO_FOR_FIRESTORM", VarPath="SquadronUnleashed.AGGRO_FOR_FIRESTORM", iMin=-10, iMax=20, iStep=1, iDefault=5)
+ModOptionBool=(Idx="E", ModName="SquadronUnleashed", VarName="Pilotmod", ReadOnly=true)
+ModOptionInt=(Idx="E.01", ModName="SquadronUnleashed", VarName="INTERCEPTOR_REFUEL_HOURS", VarPath="SquadronUnleashed.INTERCEPTOR_REFUEL_HOURS", iMin=0, iMax=120, iStep=1, iDefault=4)
+ModOptionInt=(Idx="E.02", ModName="SquadronUnleashed", VarName="PILOT_TRANSFER_HOURS", VarPath="SquadronUnleashed.PILOT_TRANSFER_HOURS", iMin=1, iMax=120, iStep=1, iDefault=24)
+ModOptionInt=(Idx="E.03", ModName="SquadronUnleashed", VarName="PILOT_RECOVER_AFTER_COMBAT_HOURS",   VarPath="SquadronUnleashed.PILOT_RECOVER_AFTER_COMBAT_HOURS", iMin=1, iMax=100, iStep=1, iDefault=12)
+ModOptionInt=(Idx="E.04", ModName="SquadronUnleashed", VarName="PILOT_HEAL_DAYS", VarPath="SquadronUnleashed.PILOT_HEAL_DAYS", iMin=1, iMax=50, iStep=1, iDefault=14)
+ModOptionInt=(Idx="E.05", ModName="SquadronUnleashed", VarName="PILOT_SURVIVAL_CHANCE_FLAT", VarPath="SquadronUnleashed.PILOT_SURVIVAL_CHANCE_FLAT", iMin=0, iMax=100, iStep=10, iDefault=50)
+ModOptionInt=(Idx="E.06", ModName="SquadronUnleashed", VarName="PILOT_SURVIVAL_CHANCE_PER_RANK", VarPath="SquadronUnleashed.PILOT_SURVIVAL_CHANCE_PER_RANK", iMin=0, iMax=20, iStep=1, iDefault=5)
+ModOptionInt=(Idx="E.07", ModName="SquadronUnleashed", VarName="PILOT_WOUND_CHANCE_ON_SHOTDOWN", VarPath="SquadronUnleashed.PILOT_WOUND_CHANCE_ON_SHOTDOWN", iMin=0, iMax=100, iStep=1, iDefault=50)
+ModOptionInt=(Idx="E.08", ModName="SquadronUnleashed", VarName="PILOT_COST_TO_HIRE", VarPath="SquadronUnleashed.PILOT_COST_TO_HIRE", iMin=5, iMax=200, iStep=5, iDefault=10)
+ModOptionInt=(Idx="E.09", ModName="SquadronUnleashed", VarName="PILOT_COST_MONTHLY", VarPath="SquadronUnleashed.PILOT_COST_MONTHLY", iMin=0, iMax=20, iStep=1, iDefault=1)
+ModOptionBool=(Idx="F", ModName="SquadronUnleashed", VarName="XPmod", ReadOnly=true)
+ModOptionInt=(Idx="F.1", ModName="SquadronUnleashed", VarName="XP_PER_ENGAGMEMENT_SECOND", VarPath="SU_PilotRankMgr.XP_PER_ENGAGMEMENT_SECOND", iMin=0, iMax=20, iStep=1, iDefault=1)
+ModOptionInt=(Idx="F.2", ModName="SquadronUnleashed", VarName="XP_FOR_KILL_SHOT", VarPath="SU_PilotRankMgr.XP_FOR_KILL_SHOT", iMin=0, iMax=200, iStep=10, iDefault=100)
+ModOptionInt=(Idx="F.3", ModName="SquadronUnleashed", VarName="XP_FOR_WIN", VarPath="SU_PilotRankMgr.XP_FOR_WIN", iMin=0, iMax=100, iStep=5, iDefault=20)
+ModOptionInt=(Idx="F.4", ModName="SquadronUnleashed", VarName="XP_FOR_HIT", VarPath="SU_PilotRankMgr.XP_FOR_HIT", iMin=0, iMax=20, iStep=1, iDefault=5)
+ModOptionInt=(Idx="F.5", ModName="SquadronUnleashed", VarName="PILOT_SWAP_CAREER_DAYS_FIXED", VarPath="SU_PilotRankMgr.PILOT_SWAP_CAREER_DAYS_FIXED", iMin=0, iMax=50, iStep=1, iDefault=7)
+ModOptionInt=(Idx="F.6", ModName="SquadronUnleashed", VarName="PILOT_SWAP_CAREER_DAYS_PER_RANK", VarPath="SU_PilotRankMgr.PILOT_SWAP_CAREER_DAYS_PER_RANK", iMin=1, iMax=50, iStep=1, iDefault=7)
+ModOptionBool=(Idx="G", ModName="SquadronUnleashed", VarName="UFO_DESTRUCTION_CHANCE", ReadOnly=true)
+ModOptionBool=(Idx="G.1",  ModName="SquadronUnleashed", VarName="HP_OVERKILL_THRESHOLDS", ReadOnly=true)
+ModOptionBool=(Idx="G.2",  ModName="SquadronUnleashed", VarName="HP_OVERKILL_PER_ONE_PCT", ReadOnly=true)
+ModOptionInt=(Idx="G.1.0", ModName="SquadronUnleashed", VarName="HP_OVERKILL_THRESHOLD[0]", VarPath="SU_XGInterceptionEngagement.HP_OVERKILL_THRESHOLD[0]")
+ModOptionInt=(Idx="G.1.1", ModName="SquadronUnleashed", VarName="HP_OVERKILL_THRESHOLD[1]", VarPath="SU_XGInterceptionEngagement.HP_OVERKILL_THRESHOLD[1]")
+ModOptionInt=(Idx="G.1.2", ModName="SquadronUnleashed", VarName="HP_OVERKILL_THRESHOLD[2]", VarPath="SU_XGInterceptionEngagement.HP_OVERKILL_THRESHOLD[2]")
+ModOptionInt=(Idx="G.1.3", ModName="SquadronUnleashed", VarName="HP_OVERKILL_THRESHOLD[3]", VarPath="SU_XGInterceptionEngagement.HP_OVERKILL_THRESHOLD[3]")
+ModOptionInt=(Idx="G.1.4", ModName="SquadronUnleashed", VarName="HP_OVERKILL_THRESHOLD[4]", VarPath="SU_XGInterceptionEngagement.HP_OVERKILL_THRESHOLD[4]")
+ModOptionInt=(Idx="G.1.5", ModName="SquadronUnleashed", VarName="HP_OVERKILL_THRESHOLD[5]", VarPath="SU_XGInterceptionEngagement.HP_OVERKILL_THRESHOLD[5]")
+ModOptionInt=(Idx="G.2.0", ModName="SquadronUnleashed", VarName="HP_OVERKILL_PER_ONE_PCT_DESTR_CHANCE[0]", VarPath="SU_XGInterceptionEngagement.HP_OVERKILL_PER_ONE_PCT_DESTR_CHANCE[0]", iMin=1, iMax=20, iDefault=5, eWidgetType=eWidget_Slider)
+ModOptionInt=(Idx="G.2.1", ModName="SquadronUnleashed", VarName="HP_OVERKILL_PER_ONE_PCT_DESTR_CHANCE[1]", VarPath="SU_XGInterceptionEngagement.HP_OVERKILL_PER_ONE_PCT_DESTR_CHANCE[1]", iMin=1, iMax=20, iDefault=6, eWidgetType=eWidget_Slider)
+ModOptionInt=(Idx="G.2.2", ModName="SquadronUnleashed", VarName="HP_OVERKILL_PER_ONE_PCT_DESTR_CHANCE[2]", VarPath="SU_XGInterceptionEngagement.HP_OVERKILL_PER_ONE_PCT_DESTR_CHANCE[2]", iMin=1, iMax=20, iDefault=7, eWidgetType=eWidget_Slider)
+ModOptionInt=(Idx="G.2.3", ModName="SquadronUnleashed", VarName="HP_OVERKILL_PER_ONE_PCT_DESTR_CHANCE[3]", VarPath="SU_XGInterceptionEngagement.HP_OVERKILL_PER_ONE_PCT_DESTR_CHANCE[3]", iMin=1, iMax=20, iDefault=8, eWidgetType=eWidget_Slider)
+ModOptionInt=(Idx="G.2.4", ModName="SquadronUnleashed", VarName="HP_OVERKILL_PER_ONE_PCT_DESTR_CHANCE[4]", VarPath="SU_XGInterceptionEngagement.HP_OVERKILL_PER_ONE_PCT_DESTR_CHANCE[4]", iMin=1, iMax=20, iDefault=10, eWidgetType=eWidget_Slider)
+ModOptionInt=(Idx="G.2.5", ModName="SquadronUnleashed", VarName="HP_OVERKILL_PER_ONE_PCT_DESTR_CHANCE[5]", VarPath="SU_XGInterceptionEngagement.HP_OVERKILL_PER_ONE_PCT_DESTR_CHANCE[5]", arrValues=(5,6,7,8,9,10,15,20,50,100,200,300,400,500,1000), iDefault=1000, eWidgetType=eWidget_Combobox)
+ModOptionBool=(Idx="H", ModName="SquadronUnleashed", VarName="ColorsMods", ReadOnly=true)
+ModOptionBool=(Idx="H.1",  ModName="SquadronUnleashed", VarName="ColorsOnShipCard", ReadOnly=true)
+ModOptionInt=(Idx="H.1.1", ModName="SquadronUnleashed", VarName="GENERAL_SELECTED_COLOR", VarPath="SquadronUnleashed.GENERAL_SELECTED_COLOR", arrValues=(1,2,3,4,5,7,10,11), iDefault=5)
+ModOptionInt=(Idx="H.1.2", ModName="SquadronUnleashed", VarName="DAMAGED_CAPABLE_COLOR", VarPath="SquadronUnleashed.DAMAGED_CAPABLE_COLOR", arrValues=(1,2,3,4,5,7,10,11), iDefault=10)
+ModOptionInt=(Idx="H.1.3", ModName="SquadronUnleashed", VarName="DAMAGED_SELECTED_AGGRO_COLOR", VarPath="SquadronUnleashed.DAMAGED_SELECTED_AGGRO_COLOR",arrValues=(1,2,3,4,5,7,10,11), iDefault=10)
+ModOptionInt=(Idx="H.1.4", ModName="SquadronUnleashed", VarName="GOOD_SELECTED_AGGRO_COLOR", VarPath="SquadronUnleashed.GOOD_SELECTED_AGGRO_COLOR",arrValues=(1,2,3,4,5,7,10,11), iDefault=4)
+ModOptionBool=(Idx="H.2",  ModName="SquadronUnleashed", VarName="ColorsInBattle", ReadOnly=true)
+ModOptionBool=(Idx="H.2.3",ModName="SquadronUnleashed", VarName="SHOW_DAMAGE_BARS", VarPath="SU_UIInterceptionEngagement.SHOW_DAMAGE_BARS", bDefault=true)
+ModOptionBool=(Idx="H.2.4",ModName="SquadronUnleashed", VarName="SHOW_DAMAGE_COLORED_JETS", VarPath="SU_UIInterceptionEngagement.SHOW_DAMAGE_COLORED_JETS", bDefault=false)
+ModOptionBool=(Idx="I", ModName="SquadronUnleashed", VarName="DISABLE_UFO_ESCORTS", ReadOnly=true)
+ModOptionBool=(Idx="I.1",  ModName="SquadronUnleashed", VarName="RANDOMIZE_NUMBER_OF_ESCORTS", bDefault=true)
+ModOptionBool=(Idx="I.2",  ModName="SquadronUnleashed", VarName="RANDOMIZE_TYPE_OF_ESCORTS", bDefault=true)
+ModOptionBool=(Idx="I.3",  ModName="SquadronUnleashed", VarName="RANDOMIZE_STANCE_OF_ESCORTS", bDefault=true)
+ModOptionBool=(Idx="I.4",  ModName="SquadronUnleashed", VarName="ENABLE_ESCORT_REWARDS", bDefault=false)
+

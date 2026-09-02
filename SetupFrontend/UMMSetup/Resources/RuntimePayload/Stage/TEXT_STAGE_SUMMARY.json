@@ -1,0 +1,11 @@
+{
+  "text_payload_files": 23,
+  "game_config_payload": 10,
+  "localization_payload": 12,
+  "documents_new_files": 1,
+  "game_local_baseline_transforms": 3,
+  "documents_local_baseline_transforms": 3,
+  "documents_runtime_total_existing": 34,
+  "documents_runtime_semantic": 16,
+  "documents_runtime_iniversion_only": 18
+}

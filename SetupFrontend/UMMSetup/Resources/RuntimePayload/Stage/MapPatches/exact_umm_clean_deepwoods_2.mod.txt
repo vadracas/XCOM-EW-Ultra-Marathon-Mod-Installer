@@ -1,0 +1,6 @@
+UPK_FILE=umm_clean_deepwoods.upk
+OBJECT=TheWorld.PersistentLevel.XComRebuildWorldDataVolume_20:KEEP
+FIND_HEX=00 80 AC C5 00 40 6D C5 00 00 3C 43
+[MODDED_CODE]
+<%f -5707.16> <%f -3518.74> <%f 191.504>
+

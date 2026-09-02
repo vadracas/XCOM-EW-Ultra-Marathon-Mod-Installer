@@ -1,0 +1,24 @@
+[ShivSlot.ShivSlotMutator]
+SHIV_SLOT_ENABLED=TRUE
+NUM_SHIV_SLOTS=1
+UnlockTech=(iTech=29,iFoundryTech=0,iSlots=1)
+UnlockTech=(iTech=40,iFoundryTech=0,iSlots=1)
+UnlockTech=(iTech=37,iFoundryTech=0,iSlots=1)
+UnlockTech=(iTech=36,iFoundryTech=0,iSlots=1)
+REQUIRES_SUPERSKYRANGER=False
+ENABLE_COVERTOPS_EXTRACTIONS=FALSE
+ENABLE_COVERTOPS_DATARECOVERY=FALSE
+ENABLE_TERROR=TRUE
+ENABLE_ALIEN_BASE=TRUE
+bDisableDebugLogs=False
+
+[ShivSlot.ShivSlotOptionsContainer]
+ModRecord=(ModName="ShivSlot", ModClassList=("ShivSlot.ShivSlotMutator"), bEnabledByDefault=false, VarPath="ShivSlotMutator.SHIV_SLOT_ENABLED")
+ModOptionBool=(Idx="1",		ModName="ShivSlot", VarName="REQUIRES_SUPERSKYRANGER", VarPath="ShivSlotMutator.REQUIRES_SUPERSKYRANGER", bDefault=FALSE)
+ModOptionInt=(Idx="2", 		ModName="ShivSlot",	VarName="NUM_SHIV_SLOTS", VarPath="ShivSlotMutator.NUM_SHIV_SLOTS", iMin=1, iMax=5, iDefault=5)
+ModOptionBool=(Idx="3",		ModName="ShivSlot", VarName="MissionRestrictions", ReadOnly=true)
+ModOptionBool=(Idx="3.0",	ModName="ShivSlot", VarName="EnableCovertExtractions", VarPath="ShivSlotMutator.ENABLE_COVERTOPS_EXTRACTIONS", bDefault=FALSE)
+ModOptionBool=(Idx="3.1",	ModName="ShivSlot", VarName="EnableDataRecovery", VarPath="ShivSlotMutator.ENABLE_COVERTOPS_DATARECOVERY", bDefault=FALSE)
+ModOptionBool=(Idx="3.2",	ModName="ShivSlot", VarName="EnableTerror", VarPath="ShivSlotMutator.ENABLE_TERROR", bDefault=TRUE)
+ModOptionBool=(Idx="3.3",	ModName="ShivSlot", VarName="EnableAlienBases", VarPath="ShivSlotMutator.ENABLE_ALIEN_BASE", bDefault=TRUE)
+

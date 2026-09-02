@@ -1,0 +1,1243 @@
+[UIModToggles]
+m_strModTogglesTitle=FORFAITS MOD DISPONIBLES
+m_strMutator=MUTATEUR
+m_strMod=MOD
+m_strModsButton=(XComGameInfo.Mods)
+m_strModsTitle=Noms de modules
+m_strStrategicMutatorsButton=MUTATEURS STRATÉGIQUES
+m_strStrategicMutatorsTitle=MUTATEURS STRATÉGIQUES
+m_strTacticalMutatorsButtonn=MUTATEURS TACTIQUES
+m_strTacticalMutatorsTitle=MUTATEURS TACTIQUES
+m_strRegisterNewButton=ENREGISTRER NOUVEAU
+m_strRegisterNewTitle=TYPER NOUVEAU CHEMIN
+m_strRegisterNewHelp=Ceci sera ajouté à <XGParam:StrValue0>
+m_strResultAlreadyExists=Le mutateur est déjà enregistré.
+m_strResultFileNotFound=Fichier introuvable. Assurez-vous que le chemin est correct et que le fichier .u approprié avec le package spécifié se trouve dans le dossier \CookedPCConsole ou son sous-dossier.
+m_strResultSuccess=Succès !
+m_strResultFailure=Échec !
+m_strResultUpdatePrompt=La liste des mods et des options sera mise à jour après la fermeture du menu Mods et sa réouverture.
+
+[UIModShell]
+m_strTitle="GESTIONNAIRE DE MOD"
+m_strSelectModsButton=SÉLECTIONNER LES MODS
+m_strBackToModsButton=RETOUR AUX MODS
+m_strSelectPackagesButton="MOD PACKAGES"
+m_strConfigureModsButton=CONFIGURER LE MOD SÉLECTIONNÉ
+m_strConfigureModMgrButton=CONFIGURER LE GESTIONNAIRE DE MOD
+m_strResetAllButton="RESTAURER TOUS LES PAR DÉFAUT"
+m_strResetModButton="RESTAURER LES PAR DÉFAUT"
+m_strRestoreDefaultsModOptions=OPTIONS DE RESET
+m_strRestoreDefaultsModList=RESET MOD LIST
+m_strRestoreDefaultsDialog="Choisissez ce que vous voulez restaurer."
+m_strResetModListWarning="La liste des mods sélectionnés sera réinitialisée aux sélections par défaut (telles que définies dans DefaultModsProfile.ini). Confirmez-vous?"
+m_strNoOptions=AUCUNE OPTION DISPONIBLE
+m_strGamepadScrollHelp=Texte de défilement
+m_strGamepadBackToListHelp=Liste de défilement
+m_strResetDefaults="Êtes-vous sûr de vouloir restaurer les paramètres par défaut de ce mod?"
+m_strResetAllDefaults="Avertissement: Cette opération restaurera les paramètres par défaut pour TOUS LES MODS?"
+m_strSettingsChanged="De nouveaux paramètres ont été enregistrés. Certaines des modifications peuvent nécessiter le rechargement de la sauvegarde ou le redémarrage de la mission. "
+m_strDontShowAnymore=NE PAS MONTRER CECI ENCORE
+m_strBuildingOptionsProgress=OPTIONS DE CONSTRUCTION
+
+[UIModManager]
+m_strModsMenuButton="MENU MODS"
+m_strNoDescription=Aucune description disponible.
+m_strMissingPackage="<FONT COLOR='#FF0000'>Le package requis n'a pas pu être chargé!! Fichier probablement manquant <XGParam:StrValue0/> dans CookedPCConsole et ses sous-dossiers.</FONT>"
+m_strDisabledPackage="<FONT COLOR='#FF0000'>Le package requis pour ce mod est désactivé via le menu Mod Packages. Activer l'option <XGParam:StrValue0/> dans le menu Mod Packages pour exécuter ce mod.</FONT>"
+m_strModsInPackage=Activez ce package pour accéder à:
+m_sModProfilePrefix=Profil
+
+[UIModSharedContainer]
+;----------------------------------------------------------
+;USING .INT (OR OTHER LOCALIZATION) FILE
+;----------------------------------------------------------
+;The way you should organize entries in this  section is like this:
+;
+;m_arrVarName="UIModManager"
+;m_arrVarFriendlyName="Configurer Mod Manager"
+;m_arrVarDescription=Ajuster les options du gestionnaire de mods.
+;
+;Lines like the above should be always coming in threes, whenever you put a line m_arrVarName it MUST be followed by m_arrVarFriendlyName and m_arrVarDescription. 
+;You can make m_arrVarFriendlyName="" and m_arrVarDescription="" if you don't need them but they must be there or you will screw auto-search algorithms
+;m_arrVarName=SomeName is 99% times as good as m_arrVarName="SomeName" so suit yourself. 
+;The above is more relevant to descriptions:
+;
+;m_arrVarDescription="Some description with inline \"quote\""
+;or
+;m_arrVarDescription=Some description with inline "qoute"
+;
+;Credits - a block of lines for certain mod should start with BEGIN_ModName and end with END_ModName, just like below:
+
+m_arrCreditsModMgr=BEGIN_UIModManager
+m_arrCreditsModMgr=<h1>UI MOD MANAGER</h1>
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=<h2>AUTHOR</h2>
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=Szymon 'szmind' Zminda
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=<h3>Design By</h3>
+m_arrCreditsModMgr='szmind'
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=<h3>Programming</h3>
+m_arrCreditsModMgr='szmind'
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=<h3>UI Programming</h3>
+m_arrCreditsModMgr='szmind'
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=<h3>Debugging and Quality Assurance</h3>
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=Guess who?
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=Yeah, you guessed:)\n'szmind'
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=<h3>Special thanks to:</h3>
+m_arrCreditsModMgr=Loriendal - for initial tests and bug reporting
+m_arrCreditsModMgr=kdm2k6 - for tests of gamepad support
+m_arrCreditsModMgr=Lafiir - for even more tests of gamepad support and bug reports
+m_arrCreditsModMgr=AzXeus - for priceless advice on avoiding runaway loops:)
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=<h3>Contact</h3>
+m_arrCreditsModMgr=szmind@gmail.com\nDiscord: szmind#7068
+m_arrCreditsModMgr=END_UIModManager
+
+m_arrCreditsModMgr=BEGIN_XComSpawnMutator
+m_arrCreditsModMgr=<h1>Random Spawns</h1>
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=<h2>AUTHOR</h2>
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=wghost81
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=(Senior Contributing Programmer in Long War Team)
+m_arrCreditsModMgr=END_XComSpawnMutator
+
+m_arrCreditsModMgr=BEGIN_XComLZMutator
+m_arrCreditsModMgr=<h1>Landing Zones</h1>
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=<h2>AUTHOR</h2>
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=wghost81
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=(Senior Contributing Programmer in Long War Team)
+m_arrCreditsModMgr=END_XComLZMutator
+
+m_arrCreditsModMgr=BEGIN_XComBombMutator
+m_arrCreditsModMgr=<h1>Bomb Locations</h1>
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=<h2>AUTHOR</h2>
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=wghost81
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=(Senior Contributing Programmer in Long War Team)
+m_arrCreditsModMgr=END_XComBombMutator
+
+m_arrCreditsModMgr=BEGIN_XComSpawnAlienMutator
+m_arrCreditsModMgr=<h1>Drop-In Locations</h1>
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=<h2>AUTHOR</h2>
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=wghost81
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=(Senior Contributing Programmer in Long War Team)
+m_arrCreditsModMgr=END_XComSpawnAlienMutator
+
+m_arrCreditsModMgr=BEGIN_XComPodSpawnMutator
+m_arrCreditsModMgr=<h1>Pod Locations</h1>
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=<h2>AUTHOR</h2>
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=wghost81
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=(Senior Contributing Programmer in Long War Team)
+m_arrCreditsModMgr=END_XComPodSpawnMutator
+
+m_arrCreditsModMgr=BEGIN_XComMeldSpawnMutator
+m_arrCreditsModMgr=<h1>MELD Locations</h1>
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=<h2>AUTHOR</h2>
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=wghost81
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=(Senior Contributing Programmer in Long War Team)
+m_arrCreditsModMgr=END_XComMeldSpawnMutator
+
+m_arrCreditsModMgr=BEGIN_Sightlines
+m_arrCreditsModMgr=<h1>LINE OF SIGHT INDICATOR</h1>
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=<h2>AUTHOR</h2>
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=tracktwo
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=<h3>Design and Programming</h3>
+m_arrCreditsModMgr=tracktwo
+m_arrCreditsModMgr=""
+m_arrCreditsModMgr=<h3>Special thanks to:</h3>
+m_arrCreditsModMgr=szmind - for this cool credits' screen and in-game options menu:)
+m_arrCreditsModMgr=END_Sightlines
+
+m_arrVarName="UIModManager"
+m_arrVarFriendlyName="Options du gestionnaire de mods"
+m_arrVarDescription="Modifie les options du gestionnaire de mods."
+
+m_arrVarName="UIModManager.m_bShowChangesWarning"
+m_arrVarFriendlyName="Dialogue de sauvegarde des options"
+m_arrVarDescription="À chaque fois que vous changez les paramètres d’un mod en cours de partie, un avertissement vous rappellera que certains changements peuvent nécessiter un redémarrage. Activez ou désactivez ce rappel avec cette option."
+
+m_arrVarName="UIModManager.m_bShowExitWarning"
+m_arrVarFriendlyName="Dialogue d’ignorance des modifications"
+m_arrVarDescription="Un avertissement apparaît si vous quittez le menu des mods sans enregistrer les options. Activez ou désactivez cet avertissement avec cette option."
+
+m_arrVarName="UIModManager.m_bShowResetWarning"
+m_arrVarFriendlyName="Dialogue de restauration par défaut"
+m_arrVarDescription="Chaque fois que vous tentez de réinitialiser les paramètres d’un mod, une confirmation vous sera demandée. Activez ou désactivez cet avertissement avec cette option."
+
+m_arrVarName="UIModManager.m_bSortMods_ByAlphabet"
+m_arrVarFriendlyName="Trier les mods par nom"
+m_arrVarDescription="Si cette option est cochée (paramètre par défaut), la liste des mods est triée par ordre alphabétique (cela vaut aussi pour les packages). Vous pouvez la désactiver pour afficher les mods selon leur ordre d’apparition dans DefaultMutatorLoader.ini."
+
+m_arrVarName="UIModManager.m_bSortMods_SelectedFirst"
+m_arrVarFriendlyName="Mods sélectionnés en haut"
+m_arrVarDescription="Si cette option est cochée, les mods actuellement activés apparaîtront en haut de la liste (triés ou non selon l’option « Trier les mods par nom »). Cela s’applique aussi aux packages. Le tri est mis à jour chaque fois que vous changez d’onglet."
+
+m_arrVarName="UIModManager.m_bEnsurePerformance"
+m_arrVarFriendlyName="Assurer les performances"
+m_arrVarDescription="Remplace la plupart des listes déroulantes dans les fenêtres de configuration par un sélecteur (flèches gauche/droite), réduisant ainsi les ralentissements dus à un trop grand nombre de listes déroulantes."
+
+m_arrVarName="XComLZMutator"
+m_arrVarFriendlyName="LW - Zones d'atterrissage"
+m_arrVarDescription="Active l'emplacement aléatoire de la zone d'atterrissage de l’escouade XCom. Rend le jeu moins répétitif car l’escouade peut être déployée à différents endroits sur la même carte."
+
+m_arrVarName="XComBombMutator"
+m_arrVarFriendlyName="LW - Emplacements de bombe"
+m_arrVarDescription="Placement plus intelligent de la bombe dans les missions de désamorçage. Contrôle la proximité des nœuds d’alimentation par rapport à la zone d’atterrissage et le minuteur initial de la bombe."
+
+m_arrVarName="XComSpawnMutator"
+m_arrVarFriendlyName="LW - Apparitions aléatoires"
+m_arrVarDescription="<font color='#00FF00'>Ce n’est pas un mod autonome.</font> Cependant, ses options sont partagées par les mods suivants: LW - Emplacements de bombe, LW - Emplacements de Meld, LW - Zones d’atterrissage, LW - Renforts, LW - Emplacements de groupes."
+
+m_arrVarName="XComMeldSpawnMutator"
+m_arrVarFriendlyName="LW - Emplacements de Meld"
+m_arrVarDescription="Placement plus intelligent des conteneurs de Meld – par défaut un facile et un difficile. Permet de contrôler la proximité ainsi que le nombre maximal de conteneurs."
+
+m_arrVarName="XComPodSpawnMutator"
+m_arrVarFriendlyName="LW - Emplacements de groupes"
+m_arrVarDescription="Aléatorise les emplacements des groupes aliens (y compris celui du commandant) tout en respectant les restrictions de proximité à la zone d’atterrissage, à l’agent infiltré et en évitant (ou non) les zones de capture (lors des missions de récupération de données)."
+
+m_arrVarName="XComSpawnAlienMutator"
+m_arrVarFriendlyName="LW - Emplacements de renforts"
+m_arrVarDescription="Rend les renforts aliens plus difficiles (par défaut). Permet de contrôler plusieurs facteurs qui déterminent les mécaniques d’apparition (ex: désactiver la vigilance automatique des renforts). Les paramètres ne s’appliquent pas à la mission de reconnaissance du site de Newfoundland.\n<FONT COLOR='#00FF00' SIZE='16'>Vous pouvez étendre la liste des exclusions dans DefaultRandomSpawns.ini</FONT>"
+
+m_arrVarName="XComLZMutator.XComFCMutator"
+m_arrVarFriendlyName="Conseil de financement (LW)"
+m_arrVarDescription="Je ne sais pas ce que ça fait:) Si vous le savez, contactez-moi via nexusmods ou sur Discord (szmind#7068)."
+
+m_arrVarName="XComSpawnMutator.PLAYER_PROXIMITY"
+m_arrVarFriendlyName="Proximité du joueur"
+m_arrVarDescription="Distance minimale en mètres (1 case = 1,6 m) entre la zone d’atterrissage et l’objet: conteneur de Meld, groupe alien, renfort alien. Augmentez cette valeur pour les éloigner du joueur. Réduisez-la pour les rapprocher.\nValeur par défaut: 29 (18 cases), ce qui correspond à la portée visuelle standard."
+
+m_arrVarName="XComSpawnMutator.OP_PROXIMITY"
+m_arrVarFriendlyName="Proximité de l’agent infiltré"
+m_arrVarDescription="Distance minimale en mètres (1 case = 1,6 m) entre l’agent infiltré et l’objet: conteneur de Meld, groupe alien, renfort alien. Augmentez cette valeur pour les éloigner. Réduisez-la pour les rapprocher.\nValeur par défaut: 32 (20 cases), soit 2 cases au-delà de la portée visuelle."
+
+m_arrVarName="XComSpawnMutator.AVOID_CAPTURE_ZONES"
+m_arrVarFriendlyName="Éviter les zones de capture"
+m_arrVarDescription="Transforme les zones de capture lors des missions de récupération de données en \"zones interdites\" pour l’apparition des conteneurs de meld, groupes EXALT ou renforts EXALT."
+
+m_arrVarName="XComBombMutator.INITIAL_TIMER_VALUE"
+m_arrVarFriendlyName="Minuteur initial de la bombe"
+m_arrVarDescription="Au début de la mission, le minuteur de la bombe sera réglé sur ce nombre de tours.\nPar défaut en 1.1: 5.\nPar défaut en 1.0: 4."
+
+m_arrVarName="XComBombMutator.PLAYER_PROXIMITY"
+m_arrVarFriendlyName="Proximité du joueur"
+m_arrVarDescription=Ce paramètre remplace le réglage général de "LW - Apparitions aléatoires". Contrôle la distance en mètres (1 case = 1,6 m) pour les emplacements valides des nœuds d’alimentation et de la bombe. Augmenter cette valeur éloigne les nœuds du joueur. Diminuer la rapproche.\nPar défaut: 8 (5 cases).
+
+m_arrVarName="XComMeldSpawnMutator.NumContainers"
+m_arrVarFriendlyName="Nombre de conteneurs"
+m_arrVarDescription=Augmente/diminue le nombre maximal de conteneurs de meld qui seront générés (sur les petites cartes, il se peut qu’il n’y ait pas assez d’emplacements adaptés).\nPar défaut: 3.
+
+m_arrVarName="XComMeldSpawnMutator.EqSlope"
+m_arrVarFriendlyName=""
+m_arrVarDescription=Ceci est un multiplicateur pour le nombre de "mouvements bleus" nécessaires pour atteindre le conteneur depuis la zone d’atterrissage. Une formule lisible serait: "NombreDeTours = CasesDepuisZoneAtterrissage x EqSlope + EqConst". Formule exacte:\nDestroyedOnTurn = (DistToPlayer / (96 x 8)) x EqSlope + EqConst. Vous pouvez lire (96 x 8) comme 8 cases, ce qui correspond approximativement à "un mouvement bleu standard".\nValeur par défaut: 1.55.\n\nEXEMPLE:\nEqSlope = 1.50\nEqConst = 1.0\nUn conteneur à 30 cases aurait un minuteur de 30/8 x 1.50 + 1.0 = 6 tours.\nUn conteneur à 50 cases aurait un minuteur de 50/8 x 1.50 + 1.0 = 10 tours.
+
+m_arrVarName="XComMeldSpawnMutator.EqConst"
+m_arrVarFriendlyName=""
+m_arrVarDescription=Il s’agit du seuil minimum pour le minuteur initial. Il augmente ensuite avec la distance entre le conteneur et la zone d’atterrissage. Une formule lisible serait: "NombreDeTours = CasesDepuisZoneAtterrissage x EqSlope + EqConst". Formule exacte:\nDestroyedOnTurn = (DistToPlayer / (96 x 8)) x EqSlope + EqConst. Vous pouvez lire (96 x 8) comme 8 cases, ce qui correspond approximativement à "un mouvement bleu standard".\nValeur par défaut: 1.0.\n\nEXEMPLE:\nEqSlope = 1.50\nEqConst = 1.0\nUn conteneur à 30 cases aurait un minuteur de 30/8 x 1.50 + 1.0 = 6 tours.\nUn conteneur à 50 cases aurait un minuteur de 50/8 x 1.50 + 1.0 = 10 tours.
+
+m_arrVarName="XComSpawnAlienMutator.MIN_DROP_DIST"
+m_arrVarFriendlyName="Distance minimale de déploiement"
+m_arrVarDescription=Distance minimale valide (en mètres, 1 case = 1,6 m) entre l'apparition des renforts aliens/EXALT et une unité XCOM.\nPar défaut: 7 (4 cases). Ne doit pas être trop proche de la distance maximale. Le mod garantit que Max > Min + 7.
+
+m_arrVarName="XComSpawnAlienMutator.MAX_DROP_DIST"
+m_arrVarFriendlyName="Distance maximale de déploiement"
+m_arrVarDescription="Distance maximale valide (en mètres, 1 case = 1,6 m) entre l’apparition des renforts aliens/EXALT et une unité XCOM.\nPar défaut: 32 (20 cases)."
+
+m_arrVarName="XComSpawnAlienMutator.USE_OVERWATCH"
+m_arrVarFriendlyName="Vigilance à l’apparition"
+m_arrVarDescription="Activer cette option (paramètre par défaut) force les ennemis apparaissant à entrer en vigilance."
+
+m_arrVarName="XComSpawnAlienMutator.DROP_TO_COVER"
+m_arrVarFriendlyName="Apparition en couverture"
+m_arrVarDescription="Activer cette option (paramètre par défaut) force les ennemis apparaissant à privilégier les emplacements avec couverture – de préférence en hauteur."
+
+m_arrVarName="XComSpawnAlienMutator.REVEAL_SPAWN"
+m_arrVarFriendlyName="Afficher tous les renforts"
+m_arrVarDescription="Activer cette option (paramètre par défaut) affiche TOUS les événements d’apparition – même si l’équipe XCOM ne voit pas l’ennemi après l’apparition. Désactivez pour plus de difficulté: vous ne verrez pas les ennemis apparaître dans des zones non visibles par XCOM."
+
+m_arrVarName="Sightlines"
+m_arrVarFriendlyName="Line of Sight Indicator"
+m_arrVarDescription="The LoS Indicator is a mod to bring the feature of XCOM2 back to XCOM EW/LW. With this mod enabled, while moving the cursor around to select a tile for movement enemies visible from the pointed location are indicated graphically on the screen.\n\nThe mod contains several configurable variables that may be of interest, see the options tab.\n<FONT COLOR='#00FF00'>New settings (including enable/disable mod) take effect immediately, NO NEED TO RELOAD.</FONT>"
+
+m_arrVarName="Sightlines.SightIndicator"
+m_arrVarFriendlyName="Indicator Style"
+m_arrVarDescription="Pick one of the following values:\n\nGreen Disc - A green disc surrounds visible units.\nOrange Disc - An orange disc surrounds visible units.\nGold Disc - A gold disc surrounds visible units.\nOverwatch Icon - LW only. The overwatch indicator on the unit flag is added to visible units. The indicator will be of XCOM cyan color, and will toggle between cyan and red on aliens on overwatch. See also OW Blinking Interval."
+
+m_arrVarName="Sightlines.SightIndicator.1"
+m_arrVarFriendlyName="Green Disc"
+m_arrVarDescription=""
+
+m_arrVarName="Sightlines.SightIndicator.2"
+m_arrVarFriendlyName="Orange Disc"
+m_arrVarDescription=""
+
+m_arrVarName="Sightlines.SightIndicator.3"
+m_arrVarFriendlyName="Gold Disc"
+m_arrVarDescription=""
+
+m_arrVarName="Sightlines.SightIndicator.0"
+m_arrVarFriendlyName="Overwatch Icon"
+m_arrVarDescription=""
+
+m_arrVarName="Sightlines.OVERWATCH_TOGGLE_DELAY"
+m_arrVarFriendlyName="OW Blinking Interval"
+m_arrVarDescription="LW only. Amount of time (in seconds) to delay between the red and cyan states of the overwatch indicator when showing LoS to an alien which is currently on overwatch. This setting is only useful when Indicator Style is set to \"Overwatch Icon\".\nDefault: 0.50."
+
+m_arrVarName="Sightlines.OVERWATCH_TOGGLE_DELAY.0.50"
+m_arrVarFriendlyName="x0.50"
+m_arrVarDescription=""
+
+m_arrVarName="Sightlines.SIGHTLINE_TICK_DELAY"
+m_arrVarFriendlyName="Update delay"
+m_arrVarDescription="Amount of time (in seconds) for game engine to wait between refreshes of LoS information. The lower this value the faster the UI will update when hovering over new tiles. This value may have a large impact on game performance - set it to a value that feels right for your system.\nDefault: 1.0."
+
+m_arrVarName="Sightlines.SHOW_FRIENDLY_INDICATORS"
+m_arrVarFriendlyName="Show Indicator For:"
+m_arrVarDescription="If you choose \"All units\" indicators will also be shown on friendly units (e.g. XCom). This may be useful to assist in determining whether an ally will be in LoS to act as a target for certain abilities. Default setting is \"Enemies only\" as the additional indicators may be distracting to some."
+
+m_arrVarName="Sightlines.SHOW_FRIENDLY_INDICATORS.True"
+m_arrVarFriendlyName="All units"
+m_arrVarDescription=""
+
+m_arrVarName="Sightlines.SHOW_FRIENDLY_INDICATORS.False"
+m_arrVarFriendlyName="Enemies only"
+m_arrVarDescription=""
+
+m_arrVarName="Sightlines.USE_TOGGLE_HOTKEY"
+m_arrVarFriendlyName="Utiliser une touche de bascule"
+m_arrVarDescription="Définit si les mises à jour LoS et les indicateurs sont toujours actifs (false, par défaut) ou uniquement lorsqu'une touche est enfoncée (true). Si activé, appuyer une fois sur la touche active les mises à jour LoS, selon la fréquence définie par \"Délai de mise à jour\". Appuyer à nouveau désactivera tous les indicateurs et la mise à jour LoS. Utile si les mises à jour automatiques ralentissent le jeu ou que les indicateurs constants gênent. <FONT COLOR='#5CD16C'>La touche doit être spécifiée dans DefaultInput.ini, section XComGame.XComTacticalInput.</FONT> Recherchez « Ability Shortcuts » dans le fichier pour trouver l’endroit. Ajoutez une ligne comme:\n\n<FONT COLOR='#5CD16C'>.Bindings=(Name=\"L\", Command=\"marketing\", alt=TRUE)</FONT>\n\nCeci assigne la touche Alt-L à la commande 'marketing', détournée depuis un mode de débogage. La touche peut être modifiée à votre guise, y compris pour des boutons de manette."
+
+m_arrVarName="RevealMod"
+m_arrVarFriendlyName="Mods de Révélation"
+m_arrVarDescription="Permet d’activer des options liées à la révélation des groupes ennemis, ex. accorder un mouvement jaune (déplacement uniquement, pas de tir) à TOUS les soldats pour se repositionner à la découverte d’un nouveau groupe. Les aliens révélés peuvent aussi immédiatement appeler leurs alliés en ligne de vue ou à la fin de leur tour."
+
+m_arrVarName="RevealMod.ImmediateChainReveal"
+m_arrVarFriendlyName="Révélation en chaîne immédiate"
+m_arrVarDescription="Lorsqu’un nouveau groupe est révélé, tous ceux qu’il voit seront aussi révélés. Cela ne se propage pas plus loin (si A voit B qui voit C, mais A ne voit pas C, alors C n’est pas révélé). Cela peut causer des chaînes massives sur les petites cartes, mais garantit qu’aucun groupe caché n’est en ligne de vue de celui activé, permettant de s’en approcher plus sûrement."
+
+m_arrVarName="RevealMod.EndOfTurnChainReveal"
+m_arrVarFriendlyName="Révélation en chaîne en fin de tour"
+m_arrVarDescription="Similaire à Appel des renforts lors de révélation. En fin de tour alien, tous les aliens actifs révèlent les groupes visibles par eux. Le test de ligne de vue est effectué alien par alien. Il suffit qu’un alien actif voie un membre d’un groupe inactif pour déclencher celui-ci. Cela apporte du réalisme: les aliens voyant leurs alliés se battre ne restent pas passifs. Sur certaines missions, cela peut cependant déclencher une révélation de masse rapide."
+
+m_arrVarName="RevealMod.BailoutMoveOnPodReveal"
+m_arrVarFriendlyName="Mouvement de secours à la révélation"
+m_arrVarDescription="Lorsqu’une unité XCOM révèle un nouveau groupe, toutes les unités XCOM ayant déjà terminé leur tour obtiennent un déplacement jaune pour se repositionner. Ne fonctionne pas pour les unités accroupies, en suppression ou en vigilance."
+
+m_arrVarName="XComStrategyAIMutatorON"
+m_arrVarFriendlyName="Nouvelle intelligence artificielle"
+m_arrVarDescription="Option permettant d’activer une intelligence artificielle alternative et entièrement personnalisable. Configurable dans DefaultStrategyAIMod.ini.\nAjoute toutes les mises à jour non incluses dans la version finale de Long War 1.0.\n<FONT COLOR='#00ff00'>Attention ! Il est fortement recommandé d’activer ou de désactiver ce mod avant de commencer une nouvelle partie. Ne modifiez pas les réglages ensuite.</FONT>"
+
+m_arrVarName="XComStrategyAIMutatorON.EnableAlienResearchON"
+m_arrVarFriendlyName="Activer la recherche alien"
+m_arrVarDescription="Si la recherche est désactivée, l’apparition des nouvelles espèces dépend uniquement du mois en cours.\n<FONT COLOR='#00ff00'>Si vous désactivez ce paramètre, vous aurez des ennemis puissants dès la première mission !\nSaurez-vous survivre à ces conditions injustes ?</FONT>"
+
+m_arrVarName="XComStrategyAIMutatorON.EnableAlienResourcesON"
+m_arrVarFriendlyName="Activer les ressources alien"
+m_arrVarDescription="Les ressources permettent aux aliens de déployer plus d’unités. Si désactivé, aucun alien supplémentaire ne sera présent en mission."
+
+m_arrVarName="XComStrategyAIMutatorON.EnableAlienLeadersON"
+m_arrVarFriendlyName="Activer les chefs aliens"
+m_arrVarDescription="L'apparition des chefs aliens dépend du niveau de recherche. Si désactivé, aucun chef n'apparaîtra en mission. Ne dépend pas de l’option EnableAlienResearch."
+
+m_arrVarName="XComStrategyAIMutatorON.EnableAmbushUFOsON"
+m_arrVarFriendlyName="Activer les embuscades OVNI"
+m_arrVarDescription="Permet aux aliens de créer des missions d'embuscade si leur niveau d'agressivité est suffisamment élevé."
+
+m_arrVarName="XComStrategyAIMutatorON.EnableRandomCommandersON"
+m_arrVarFriendlyName="Activer les commandants aléatoires"
+m_arrVarDescription="Permet d’activer les commandants aléatoires en mission."
+
+m_arrVarName="XComStrategyAIMutatorON.AlwaysSpawnAtLeastOneMainAlienON"
+m_arrVarFriendlyName="Apparition d’un alien principal"
+m_arrVarDescription="Fait apparaître au moins un alien principal à chaque mission."
+
+m_arrVarName="XComStrategyAIMutatorON.SurviveCrashPodPct"
+m_arrVarFriendlyName="Pourcentage de survie des pods crashés"
+m_arrVarDescription="Pourcentage de pods et d’aliens survivant au crash."
+
+m_arrVarName="XComStrategyAIMutatorON.DynamicAliensMultiplier"
+m_arrVarFriendlyName="Multiplicateur dynamique d’aliens"
+m_arrVarDescription="Nombre de renforts supplémentaires par mois."
+
+m_arrVarName="XComStrategyAIMutatorON.MaxPodsOnExaltRaid"
+m_arrVarFriendlyName="Nombre max de pods en raid Exalt"
+m_arrVarDescription="Nombre de pods lors des assauts de base Exalt et alien. Aucun modificateur mensuel."
+
+m_arrVarName="XComStrategyAIMutatorON.AlienBaseSoldierPodChance"
+m_arrVarFriendlyName="Chance de pods dans les bases aliens"
+m_arrVarDescription="Les bases aliens génèrent des pods Spéciaux et Élites selon un ratio de 85/15. Ces types de pods sont définis ci-dessous."
+
+m_arrVarName="XComStrategyAIMutatorON.RegularMissionSchedulerBase"
+m_arrVarFriendlyName="Regular Mission Density Base"
+m_arrVarDescription="Controls regular Dynamic War mission density. Lower values generate more regular UFO, abduction, terror and late missions; higher values generate fewer. With SW_MARATHON 2.90: 29000 = 1.00x normal LW, 38667 = 0.75x, 58000 = 0.50x."
+
+m_arrVarName="XComStrategyAIMutatorON.AbductionMissionFrequencyPercent"
+m_arrVarFriendlyName="Abduction Mission Frequency"
+m_arrVarDescription="Scales only the existing regular Abduction scheduler. 100% keeps the stable rate; 500% gives five times the scheduler weight; 5000% reaches the one-point-per-update cap. Missions still use the normal AddNewAbductions objective pipeline, with no second bucket or direct LaunchBlitz route."
+
+m_arrVarName="XComStrategyAIMutatorON.DiffDecreaseProbabilityON"
+m_arrVarFriendlyName="Réduction de probabilité"
+m_arrVarDescription="Réduction de la probabilité d’apparition des espèces dont la difficulté de pod > difficulté de mission. Si false, ces pods seront totalement exclus de la mission. Si true, leur chance d’apparition sera divisée par DiffProbabilityDivisor*(PodDifficulty - MissionDifficulty). Par défaut PodDifficulty=0. Pour les enlèvements, la difficulté de mission = difficulté d’enlèvement (0...3). Pour les OVNIs, = taille de l’OVNI (0...4). Les autres missions ont une difficulté fixée à 100 pour l’instant (donc non affectées)."
+
+m_arrVarName="XComStrategyAIMutatorON.PodsDifficultyMultiplier"
+m_arrVarFriendlyName="Multiplicateur de difficulté des pods"
+m_arrVarDescription="La difficulté de la mission affecte le nombre de pods: plus elle est élevée, plus on ajoute DifficultyMultiplier*Difficulté ; si elle est plus basse, on en soustrait."
+
+m_arrVarName="XComStrategyAIMutatorON.ShipSizeMultiplier"
+m_arrVarFriendlyName="Multiplicateur de taille des vaisseaux"
+m_arrVarDescription="La taille du vaisseau affecte le nombre de pods: des pods supplémentaires sont ajoutés selon ShipSizeMultiplier*Taille du vaisseau."
+
+m_arrVarName="CoverBonus"
+m_arrVarFriendlyName="Paramètres tactiques"
+m_arrVarDescription="Menu des paramètres tactiques. Par exemple, les bonus reçus depuis les couverts. Également, les paramètres intégrés pour les unités qui, par défaut, ne peuvent pas se mettre à couvert. Malus de précision dus à l’empoisonnement. Capacité à tirer en panique, etc."
+
+m_arrVarName="CoverBonus.LOW_COVER_BONUSON"
+m_arrVarFriendlyName="Bonus de demi-couvert"
+m_arrVarDescription="Définit le bonus pour un demi-couvert.\nPar défaut: 30."
+
+m_arrVarName="CoverBonus.HIGH_COVER_BONUSON"
+m_arrVarFriendlyName="Bonus de couvert total"
+m_arrVarDescription="Définit le bonus pour un couvert total.\nPar défaut: 45."
+
+m_arrVarName="CoverBonus.AIR_EVADE_DEFON"
+m_arrVarFriendlyName="Bonus d’esquive aérienne"
+m_arrVarDescription="Augmentation de la défense qu’une unité reçoit grâce au bonus d’évasion aérienne (possède la propriété eCP_AirEvade).\nPar défaut: 30."
+
+m_arrVarName="CoverBonus.NO_COVER_DEFON"
+m_arrVarFriendlyName="Défense sans couvert"
+m_arrVarDescription="Valeur de défense innée généralement utilisée pour les unités qui ne peuvent pas se mettre à couvert (possède la propriété eCP_NoCover).\nPar défaut: 30."
+
+m_arrVarName="CoverBonus.HUNKER_BONUSON"
+m_arrVarFriendlyName="Se recroqueville"
+m_arrVarDescription="Multiplicateur de défense lorsqu’une unité se recroqueville.\nPar défaut: 2.0."
+
+m_arrVarName="CoverBonus.POISONED_AIM_PENALTYON"
+m_arrVarFriendlyName="Malus de visée empoisonné"
+m_arrVarDescription="Malus d’offensive lorsqu’on a été touché par de l’acide.\nPar défaut: 20."
+
+m_arrVarName="CoverBonus.HUNKER_DOWN_WHEN_PANICKEDON"
+m_arrVarFriendlyName="Se recroqueville en panique"
+m_arrVarDescription="Si le jet aléatoire est inférieur à cette valeur, l’unité se recroqueville ; sinon, elle tire (si possible). Ce jet est distinct de celui de la fuite.\nPar défaut: 0.20.\nPar défaut dans Long War 1.0: 0."
+
+m_arrVarName="CoverBonus.SHOOT_WHEN_PANICKEDON"
+m_arrVarFriendlyName="Tir en panique"
+m_arrVarDescription="Lorsqu’une unité panique, un jet aléatoire de 0 à cette valeur - 1 est effectué (ex.: 0.40).\nPar défaut: 0.10.\nPar défaut dans Long War 1.0: 0."
+
+m_arrVarName="CoverBonus.PANIC_SHOT_HIT_PENALTYON"
+m_arrVarFriendlyName="Tir paniqué"
+m_arrVarDescription="Les tirs effectués en panique soustraient ce montant à leur chance normale de toucher.\nPar défaut: 80."
+
+m_arrVarName="CoverBonus.FatigueMod"
+m_arrVarFriendlyName="Fatigue du soldat"
+m_arrVarDescription="Multiplicateur en % pour le temps de récupération de fatigue ; 100=100 % ; 0 élimine presque totalement sauf pour les additions.\nPar défaut: 100."
+
+m_arrVarName="CoverBonus.OficcerFatigueMod"
+m_arrVarFriendlyName="Fatigue de l’officier"
+m_arrVarDescription="Heures de fatigue par niveau d’officier.\nPar défaut: 12."
+
+m_arrVarName="CoverBonus.CB_AIRANDSPACE_BONUSON"
+m_arrVarFriendlyName="Fatigue supplémentaire"
+m_arrVarDescription="Heures de fatigue supplémentaires après une mission PAR blessure critique subie durant la campagne.\nPar défaut: 24."
+
+m_arrVarName="CoverBonus.HQ_STARTING_MONEYON"
+m_arrVarFriendlyName="Bonus des sergents-chefs"
+m_arrVarDescription="Les Sergents-chefs obtiennent un bonus aléatoire dans une table de statistiques prédéfinie toutes les X missions.\nPar défaut: 4."
+
+m_arrVarName="CoverBonus.LATE_UFO_CHANCEON"
+m_arrVarFriendlyName="Classe de chance"
+m_arrVarDescription="0 signifie que la classe est toujours aléatoire ; 100 signifie qu’elle est toujours la moins courante ; 33 signifie environ 50 % de chance d’avoir la moins courante, car il y a aussi 1 chance sur 4 de l’avoir avec un dé à 4 faces.\nPar défaut: 33."
+
+m_arrVarName="StrategySettings"
+m_arrVarFriendlyName="Paramètres divers"
+m_arrVarDescription="Divers paramètres liés au jeu. Permettent de revenir approximativement aux paramètres de LW 1.0 ou EW.\n<FONT COLOR='#00ff00'>Attention ! Certains paramètres ne fonctionnent que dans une nouvelle partie !</FONT>"
+
+m_arrVarName="StrategySettings.Item_Losses"
+m_arrVarFriendlyName="Pertes d’équipement"
+m_arrVarDescription="Probabilité de perdre de l’équipement.\n1) En cas de perte totale, lorsqu’un soldat est tué ou abandonné, et...\n2) Dans les missions non-totales, lorsqu’un soldat est tué ou abandonné uniquement si la mission est un échec (les aliens récupèrent l’équipement).\nPar défaut: 40%."
+
+m_arrVarName="StrategySettings.Country_Losses"
+m_arrVarFriendlyName="Pertes de pays"
+m_arrVarDescription="Si nous perdons ce nombre de pays du projet X-Com, c’est la fin.\nPar défaut dans LW 1.0: 16.\nPar défaut dans EU-EW: 8."
+
+m_arrVarName="StrategySettings.DW_factor"
+m_arrVarFriendlyName="Facteur DW"
+m_arrVarDescription="SW_MARATHON est le coefficient maître (variable) qui régit la densité et la fréquence des missions, l’acquisition de ressources, l’XP et certains coûts dans la guerre dynamique. Si fixé à 1, tout sera à peu près au niveau normal de LW, mais l’IA alien fonctionne différemment, ce sera donc une campagne différente. Vous pouvez dépasser 1 pour allonger encore la campagne. Attention toutefois à des valeurs extrêmes (en dessous de 0.2 ou au-dessus de 3.0), qui peuvent casser l’équilibre ou provoquer des bugs.\nPar défaut: 0.50.\nPar défaut dans LW Rebalance: 1.00."
+
+m_arrVarName="StrategySettings.DW_factor.0.20"
+m_arrVarFriendlyName="0.20"
+m_arrVarDescription=""
+
+m_arrVarName="StrategySettings.DW_factor.0.50"
+m_arrVarFriendlyName="0.50"
+m_arrVarDescription=""
+
+m_arrVarName="StrategySettings.DW_factor.1.00"
+m_arrVarFriendlyName="1.00"
+m_arrVarDescription=""
+
+m_arrVarName="StrategySettings.DW_factor.2.00"
+m_arrVarFriendlyName="2.00"
+m_arrVarDescription=""
+
+m_arrVarName="StrategySettings.DW_factor.3.00"
+m_arrVarFriendlyName="3.00"
+m_arrVarDescription=""
+
+m_arrVarName="StrategySettings.BARRACKS_CAPACITYON"
+m_arrVarFriendlyName="Capacité de la caserne"
+m_arrVarDescription="Définit la capacité maximale de la caserne.\nPar défaut: 100.\nMinimum: 24. Maximum: 200.\n<FONT COLOR='#00ff00'>Fonctionne UNIQUEMENT dans une nouvelle partie !</FONT>"
+
+m_arrVarName="StrategySettings.HQ_STARTING_MONEYON"
+m_arrVarFriendlyName="Bonus toutes les X missions"
+m_arrVarDescription="Les sergents-majors obtiendront un bonus aléatoire via une petite table de stats tous les X missions."
+
+m_arrVarName="StrategySettings.SOLDIER_COSTON"
+m_arrVarFriendlyName="Coût des soldats"
+m_arrVarDescription="Coût des soldats à tous les niveaux de difficulté.\nPar défaut: 25."
+
+m_arrVarName="StrategySettings.NUM_STARTING_SOLDIERSON"
+m_arrVarFriendlyName="Soldats de départ"
+m_arrVarDescription="Nombre de soldats disponibles au début d’une nouvelle partie. N’inclut pas les autres bonus.\nPar défaut: 40."
+
+m_arrVarName="StrategySettings.LOW_AIMON"
+m_arrVarFriendlyName="Précision de départ"
+m_arrVarDescription="Précision minimale de départ pour les recrues ; La valeur moyenne est définie dans l’entrée de personnage du soldat ; Max=(2 * Moyenne) - Min.\nPar défaut: 58."
+
+m_arrVarName="StrategySettings.LOW_MOBILITYON"
+m_arrVarFriendlyName="Mobilité de départ"
+m_arrVarDescription="Mobilité minimale de départ pour les recrues ; La valeur moyenne est définie dans l’entrée du personnage ; Max=(2 * Moyenne) - Min.\nPar défaut: 11."
+
+m_arrVarName="StrategySettings.HIGH_MOBILITYON"
+m_arrVarFriendlyName="Défense de départ"
+m_arrVarDescription="Défense relative de départ, ajoutée aux valeurs dans les entrées Characters= et BalanceMods.\nPar défaut: -5."
+
+m_arrVarName="StrategySettings.LOW_WILLON"
+m_arrVarFriendlyName="Volonté de départ"
+m_arrVarDescription="Volonté minimale de départ pour les recrues ; La valeur moyenne est définie dans l’entrée du personnage ; Max=(2 * Moyenne) - Min.\nPar défaut: 16."
+
+m_arrVarName="StrategySettings.HIGH_WILLON"
+m_arrVarFriendlyName="PV de départ"
+m_arrVarDescription="PV minimum de départ pour les recrues ; La valeur moyenne est définie dans l’entrée du personnage ; Max=(2 * Moyenne) - Min.\nPar défaut: 3."
+
+m_arrVarName="StrategySettings.MAX_CRIT_WOUNDON"
+m_arrVarFriendlyName="Blessure (Pas mort)"
+m_arrVarDescription="Probabilité maximale pour qu’un soldat soit grièvement blessé (au lieu de mourir).\nPar défaut: 100%."
+
+m_arrVarName="StrategySettings.Perksettings"
+m_arrVarFriendlyName="Paramètres des talents"
+m_arrVarDescription="Paramètres divers liés aux talents de classe."
+
+m_arrVarName="StrategySettings.COUNCIL_FIGHT_TILESON"
+m_arrVarFriendlyName="Distance Loup Solitaire"
+m_arrVarDescription="Distance minimale (en cases) pour que Loup Solitaire s’active.\nPar défaut: 7."
+
+m_arrVarName="StrategySettings.COUNCIL_FIGHT_BONUSON"
+m_arrVarFriendlyName="Bonus Loup Solitaire"
+m_arrVarDescription="Bonus du talent Loup Solitaire.\nPar défaut: 10."
+
+m_arrVarName="StrategySettings.GENEMOD_BONEMARROW_RECOVERY_BONUSON"
+m_arrVarFriendlyName="Bonus Loup Solitaire"
+m_arrVarDescription="Bonus du talent Loup Solitaire.\nPar défaut: 0.66."
+
+m_arrVarName="StrategySettings.SW_FLANK_CRITON"
+m_arrVarFriendlyName="Bonus Crit SW"
+m_arrVarDescription="SECOND WAVE: Bonus critique de Absolument Critique.\nPar défaut: 100%."
+
+m_arrVarName="StrategySettings.SW_ABDUCTION_SITESON"
+m_arrVarFriendlyName="SW Brume Rouge - visée"
+m_arrVarDescription="SECOND WAVE: Pénalité maximale de visée avec Brume Rouge.\nPar défaut: 35."
+
+m_arrVarName="StrategySettings.SW_COVER_INCREASEON"
+m_arrVarFriendlyName="SW Brume Rouge - mobilité"
+m_arrVarDescription="SECOND WAVE: Pénalité maximale de mobilité avec Brume Rouge.\nPar défaut: 6."
+
+m_arrVarName="StrategySettings.SW_RARE_PSION"
+m_arrVarFriendlyName="SW Usure"
+m_arrVarDescription="SECOND WAVE: Usure: % de chance qu’un objet soit endommagé après une mission, même sans blessure du soldat (les objets portés par des blessés feront tout de même un jet séparé).\nPar défaut: 20."
+
+m_arrVarName="StrategySettings.STARTING_PANIC"
+m_arrVarFriendlyName="Panique de départ"
+m_arrVarDescription="Valeurs de panique initiales: Total de points de panique répartis aléatoirement dans le monde au début de la campagne. Chaque pays a 100 points de panique. Aucun pays ne peut commencer avec plus de 90. Cela peut fortement affecter les nouvelles campagnes."
+
+m_arrVarName="StrategySettings.STARTING_PANIC_EASYON"
+m_arrVarFriendlyName="Difficulté 1"
+m_arrVarDescription="Paramètres pour la première difficulté.\nPar défaut: 200."
+
+m_arrVarName="StrategySettings.STARTING_PANIC_NORMALON"
+m_arrVarFriendlyName="Difficulté 2"
+m_arrVarDescription="Paramètres pour la deuxième difficulté.\nPar défaut: 400."
+
+m_arrVarName="StrategySettings.STARTING_PANIC_HARDON"
+m_arrVarFriendlyName="Difficulté 3"
+m_arrVarDescription="Paramètres pour la troisième difficulté.\nPar défaut: 600."
+
+m_arrVarName="StrategySettings.STARTING_PANIC_CLASSICON"
+m_arrVarFriendlyName="Difficulté 4"
+m_arrVarDescription="Paramètres pour la quatrième difficulté.\nPar défaut: 800."
+
+m_arrVarName="StrategySettings.UFO_ENTERTAINMENT_SURVIVEON"
+m_arrVarFriendlyName="Panique initiale"
+m_arrVarDescription="Fragments de panique initiale. Mettez une valeur basse pour une panique initiale uniformément répartie ; une valeur élevée pour plus de variation entre les pays. Ne pas mettre en dessous de 1 ou au-dessus de 14 !\nPar défaut: 3."
+
+m_arrVarName="XComShivsHAREXP"
+m_arrVarFriendlyName="Paramètres des Shivs"
+m_arrVarDescription="Activer/Désactiver le gain d’expérience à partir des Shivs. Définissez également une limite après laquelle des réparations sont nécessaires."
+
+m_arrVarName="XComShivsHAREXP.XComShivXPSETTINGS"
+m_arrVarFriendlyName="Expérience des Shivs"
+m_arrVarDescription="L’expérience que les soldats peuvent obtenir depuis un Shiv. Pour en bénéficier, le soldat doit voir à la fois le Shiv et sa cible, qu’il tuera.\nConfigurez le pourcentage d’expérience que les soldats reçoivent.\nPar défaut: 50%."
+
+m_arrVarName="XComSHIVSHAREXP.RepairTime"
+m_arrVarFriendlyName="Réparation des Shivs"
+m_arrVarDescription="Durée en heures nécessaire pour réparer un Shiv.\nPar défaut: 24."
+
+m_arrVarName="XComSHIVSHAREXP.ALLOY_SHIV_HP_BONUSON"
+m_arrVarFriendlyName="Réparation PV Shiv en alliage"
+m_arrVarDescription="Ce sont des bonus de PV de base qui nécessitent une réparation.\nPar défaut: 10."
+
+m_arrVarName="XComSHIVSHAREXP.HOVER_SHIV_HP_BONUSON"
+m_arrVarFriendlyName="Réparation PV Hover Shiv"
+m_arrVarDescription="Ce sont des bonus de PV de base qui nécessitent une réparation.\nPar défaut: 6."
+
+m_arrVarName="LoadoutManager"
+m_arrVarFriendlyName="Sauvegarde d’équipements"
+m_arrVarDescription="Des boutons supplémentaires permettent de sauvegarder des ensembles d’équipements. Chaque classe dispose de 6 emplacements pour des ensembles.\n<FONT COLOR='#00ff00'>Un redémarrage du jeu est requis.</FONT>"
+
+m_arrVarName="INTERCEPTOR_MENU"
+m_arrVarFriendlyName="Paramètres des aéronefs"
+m_arrVarDescription="Paramètres divers des aéronefs. Et des satellites. Tout ce qui est disponible dans DGC.ini."
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON"
+m_arrVarFriendlyName="Jours pour réparation"
+m_arrVarDescription="Jours nécessaires pour réparer un intercepteur à 100% de dégâts. Régler en dessous de 75 heures peut provoquer des comportements buggés. Si cela se produit, et que vous avez un bug de « 0 jour pour réparer », réglez à plus de 700 heures jusqu’à disparition du problème.\nPar défaut: 25 jours (600 heures)."
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.96"
+m_arrVarFriendlyName="4 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.120"
+m_arrVarFriendlyName="5 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.144"
+m_arrVarFriendlyName="6 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.168"
+m_arrVarFriendlyName="7 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.192"
+m_arrVarFriendlyName="8 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.216"
+m_arrVarFriendlyName="9 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.240"
+m_arrVarFriendlyName="10 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.264"
+m_arrVarFriendlyName="11 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.288"
+m_arrVarFriendlyName="12 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.312"
+m_arrVarFriendlyName="13 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.336"
+m_arrVarFriendlyName="14 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.360"
+m_arrVarFriendlyName="15 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.384"
+m_arrVarFriendlyName="16 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.408"
+m_arrVarFriendlyName="17 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.432"
+m_arrVarFriendlyName="18 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.456"
+m_arrVarFriendlyName="19 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.480"
+m_arrVarFriendlyName="20 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.504"
+m_arrVarFriendlyName="21 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.528"
+m_arrVarFriendlyName="22 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.552"
+m_arrVarFriendlyName="23 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.576"
+m_arrVarFriendlyName="24 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.600"
+m_arrVarFriendlyName="25 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.624"
+m_arrVarFriendlyName="26 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.648"
+m_arrVarFriendlyName="27 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.672"
+m_arrVarFriendlyName="28 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.696"
+m_arrVarFriendlyName="29 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REPAIR_HOURSON.720"
+m_arrVarFriendlyName="30 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REARM_HOURSON"
+m_arrVarFriendlyName="Jours pour réarmer"
+m_arrVarDescription="Days to add any alien-technology-based weapon to an aircraft (Missile systems are hard-coded at 12 hours).\nDefault: 7 days."
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REARM_HOURSON.24"
+m_arrVarFriendlyName="1 jour"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REARM_HOURSON.48"
+m_arrVarFriendlyName="2 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REARM_HOURSON.72"
+m_arrVarFriendlyName="3 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REARM_HOURSON.96"
+m_arrVarFriendlyName="4 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REARM_HOURSON.120"
+m_arrVarFriendlyName="5 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REARM_HOURSON.144"
+m_arrVarFriendlyName="6 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REARM_HOURSON.168"
+m_arrVarFriendlyName="7 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REARM_HOURSON.192"
+m_arrVarFriendlyName="8 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REARM_HOURSON.216"
+m_arrVarFriendlyName="9 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REARM_HOURSON.240"
+m_arrVarFriendlyName="10 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REARM_HOURSON.264"
+m_arrVarFriendlyName="11 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REARM_HOURSON.288"
+m_arrVarFriendlyName="12 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REARM_HOURSON.312"
+m_arrVarFriendlyName="13 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_REARM_HOURSON.336"
+m_arrVarFriendlyName="14 jours"
+m_arrVarDescription=""
+
+m_arrVarName="INTERCEPTOR_MENU.INTERCEPTOR_TRANSFER_TIMEON"
+m_arrVarFriendlyName="Temps de transfert"
+m_arrVarDescription="Hours to send interceptor to another continent.\nDefault: 36."
+
+m_arrVarName="INTERCEPTOR_MENU.UFO_INTERCEPTION_PCTON"
+m_arrVarFriendlyName="Détection d’un OVNI"
+m_arrVarDescription="Chaque intercepteur a ce pourcentage de chance de détecter un OVNI dans n’importe quel pays du continent où il est stationné sans satellite présent. Ce pourcentage est doublé avec le projet de la fonderie.\nValeur par défaut: 4."
+
+m_arrVarName="INTERCEPTOR_MENU.ABDUCTION_REWARD_SCION"
+m_arrVarFriendlyName="Bonus de visée"
+m_arrVarDescription="Bonus de visée en mode Cinématique pour les unités terrestres XCOM et bonus Cieux amis (pour ajuster la SECONDE VAGUE) pour les aéronefs XCOM.\nValeur par défaut: 15."
+
+m_arrVarName="INTERCEPTOR_MENU.BASE_SKYRANGER_MAINTENANCEON"
+m_arrVarFriendlyName="Entretien du Skyranger"
+m_arrVarDescription="Coût mensuel d’entretien de l’avion cargo (SR-77H).\nValeur par défaut: 20."
+
+m_arrVarName="INTERCEPTOR_MENU.SKYRANGER_CAPACITYON"
+m_arrVarFriendlyName="Capacité du Skyranger"
+m_arrVarDescription="Taille initiale de l’escouade. Limitée à 12 quelle que soit l’amélioration.\n<FONT COLOR='#00ff00'>Changer cette valeur n’affectera que les nouvelles campagnes.</FONT>\nValeur par défaut: 6."
+
+m_arrVarName="INTERCEPTOR_MENU.SW_ELERIUM_HALFLIFEON"
+m_arrVarFriendlyName="Butin après EMP"
+m_arrVarDescription="Chance en pourcentage de récupérer un butin intact après qu’un OVNI s’écrase à cause d’un aéronef équipé de canon EMP, et pourcentage d’alliages récupérés.\nValeur par défaut: 0,20."
+
+m_arrVarName="INTERCEPTOR_MENU.UPLINK_CAPACITYON"
+m_arrVarFriendlyName="Capacité de liaison"
+m_arrVarDescription="Satellites par liaison.\nValeur par défaut: 1."
+
+m_arrVarName="INTERCEPTOR_MENU.NEXUS_CAPACITYON"
+m_arrVarFriendlyName="Capacité du Nexus"
+m_arrVarDescription="Satellites par Nexus.\nValeur par défaut: 2."
+
+m_arrVarName="WeaponSettings"
+m_arrVarFriendlyName="Paramètres des armes"
+m_arrVarDescription="Divers paramètres relatifs aux armes. Ceci n’est qu’une partie des paramètres. Les autres peuvent être configurés dans DGC.INI."
+
+m_arrVarName="WeaponSettings.RangeON"
+m_arrVarFriendlyName="Portée du lance-flammes"
+m_arrVarDescription="Portée du lance-flammes en cases.\nValeur par défaut: 8.\nMinimum: 1. Maximum: 30."
+
+m_arrVarName="WeaponSettings.SweepAngleON"
+m_arrVarFriendlyName="Angle d’attaque du lance-flammes"
+m_arrVarDescription="Angle en degrés entre l’attaque la plus à gauche et la plus à droite.\nValeur par défaut: 60.\nMinimum: 15. Maximum: 180."
+
+m_arrVarName="WeaponSettings.ArcThrower"
+m_arrVarFriendlyName="Taser"
+m_arrVarDescription="Déterminez votre chance de base d’étourdir un ennemi.\nValeur par défaut: 0,65.\nValeur dans Long War 1.0: 0,61."
+
+m_arrVarName="WeaponSettings.RocketScatter"
+m_arrVarFriendlyName="Dispersion des roquettes"
+m_arrVarDescription="Une valeur plus basse indique un tir de roquette plus précis. La valeur correspond à la distance moyenne de raté (en mètres) si vous tirez avec 0 de visée sur une cible à 20 mètres.\n\n0.0 - Aucune dispersion.\n4.0 - Faible dispersion.\n7.8 - Dispersion normale (défaut).\n9.0 - Grande dispersion."
+
+m_arrVarName="WeaponSettings.RocketScatter.0.00"
+m_arrVarFriendlyName="Aucune dispersion"
+m_arrVarDescription=""
+
+m_arrVarName="WeaponSettings.RocketScatter.4.00"
+m_arrVarFriendlyName="Faible dispersion"
+m_arrVarDescription=""
+
+m_arrVarName="WeaponSettings.RocketScatter.7.80"
+m_arrVarFriendlyName="Dispersion normale"
+m_arrVarDescription=""
+
+m_arrVarName="WeaponSettings.RocketScatter.9.00"
+m_arrVarFriendlyName="Grande dispersion"
+m_arrVarDescription=""
+
+m_arrVarName="WeaponSettings.COUNCIL_FUNDING_MULTIPLIER_HARDON"
+m_arrVarFriendlyName="Bonus des munitions HEAT et ogives"
+m_arrVarDescription="Multiplicateur de dégâts pour les munitions HEAT et les ogives (100 = double dégâts ; 50 = +50% de dégâts, etc.)."
+
+m_arrVarName="WeaponSettings.HQASSAULT_MIN_DAYSON"
+m_arrVarFriendlyName="Diminution du pistolet"
+m_arrVarDescription="Distance (en mètres) à partir de laquelle la précision des armes de type pistolet diminue.\nValeur par défaut: 14."
+
+m_arrVarName="WeaponSettings.ASSAULT_AIM_CLIMBON"
+m_arrVarFriendlyName="Seuil de portée des fusils"
+m_arrVarDescription="Taux de perte de visée pour les armes avec la propriété eWP_Assault lorsqu’elles dépassent le seuil de portée rapprochée.\nValeur par défaut: 6.0."
+
+m_arrVarName="WeaponSettings.SNIPER_AIM_FALLON"
+m_arrVarFriendlyName="Chute de visée sniper"
+m_arrVarDescription="Taux de perte de visée pour les armes avec la propriété eWP_Sniper lorsqu’elles sont en dessous du seuil de portée rapprochée.\nValeur par défaut: -5.0."
+
+m_arrVarName="WeaponSettings.CLOSE_RANGEON"
+m_arrVarFriendlyName="Bonus/malus de distance"
+m_arrVarDescription="Distance à laquelle les bonus/malus de portée rapprochée sont appliqués.\nValeur par défaut: 14.0."
+
+m_arrVarName="WeaponSettings.AdditionalProximityMinesON"
+m_arrVarFriendlyName="Mines de proximité supplémentaires"
+m_arrVarDescription="Pour les MEC. Fonctionne avec le bonus Packmaster des MEC.\nValeur par défaut: 1."
+
+m_arrVarName="WeaponSettings.AdditionalGrenadesON"
+m_arrVarFriendlyName="Grenades supplémentaires"
+m_arrVarDescription="Pour les MEC. Fonctionne avec le bonus Packmaster des MEC.\nValeur par défaut: 1."
+
+m_arrVarName="WeaponSettings.AdditionalRestorativeMistShotsON"
+m_arrVarFriendlyName="Brume réparatrice supplémentaire"
+m_arrVarDescription="Pour les MEC. Fonctionne avec le bonus Packmaster des MEC.\nValeur par défaut: 1."
+
+m_arrVarName="WeaponSettings.AIM_CLIMBON"
+m_arrVarFriendlyName="Pénalité de visée par distance"
+m_arrVarDescription="Pénalité de visée appliquée aux armes NON-sniper par case de distance par rapport à la cible, ici une pénalité de 3 de visée par case.\nValeur par défaut: 3.0."
+
+m_arrVarName="WeaponSettings.ASSAULT_LONG_RANGE_MAX_PENALTYON"
+m_arrVarFriendlyName="Pénalité maximale"
+m_arrVarDescription="Pénalité maximale qu'une arme peut subir, quelle que soit la distance. Par exemple: une pénalité de visée maximale de -100.\nValeur par défaut: -100."
+
+m_arrVarName="WeaponSettings.EXALT_LOOT1ON"
+m_arrVarFriendlyName="Charges du détecteur de mouvement"
+m_arrVarDescription="Nombre de charges de base pour l'objet détecteur de mouvement.\nValeur par défaut: 3."
+
+m_arrVarName="WeaponSettings.BASE_REMOVAL_DAYSON"
+m_arrVarFriendlyName="Portée du détecteur de mouvement"
+m_arrVarDescription="Portée du détecteur de mouvement (tout objet avec eAbility_TooCloseForComfort) en mètres, selon la formule (X cases - 27)/1.5.\nValeur par défaut: 35."
+
+m_arrVarName="MissionsSettings"
+m_arrVarFriendlyName="Paramètres de mission et de financement"
+m_arrVarDescription="Divers paramètres liés aux missions. Minuteries, etc."
+
+m_arrVarName="MissionsSettings.FundingReward"
+m_arrVarFriendlyName="Financement"
+m_arrVarDescription="Financement."
+
+m_arrVarName="MissionsSettings.FCREQUEST_DAYSON"
+m_arrVarFriendlyName="Jours avant la demande"
+m_arrVarDescription="Nombre de jours avant la demande du conseil.\nValeur par défaut: 20."
+
+m_arrVarName="MissionsSettings.MIN_MONEY_REWARDON"
+m_arrVarFriendlyName="Récompense minimale"
+m_arrVarDescription="Récompense minimale en argent pour une demande du conseil.\nValeur par défaut: 100."
+
+m_arrVarName="MissionsSettings.MAX_MONEY_REWARDON"
+m_arrVarFriendlyName="Récompense maximale"
+m_arrVarDescription="Récompense maximale en argent pour une demande du conseil.\nValeur par défaut: 225."
+
+m_arrVarName="MissionsSettings.MAX_MONEY_REWARD_HARDON"
+m_arrVarFriendlyName="Récompense maximale (Difficile)"
+m_arrVarDescription="Récompense maximale pour les difficultés Brutale et Impossible.\nValeur par défaut: 150."
+
+m_arrVarName="MissionsSettings.MAX_MONEY_REWARD_CLASSICON"
+m_arrVarFriendlyName="Récompense maximale (Classique)"
+m_arrVarDescription="Récompense maximale pour la difficulté Classique.\nValeur par défaut: 125."
+
+m_arrVarName="MissionsSettings.MIN_MONEY_REWARD_EASYON"
+m_arrVarFriendlyName="Récompense minimale (Facile)"
+m_arrVarDescription="Récompense minimale pour la difficulté Facile.\nValeur par défaut: 100."
+
+m_arrVarName="MissionsSettings.RequestReward"
+m_arrVarFriendlyName="Demandes"
+m_arrVarDescription="Demandes."
+
+m_arrVarName="MissionsSettings.BASE_REQUEST_COOLDOWN_DAYSON"
+m_arrVarFriendlyName="Recharge de base"
+m_arrVarDescription="Délai de recharge pour une demande particulière — par exemple, X ne pourra plus être demandé pendant ce nombre de jours.\nValeur par défaut: 5."
+
+m_arrVarName="MissionsSettings.REQUEST_WINDOW1_MIN_DAYON"
+m_arrVarFriendlyName="Fenêtre 1 — Minimum"
+m_arrVarDescription="Fenêtre de demande 1, minimum de jours de recharge.\nValeur par défaut: 5."
+
+m_arrVarName="MissionsSettings.REQUEST_WINDOW1_MAX_DAYON"
+m_arrVarFriendlyName="Fenêtre 1 — Maximum"
+m_arrVarDescription="Fenêtre de demande 1, maximum de jours de recharge.\nValeur par défaut: 15."
+
+m_arrVarName="MissionsSettings.REQUEST_WINDOW2_MIN_DAYON"
+m_arrVarFriendlyName="Fenêtre 2 — Minimum"
+m_arrVarDescription="Fenêtre de demande 2, minimum de jours de recharge.\nValeur par défaut: 17."
+
+m_arrVarName="MissionsSettings.REQUEST_WINDOW2_MAX_DAYON"
+m_arrVarFriendlyName="Fenêtre 2 — Maximum"
+m_arrVarDescription="Fenêtre de demande 2, maximum de jours de recharge.\nValeur par défaut: 27."
+
+m_arrVarName="MissionsSettings.REQUEST_MISSION_CHANCE"
+m_arrVarFriendlyName="Probabilité de demande"
+m_arrVarDescription="Chance de recevoir une demande.\nValeur par défaut: 50."
+
+m_arrVarName="MissionsSettings.AI_TERRORIZE_MOST_PANICKEDON"
+m_arrVarFriendlyName="L'IA terrorise le pays le plus paniqué"
+m_arrVarDescription="Probabilité que les aliens attaquent le pays adjacent le plus paniqué sur certains types de mission.\nValeur par défaut: 85."
+
+m_arrVarName="MissionsSettings.UFO_CRASH_TIMERON"
+m_arrVarFriendlyName="Minuteur crash OVNI"
+m_arrVarDescription="Minuteur pour les missions d'OVNI abattu.\nValeur par défaut: 72."
+
+m_arrVarName="MissionsSettings.TERROR_TIMERON"
+m_arrVarFriendlyName="Minuteur terreur"
+m_arrVarDescription="Minuteur pour les missions de terreur.\nValeur par défaut: 48."
+
+m_arrVarName="MissionsSettings.UFO_LANDED_TIMERON"
+m_arrVarFriendlyName="Minuteur OVNI atterri"
+m_arrVarDescription="Minuteur pour les missions d’OVNI atterri.\nValeur par défaut: 32."
+
+m_arrVarName="MissionsSettings.ABDUCTION_TIMERON"
+m_arrVarFriendlyName="Minuteur enlèvement"
+m_arrVarDescription="Minuteur pour les missions d’enlèvement.\nValeur par défaut: 16."
+
+m_arrVarName="MissionsSettings.COUNCIL_DAYON"
+m_arrVarFriendlyName="Délai mission Conseil"
+m_arrVarDescription="Indique le nombre de jours avant qu'une nouvelle mission du Conseil puisse apparaître.\nValeur par défaut: 17."
+
+m_arrVarName="MissionsSettings.COUNCIL_RAND_DAYSON"
+m_arrVarFriendlyName="Délai aléatoire Conseil"
+m_arrVarDescription="Intervalle dans lequel une nouvelle mission du Conseil peut apparaître si une autre est déjà disponible.\nValeur par défaut: 10."
+
+m_arrVarName="AliensSettings"
+m_arrVarFriendlyName="Paramètres des Aliens"
+m_arrVarDescription="Divers paramètres liés aux aliens et à leurs capacités, ainsi qu’aux OVNIs."
+
+m_arrVarName="AliensSettings.EXALT_LOOT2ON"
+m_arrVarFriendlyName="Chance de toucher minimale"
+m_arrVarDescription="Chance minimale de toucher pour que l'alien considère son attaque comme puissante, une bonne cible d'équipe ou une possibilité de tir létal. Les aliens avec peu de visée décideront qu'une attaque est puissante avec une chance plus basse (valeur codée: attaque - 30).\nValeur par défaut: 40.\nValeur EU-EW: 50."
+
+m_arrVarName="AliensSettings.UFO_HYPERWAVE_SURVIVEON"
+m_arrVarFriendlyName="Cible vulnérable alien"
+m_arrVarDescription="Chance minimale de toucher pour que l’alien considère qu’il a une cible vulnérable. Influence les décisions de déplacement pour obtenir une meilleure position de tir.\nValeur par défaut: 45.\nValeur EU-EW: 55."
+
+m_arrVarName="AliensSettings.ABDUCTION_LURK_PCTON"
+m_arrVarFriendlyName="Pods d’enlèvement OVNI"
+m_arrVarDescription="Comportement des pods aliens – chance qu’ils restent en embuscade au lieu de patrouiller lors des missions d’enlèvement."
+
+m_arrVarName="AliensSettings.LARGE_UFO_LURK_PCTON"
+m_arrVarFriendlyName="Pods OVNI grand modèle"
+m_arrVarDescription="Comportement des pods aliens – chance qu’ils restent en embuscade au lieu de patrouiller sur les grands vaisseaux."
+
+m_arrVarName="AliensSettings.SMALL_UFO_LURK_PCTON"
+m_arrVarFriendlyName="Pods OVNI petit modèle"
+m_arrVarDescription="Comportement des pods aliens – chance qu’ils restent en embuscade au lieu de patrouiller sur les petits vaisseaux."
+
+m_arrVarName="AliensSettings.REFLECT_DMGON"
+m_arrVarFriendlyName="Dégâts réfléchis"
+m_arrVarDescription="Les Éthérés renverront ce pourcentage des dégâts basés sur l'attaque d'origine."
+
+m_arrVarName="AliensSettings.UFO_FIND_SATON"
+m_arrVarFriendlyName="Détection de satellite"
+m_arrVarDescription="Probabilité qu’un OVNI détecte un satellite."
+
+m_arrVarName="AliensSettings.UFO_SECOND_PASS_FIND_SATON"
+m_arrVarFriendlyName="Deuxième recherche satellite"
+m_arrVarDescription="Probabilité que l'OVNI trouve un satellite lors d'une seconde recherche."
+
+m_arrVarName="AliensSettings.UFO_FIND_STEALTH_SATON"
+m_arrVarFriendlyName="Recherche satellite furtif"
+m_arrVarDescription="Probabilité que l'OVNI détecte un satellite furtif."
+
+m_arrVarName="AliensSettings.UFO_SECOND_PASS_FIND_STEALTH_SATON"
+m_arrVarFriendlyName="Deuxième recherche satellite furtif"
+m_arrVarDescription="Probabilité que l'OVNI trouve un satellite furtif lors d'une seconde recherche."
+
+m_arrVarName="LabsSettings"
+m_arrVarFriendlyName="Paramètres des départements"
+m_arrVarDescription="Paramètres des laboratoires, ateliers et générateurs. Multiplicateurs permettant d’ajuster la vitesse de recherche ou de production. Ajustement de la puissance des générateurs. Probabilités de créer un psionique, de réparer des objets, etc."
+
+m_arrVarName="LabsSettings.PSI_NUM_TRAINING_SLOTSON"
+m_arrVarFriendlyName="Emplacements en laboratoire"
+m_arrVarDescription="Nombre d’emplacements pour entraîner les soldats dans les Labos Psi, Génétiques et Cybernétiques/Atelier de réparation.\nPar défaut: 6.\nLong War 1.0: 3."
+
+m_arrVarName="LabsSettings.PSI_GIFT_CHANCEON"
+m_arrVarFriendlyName="Chance de don Psi"
+m_arrVarDescription="Chance de réussite de l’entraînement si la Volonté du soldat égale la volonté cible du pouvoir Psi (baisser à 0.25 pour simuler More Than Human).\nPar défaut: 0.45."
+
+m_arrVarName="LabsSettings.BUILD_TIME"
+m_arrVarFriendlyName="Temps de réparation"
+m_arrVarDescription="Pourcentage du temps de construction normal qu’une réparation prend (diminue avec les ingénieurs et le projet de réparation avancée).\nPar défaut: 80."
+
+m_arrVarName="LabsSettings.TECH_TIME_BALANCEON"
+m_arrVarFriendlyName="Temps de recherche"
+m_arrVarDescription="Multiplicateur de temps pour toutes les technologies. Temps en heures pour 1 scientifique = (iTime * Tech_Time_Balance * 72).\nPar défaut: 10."
+
+m_arrVarName="LabsSettings.NUM_STARTING_SCIENTISTSON"
+m_arrVarFriendlyName="Scientifiques initiaux"
+m_arrVarDescription="Nombre de scientifiques au début de la campagne.\nPar défaut: 10."
+
+m_arrVarName="LabsSettings.LAB_MINIMUMON"
+m_arrVarFriendlyName="Scientifiques requis"
+m_arrVarDescription="Nombre de scientifiques requis pour votre premier laboratoire.\nPar défaut: 10."
+
+m_arrVarName="LabsSettings.LAB_MULTIPLEON"
+m_arrVarFriendlyName="Nouveaux laboratoires"
+m_arrVarDescription="Nombre de scientifiques requis pour chaque laboratoire supplémentaire.\nPar défaut: 10."
+
+m_arrVarName="LabsSettings.LAB_BONUSON"
+m_arrVarFriendlyName="Bonus de recherche"
+m_arrVarDescription="Bonus de réduction du temps de recherche par laboratoire.\nPar défaut: 0.2."
+
+m_arrVarName="LabsSettings.LAB_ADJACENCY_BONUSON"
+m_arrVarFriendlyName="Bonus de voisinage labo"
+m_arrVarDescription="Bonus accordé pour chaque laboratoire voisin supplémentaire.\nPar défaut: 0.1."
+
+m_arrVarName="LabsSettings.NUM_STARTING_ENGINEERSON"
+m_arrVarFriendlyName="Ingénieurs initiaux"
+m_arrVarDescription="Nombre d’ingénieurs au début de la campagne.\nPar défaut: 10."
+
+m_arrVarName="LabsSettings.WORKSHOP_MINIMUMON"
+m_arrVarFriendlyName="Ingénieurs requis"
+m_arrVarDescription="Nombre d’ingénieurs requis pour votre premier atelier.\nPar défaut: 10."
+
+m_arrVarName="LabsSettings.WORKSHOP_MULTIPLEON"
+m_arrVarFriendlyName="Nouveaux ateliers"
+m_arrVarDescription="Nombre d’ingénieurs requis pour chaque atelier supplémentaire.\nPar défaut: 10."
+
+m_arrVarName="LabsSettings.WORKSHOP_REBATE_PCTON"
+m_arrVarFriendlyName="Remboursement des coûts"
+m_arrVarDescription="Remboursement de 7 % sur les projets, fabrications et installations.\nPar défaut: 10."
+
+m_arrVarName="LabsSettings.WORKSHOP_ENG_BONUSON"
+m_arrVarFriendlyName="Ingénieurs par atelier"
+m_arrVarDescription="Nombre d’ingénieurs fournis par chaque atelier.\nPar défaut: 10."
+
+m_arrVarName="LabsSettings.ABDUCTION_REWARD_ENGON"
+m_arrVarFriendlyName="Facteur de réduction"
+m_arrVarDescription="Facteur de réduction du temps pour projets/items avec ingénieurs optimaux.\nPar défaut: 0.03."
+
+m_arrVarName="LabsSettings.POWER_NORMALON"
+m_arrVarFriendlyName="Centrale à Fission"
+m_arrVarDescription="Puissance fournie par la centrale à fission.\nPar défaut: 8."
+
+m_arrVarName="LabsSettings.POWER_THERMALON"
+m_arrVarFriendlyName="Centrale Thermique"
+m_arrVarDescription="Puissance fournie par la centrale thermique.\nPar défaut: 25."
+
+m_arrVarName="LabsSettings.POWER_ELERIUMON"
+m_arrVarFriendlyName="Centrale à Élerium"
+m_arrVarDescription="Puissance fournie par la centrale à élerium.\nPar défaut: 35."
+
+m_arrVarName="LabsSettings.POWER_ADJACENCY_BONUSON"
+m_arrVarFriendlyName="Bonus de puissance"
+m_arrVarDescription="Bonus de puissance généré par deux centrales adjacentes, quel que soit leur type.\nPar défaut: 3."
+
+m_arrVarName="StrategySettings.StartStats"
+m_arrVarFriendlyName="Statistiques Initiales"
+m_arrVarDescription="Les caractéristiques de départ des soldats."
+
+m_arrVarName="StrategySettings.SWsettings"
+m_arrVarFriendlyName="Paramètres SW"
+m_arrVarDescription="Paramètres qui affectent certains éléments de la Vague Seconde (Second Wave)."
+
+m_arrVarName="CoverBonus.CoverAndDefense"
+m_arrVarFriendlyName="Couvrements et Défense"
+m_arrVarDescription="Divers paramètres liés aux abris et à l’armure."
+
+m_arrVarName="CoverBonus.PanicSettings"
+m_arrVarFriendlyName="Paramètres de Panique"
+m_arrVarDescription="Réglages de la réponse à la panique."
+
+m_arrVarName="CoverBonus.FatigueSettings"
+m_arrVarFriendlyName="Paramètres de Fatigue"
+m_arrVarDescription="Réglages liés à la fatigue, sa durée et son impact."
+
+m_arrVarName="INTERCEPTOR_MENU.Interceptors"
+m_arrVarFriendlyName="Satellites"
+m_arrVarDescription="Paramètres de capacité satellite."
+
+m_arrVarName="WeaponSettings.Flamethrower"
+m_arrVarFriendlyName="Lance-Flammes"
+m_arrVarDescription="Paramètres du lance-flammes."
+
+m_arrVarName="WeaponSettings.DistanceAimModifiers"
+m_arrVarFriendlyName="Modificateurs de Précision"
+m_arrVarDescription="Distance de tir, dégradation des armes, et divers malus."
+
+m_arrVarName="WeaponSettings.PackmasterModifiers"
+m_arrVarFriendlyName="Modificateurs Packmaster"
+m_arrVarDescription="Capacité de certains objets. Quantité transportable."
+
+m_arrVarName="AliensSettings.Ufos"
+m_arrVarFriendlyName="Recherches de Satellites"
+m_arrVarDescription="Paramètres de recherche des satellites par les OVNIs."
+
+m_arrVarName="LabsSettings.Scientists"
+m_arrVarFriendlyName="Scientifiques"
+m_arrVarDescription="Paramètres du laboratoire scientifique."
+
+m_arrVarName="LabsSettings.Workshops"
+m_arrVarFriendlyName="Ingénieurs"
+m_arrVarDescription="Paramètres de l'atelier."
+
+m_arrVarName="LabsSettings.Powerstations"
+m_arrVarFriendlyName="Centrales Électriques"
+m_arrVarDescription="Paramètres des centrales électriques."
+
+m_arrVarName="LabsSettings.Repairbay"
+m_arrVarFriendlyName="Atelier de Réparation"
+m_arrVarDescription=""
+
+m_arrVarName="LabsSettings.m_iModCashCostON"
+m_arrVarFriendlyName="Coût en Argent"
+m_arrVarDescription="Coût d’un Méca en argent.\nPar défaut: 40."
+
+m_arrVarName="LabsSettings.m_iModMeldCostON"
+m_arrVarFriendlyName="Coût en Meld"
+m_arrVarDescription="Coût d’un Méca en meld.\nPar défaut: 60."
+
+m_arrVarName="LabsSettings.m_iModDaysON"
+m_arrVarFriendlyName="Jours de Réparation"
+m_arrVarDescription="Jours de réparation d’un Méca.\nPar défaut: 10."
+
+m_arrVarName="LabsSettings.m_fMecRepairCostModON"
+m_arrVarFriendlyName="Coût de Réparation"
+m_arrVarDescription="Proportion du coût de l’objet (argent, alliages, élerium, meld) nécessaire pour réparer un objet endommagé.\nPar défaut: 0,20."
+
+m_arrVarName="GameSettings"
+m_arrVarFriendlyName="Paramètres Techniques"
+m_arrVarDescription="Paramètres supplémentaires du jeu. Certains changements nécessitent un redémarrage du jeu."
+
+m_arrVarName="GameSettings.MaxSmoothedFrameRateON"
+m_arrVarFriendlyName="Limite de FPS"
+m_arrVarDescription="Limite de FPS dans le jeu. Fonctionne en mode fenêtré sans bordure."
+
+m_arrVarName="GameSettings.MaxAnisotropyON"
+m_arrVarFriendlyName="Anisotropie"
+m_arrVarDescription="Niveau de filtrage anisotrope utilisé pour afficher les textures."
+
+m_arrVarName="GameSettings.FXAAQualityON"
+m_arrVarFriendlyName="FXAA"
+m_arrVarDescription="Le FXAA est une technique d’anti-crénelage rapide à faible impact sur les performances."
+
+m_arrVarName="GameSettings.XAudioChannels"
+m_arrVarFriendlyName="Canaux XAudio2"
+m_arrVarDescription="XAudio2 est une API audio de bas niveau. Sélectionnez le nombre de canaux.\nPar défaut: 32."
+
+m_arrVarName="GameSettings.MaxProcBuildingLODColorTextureSizeON"
+m_arrVarFriendlyName="Taille de Texture Couleur"
+m_arrVarDescription="Modifie le niveau de détail des textures de couleur.\nPar défaut: 1024."
+
+m_arrVarName="GameSettings.MaxProcBuildingLODLightingTextureSizeON"
+m_arrVarFriendlyName="Taille de Texture Lumineuse"
+m_arrVarDescription="Modifie le niveau de détail des effets de lumière.\nPar défaut: 256."
+
+m_arrVarName="CovertOperations"
+m_arrVarFriendlyName="Paramètres des Opérations Clandestines"
+m_arrVarDescription="Divers paramètres liés aux opérations clandestines."
+
+m_arrVarName="CovertOperations.COVERT_OP_PERCENTAGE"
+m_arrVarFriendlyName="Chance d'Extraction"
+m_arrVarDescription="Définir le pourcentage de chance qu'une opération clandestine soit une mission d'extraction."

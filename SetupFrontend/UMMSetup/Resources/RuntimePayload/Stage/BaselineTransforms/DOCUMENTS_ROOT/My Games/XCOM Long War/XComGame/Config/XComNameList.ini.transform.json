@@ -1,0 +1,1438 @@
+{
+  "schemaVersion": 1,
+  "scope": "DOCUMENTS_ROOT",
+  "path": "My Games\\XCOM Long War\\XComGame\\Config\\XComNameList.ini",
+  "inputMode": "CANONICAL_BODY_SHA256_UTF8",
+  "inputSha256": "377C5465559A547F1986A1E2EF531DC9F60E6F8EABC9724E4B39B80B8D3B1D74",
+  "inputBytes": null,
+  "sourceEncoding": "utf-16le-bom",
+  "outputMode": "CANONICAL_BODY_SHA256_UTF8",
+  "outputSha256": "5EC5AAE9DD51E6C5A6EFEAE5530086A011744FA0CDE1C40C285A5A58CBFA187A",
+  "outputBytes": null,
+  "outputEncoding": "utf-16le-bom",
+  "outputNewline": "CRLF",
+  "trailingNewlines": 0,
+  "preserveIniVersion": true,
+  "operations": [
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 1,
+      "sourceLineSha256Utf8": "1B5B45E1E4FEB637FF2D21BB6BA705A53A725304FB6AABA62701605D27E5918B"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2,
+      "sourceLineSha256Utf8": "54629AFB60026E1F1F00CC8CCFE04CC7ED84A7BCA0A56F32F532E9BDE24689BF",
+      "prefixUtf16": 19,
+      "suffixUtf16": 33,
+      "replacement": "614"
+    },
+    {
+      "op": "COPY_RANGE",
+      "sourceLine": 3,
+      "lineCount": 3,
+      "sourceRangeSha256Utf8": "2807B0296B7E1B0051EB29C4EC6CD219AB749037B958CE2B0AB03144CAA5A542"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 5,
+      "sourceLineSha256Utf8": "FB63E755CFA5285E2E69E2FA7AA63365B6AD91078925B0934FE5586F981B224D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 21,
+      "replacement": "433\"; # of Anglo-Canadi"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 7,
+      "sourceLineSha256Utf8": "5AD09F5AB7955991ABDE49EEB7B93589DB99B0CDD28FE29639736957CAE164F9"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 8,
+      "sourceLineSha256Utf8": "314BACCFB49A8BBA8AA5BBDCB9606D4BB77CB16ACD5F55EAB68C9349E405CA89",
+      "prefixUtf16": 19,
+      "suffixUtf16": 25,
+      "replacement": "97"
+    },
+    {
+      "op": "COPY_RANGE",
+      "sourceLine": 9,
+      "lineCount": 239,
+      "sourceRangeSha256Utf8": "057AACDED3B64C6D9D22B91F9A1234D15F5D6D8841E8B11E30965894314B034A"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 336,
+      "sourceLineSha256Utf8": "BAF73840E8422E886B0D44C58BDCEEE2D8CE51F1E5FF7816BE6EF8B20315787E"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 610,
+      "sourceLineSha256Utf8": "5EDAACACD056B9BA6A224BEBAE5548F73F243E98700934D9090FFB9D834820E7"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 277,
+      "sourceLineSha256Utf8": "6EF9F98299B6409B44323D63385710D45BA1871065DD356EFC69AB068055C279"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 285,
+      "sourceLineSha256Utf8": "B5398E002AE6C093C47622D64B93641384C4AC92C347B1EAC48DD48108C6AD95"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 455,
+      "sourceLineSha256Utf8": "9884CA0CBA2496E8815C25D321BE354732C0DF6E71AF754D0812FFC59A741207"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 514,
+      "sourceLineSha256Utf8": "74D4985819206E23F12A553373C6D01D2DFD28D12D661203611A9064C6528F48"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 319,
+      "sourceLineSha256Utf8": "48F6CC79D864B0EBE95B003EF5D133B1D408865D29C3DF5028E15E4941497A2A"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 319,
+      "sourceLineSha256Utf8": "48F6CC79D864B0EBE95B003EF5D133B1D408865D29C3DF5028E15E4941497A2A",
+      "prefixUtf16": 19,
+      "suffixUtf16": 1,
+      "replacement": "Pier"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 757,
+      "sourceLineSha256Utf8": "E90041C19E6BA8D535790A1356DD2529FFB68B4DA8CD6075AA6B835AEF658C13"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 808,
+      "sourceLineSha256Utf8": "039B31A1C66A0223ADA388C6DB0E2D09BF2BF83A33CC9D9EA862A4FD87B82FF3"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 511,
+      "sourceLineSha256Utf8": "243C8C3C1861EA7D486684FFC3507B5C50A636B4FAD3974514BC1926FBA71EE7"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 676,
+      "sourceLineSha256Utf8": "9EA3960E62A0792603B052C1E625A1B143B65BA0E36F3BC98D280DB9D828AC5D"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 280,
+      "sourceLineSha256Utf8": "1D004BCA36FDF102AB8B9E0D712C4B808D1E965AAAB02D43609616F222378ADE"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 280,
+      "sourceLineSha256Utf8": "1D004BCA36FDF102AB8B9E0D712C4B808D1E965AAAB02D43609616F222378ADE",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Vector"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 280,
+      "sourceLineSha256Utf8": "1D004BCA36FDF102AB8B9E0D712C4B808D1E965AAAB02D43609616F222378ADE",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Hector"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 280,
+      "sourceLineSha256Utf8": "1D004BCA36FDF102AB8B9E0D712C4B808D1E965AAAB02D43609616F222378ADE",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Vladimir"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Nicholai"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "HUNK"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 20,
+      "suffixUtf16": 0,
+      "replacement": "ddison"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 20,
+      "suffixUtf16": 0,
+      "replacement": "elion"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Zareth"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Talen"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Korin"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Jaxen"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Caelus"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Hestor"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Edrin"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Phael"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Kessik"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Oranis"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Mavrix"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Qorin"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Bralyn"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Ulric"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Taryx"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Doven"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Raleth"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Vossan"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Jorix"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Calen"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Othrin"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Vekar"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 254,
+      "sourceLineSha256Utf8": "C5DE28C41F8FB7FCFE18E4BB505FE4EFFA8060425FFCFCFA6933A8298BCD9B8D",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Kylor"
+    },
+    {
+      "op": "COPY_RANGE",
+      "sourceLine": 248,
+      "lineCount": 1096,
+      "sourceRangeSha256Utf8": "09E19ABE33318E22CB4348EBBDEE1CE502CCAFD167F890DF7B7C5DCC62A863A2"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 1616,
+      "sourceLineSha256Utf8": "A02404ACB5625096787E55DB5A061B6746976B44B40F9CBB29AA095428FFB2C4"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 1486,
+      "sourceLineSha256Utf8": "DDA7FC351C0120FF1DC0260424393CC2A3AF357B8524C3E5DE0E526D5E3D69E5"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1486,
+      "sourceLineSha256Utf8": "DDA7FC351C0120FF1DC0260424393CC2A3AF357B8524C3E5DE0E526D5E3D69E5",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Ada"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 1847,
+      "sourceLineSha256Utf8": "F45B13FBBA74D13B96D2D55683B3AB502E9152E56007A9A457BE52CC19FE4657"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 1806,
+      "sourceLineSha256Utf8": "575A671A80D454393C2602BD28893B7238FD9C6FA1D83B33F4FB3BDED9CF20C1"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1806,
+      "sourceLineSha256Utf8": "575A671A80D454393C2602BD28893B7238FD9C6FA1D83B33F4FB3BDED9CF20C1",
+      "prefixUtf16": 19,
+      "suffixUtf16": 1,
+      "replacement": "Shev"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1806,
+      "sourceLineSha256Utf8": "575A671A80D454393C2602BD28893B7238FD9C6FA1D83B33F4FB3BDED9CF20C1",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Sherry"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1806,
+      "sourceLineSha256Utf8": "575A671A80D454393C2602BD28893B7238FD9C6FA1D83B33F4FB3BDED9CF20C1",
+      "prefixUtf16": 20,
+      "suffixUtf16": 1,
+      "replacement": "oir"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1806,
+      "sourceLineSha256Utf8": "575A671A80D454393C2602BD28893B7238FD9C6FA1D83B33F4FB3BDED9CF20C1",
+      "prefixUtf16": 19,
+      "suffixUtf16": 1,
+      "replacement": "Helen"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 1823,
+      "sourceLineSha256Utf8": "3C07A872AFFEB490B090BAD9FE6FF7AE5FDAEF5E99232379BFECFC0ACA94D60D"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 1960,
+      "sourceLineSha256Utf8": "59AC094CB5F47C7B52A7D791311FE522148FF0CBC96230E4392771A5318276B0"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 1396,
+      "sourceLineSha256Utf8": "0D2FE7EFE5558C56129F2B13887348229E62E643D13A04EDBB8F2A4962F4548F"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 1614,
+      "sourceLineSha256Utf8": "70D8919915E0385A433E39075C65FEABA3CFD9F2DA04BA2CC5C8E0E17B57010D"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 1369,
+      "sourceLineSha256Utf8": "A1A7ED461421E262319CFB7FF7C6929C4C5CACEC681C3431C438F1C8D7AFE8D6"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 1843,
+      "sourceLineSha256Utf8": "4C185A9F22A74620D516FE1A9A6395E0C63D9CA53CC22648F279DD2B3E29FEBA"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 1485,
+      "sourceLineSha256Utf8": "AD2919F573CBE80803E77159F8D4FA49B784324A3D11B4F2DFDEA8240A3865FD"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 1652,
+      "sourceLineSha256Utf8": "02D63ECCF37B87E91F309E9102EFC0CB63FEC583F7315F2F8AB7862CB1903546"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 2251,
+      "sourceLineSha256Utf8": "F492B69E0863A9F76075A1A1809CD96583197F14AB12E1CB7EBC91F910EBCB59"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Alexia"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Rain"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 3,
+      "replacement": "Verp"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Myrra"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Sythra"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Olivai"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Rynn"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Nyxen"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Vyrai"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 1,
+      "replacement": "Lora"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Xyra"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Yelth"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Sorna"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Ilara"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Zevra"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Sileth"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Phyra"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Korva"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Ilyx"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Nirel"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Lyrin"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Rhyssa"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Syrin"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Maelor"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Erynd"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Thessa"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Zorin"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 1479,
+      "sourceLineSha256Utf8": "8F4E8F88230B3C701B1830DE9B446A1680CDA9F540F7F122CB7E012DCD23212C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Aerith"
+    },
+    {
+      "op": "COPY_RANGE",
+      "sourceLine": 1344,
+      "lineCount": 1120,
+      "sourceRangeSha256Utf8": "AEDD9BA3964B4011505196643998F429D672D262F0450DEEDFE1D920D7532919"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 5365,
+      "sourceLineSha256Utf8": "9414C7A67F0FAD26F986CA49CB16C10E33760A595EF48F5D10A3457EC6EF7710"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 5365,
+      "sourceLineSha256Utf8": "9414C7A67F0FAD26F986CA49CB16C10E33760A595EF48F5D10A3457EC6EF7710",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Redfield"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 5365,
+      "sourceLineSha256Utf8": "9414C7A67F0FAD26F986CA49CB16C10E33760A595EF48F5D10A3457EC6EF7710",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Wong"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 2967,
+      "sourceLineSha256Utf8": "CFDA8D9CDCCEE309FF17B4B55ECB5D25554B29ACA11373D17F3BBAD545B0C6CF"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 5520,
+      "sourceLineSha256Utf8": "0964334CC14087F6F2E7DFF9F592B6E58969695A1721DCD90DCA0F5FF76A4466"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 5520,
+      "sourceLineSha256Utf8": "0964334CC14087F6F2E7DFF9F592B6E58969695A1721DCD90DCA0F5FF76A4466",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Alomar"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 5520,
+      "sourceLineSha256Utf8": "0964334CC14087F6F2E7DFF9F592B6E58969695A1721DCD90DCA0F5FF76A4466",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Birkin"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 2879,
+      "sourceLineSha256Utf8": "26E5DEF91F52358D5A09CC59180D60FF6C0516C6E578205CE0EE3434FBE5985E"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 3763,
+      "sourceLineSha256Utf8": "932993513C105857578C6A2AF226448F59E05A5DE2E6C015466C692A6196EE49"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 3763,
+      "sourceLineSha256Utf8": "932993513C105857578C6A2AF226448F59E05A5DE2E6C015466C692A6196EE49",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Korda"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 2567,
+      "sourceLineSha256Utf8": "7EED6A1EA9257D1D54A029DB9EAE70A5D81C0A5EEA698B2811D10F950DC3102A"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 4073,
+      "sourceLineSha256Utf8": "EEE81464F354E37D053E2135D464E61132BBA6F850B094ECFD2FCF11664B5D12"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 4073,
+      "sourceLineSha256Utf8": "EEE81464F354E37D053E2135D464E61132BBA6F850B094ECFD2FCF11664B5D12",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Coen"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 4588,
+      "sourceLineSha256Utf8": "1F28EBBD6EB40F7937477A69BE5F6CEA3889B3A0195CBF5B48B7EBAC47B948C7"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 4588,
+      "sourceLineSha256Utf8": "1F28EBBD6EB40F7937477A69BE5F6CEA3889B3A0195CBF5B48B7EBAC47B948C7",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Oliveira"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 4588,
+      "sourceLineSha256Utf8": "1F28EBBD6EB40F7937477A69BE5F6CEA3889B3A0195CBF5B48B7EBAC47B948C7",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Nivans"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 2872,
+      "sourceLineSha256Utf8": "15CF2E5D18ECFC41E36232EF2C7F1179659F6EB977FFAE5619F4642062EF8F70"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 3639,
+      "sourceLineSha256Utf8": "041086EACE455D5CC54F318A7B76DBC48B27D435CDDA42D36BD197A953E3F3C2"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 3639,
+      "sourceLineSha256Utf8": "041086EACE455D5CC54F318A7B76DBC48B27D435CDDA42D36BD197A953E3F3C2",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Krauser"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 3639,
+      "sourceLineSha256Utf8": "041086EACE455D5CC54F318A7B76DBC48B27D435CDDA42D36BD197A953E3F3C2",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Sherawat"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 3639,
+      "sourceLineSha256Utf8": "041086EACE455D5CC54F318A7B76DBC48B27D435CDDA42D36BD197A953E3F3C2",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Ashcroft"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 3639,
+      "sourceLineSha256Utf8": "041086EACE455D5CC54F318A7B76DBC48B27D435CDDA42D36BD197A953E3F3C2",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Fooley"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 4099,
+      "sourceLineSha256Utf8": "7981FB609A450A3B60DC328A3F4EA4FA2CB61E1781B58062631B3E41925585FC"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 4099,
+      "sourceLineSha256Utf8": "7981FB609A450A3B60DC328A3F4EA4FA2CB61E1781B58062631B3E41925585FC",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Luciani"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 4099,
+      "sourceLineSha256Utf8": "7981FB609A450A3B60DC328A3F4EA4FA2CB61E1781B58062631B3E41925585FC",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Lennox"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 4099,
+      "sourceLineSha256Utf8": "7981FB609A450A3B60DC328A3F4EA4FA2CB61E1781B58062631B3E41925585FC",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Bertolucci"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 4099,
+      "sourceLineSha256Utf8": "7981FB609A450A3B60DC328A3F4EA4FA2CB61E1781B58062631B3E41925585FC",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Vector"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 4099,
+      "sourceLineSha256Utf8": "7981FB609A450A3B60DC328A3F4EA4FA2CB61E1781B58062631B3E41925585FC",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "LesProux"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 4099,
+      "sourceLineSha256Utf8": "7981FB609A450A3B60DC328A3F4EA4FA2CB61E1781B58062631B3E41925585FC",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Hivers"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 4099,
+      "sourceLineSha256Utf8": "7981FB609A450A3B60DC328A3F4EA4FA2CB61E1781B58062631B3E41925585FC",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Heinzwaffen"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 4099,
+      "sourceLineSha256Utf8": "7981FB609A450A3B60DC328A3F4EA4FA2CB61E1781B58062631B3E41925585FC",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Yamata"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 4099,
+      "sourceLineSha256Utf8": "7981FB609A450A3B60DC328A3F4EA4FA2CB61E1781B58062631B3E41925585FC",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Wesker"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 4099,
+      "sourceLineSha256Utf8": "7981FB609A450A3B60DC328A3F4EA4FA2CB61E1781B58062631B3E41925585FC",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Ginovaef"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 4099,
+      "sourceLineSha256Utf8": "7981FB609A450A3B60DC328A3F4EA4FA2CB61E1781B58062631B3E41925585FC",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Bodrovski"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 4099,
+      "sourceLineSha256Utf8": "7981FB609A450A3B60DC328A3F4EA4FA2CB61E1781B58062631B3E41925585FC",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "H.U.N.K."
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 2567,
+      "sourceLineSha256Utf8": "7EED6A1EA9257D1D54A029DB9EAE70A5D81C0A5EEA698B2811D10F950DC3102A"
+    },
+    {
+      "op": "COPY_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Ocampo"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Matt"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Fissionlast"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Ironveil"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Fluxwarden"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Voidcoil"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Neurodrift"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 1,
+      "replacement": "Quartzwin"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Shadowrack"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Gravemarch"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Luminarch"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Vortexhelm"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Cryosong"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 20,
+      "suffixUtf16": 0,
+      "replacement": "enforge"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Spectraline"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Thornbyte"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Skydrift"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Ferochain"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Kinetra"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Orethane"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Valekyn"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Riftwalker"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Polarus"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 2,
+      "replacement": "Echosha"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Obsidianix"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Blackspire"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Windreign"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Silverskein"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Duskweaver"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Magnetide"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Ironspire"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Pulsebrine"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Galecrest"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Sablecrest"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Ethercoil"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Mythrail"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Corshade"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Netherlink"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 1,
+      "replacement": "Glassboun"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Frosthollow"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Mirebolt"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Hearthline"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Zenithron"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Paxlore"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Emberquant"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Helixborn"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Celesthar"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Runecore"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Hollowspire"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Gearbourne"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Telarex"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 2536,
+      "sourceLineSha256Utf8": "D62D35BAEED644864083C6A536C1C65B5DB8854CD8D46F4197F5C652550C2D11",
+      "prefixUtf16": 17,
+      "suffixUtf16": 0,
+      "replacement": "Solaryn"
+    },
+    {
+      "op": "COPY_RANGE",
+      "sourceLine": 2464,
+      "lineCount": 128325,
+      "sourceRangeSha256Utf8": "477F41909A8632482072BA7C595524A1A69E2C97A2292C6C7D4D6760DC4D335F"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 130788,
+      "sourceLineSha256Utf8": "653D869CF16CFA4DB63FE59BF49E4AD1311B2B1F386155F2C1F88751EC45019C",
+      "prefixUtf16": 19,
+      "suffixUtf16": 0,
+      "replacement": "Efo"
+    },
+    {
+      "op": "COPY_RANGE",
+      "sourceLine": 130790,
+      "lineCount": 111,
+      "sourceRangeSha256Utf8": "BE19FBF6E7A0A30408360228A3E49DF562B634F727316818D22102E71F38C097"
+    },
+    {
+      "op": "PATCH_LINE",
+      "sourceLine": 130900,
+      "sourceLineSha256Utf8": "C51A2601EEBCFC65E87F1F3DE9D8E417BC9C69CF2F5445502CCF156618EB1944",
+      "prefixUtf16": 20,
+      "suffixUtf16": 0,
+      "replacement": "îr"
+    },
+    {
+      "op": "COPY_RANGE",
+      "sourceLine": 130902,
+      "lineCount": 7925,
+      "sourceRangeSha256Utf8": "4D53362B11C7C57FAD490485E5A2F4C9E167F8498FC14828EE785CDDE2902DC1"
+    }
+  ],
+  "stats": {
+    "sourceLines": 138826,
+    "targetLines": 139006,
+    "copyLines": 138861,
+    "patchedLines": 145,
+    "insertOwnedLines": 0,
+    "serializedOperations": 194
+  }
+}

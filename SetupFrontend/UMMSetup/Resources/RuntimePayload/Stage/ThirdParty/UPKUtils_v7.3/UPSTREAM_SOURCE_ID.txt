@@ -1,0 +1,3 @@
+﻿Repository=https://github.com/wghost/UPKUtils.git
+Tag=7.3
+Commit=f4a7149cb25389b3d3e0b4ee1bf4bfefd7b02c29
