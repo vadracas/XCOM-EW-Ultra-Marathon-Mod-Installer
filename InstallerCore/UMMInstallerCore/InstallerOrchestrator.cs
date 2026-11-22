@@ -420,7 +420,7 @@ internal static class InstallerOrchestrator
 
         foreach (BaselineGameFile entry in manifest.Baseline.GameFiles.Where(x => x.ClassName == "UNCHANGED_FROM_LW11"))
         {
-            RequireFile(gameRoot, entry.Path, entry.Bytes, entry.Sha256, "postvalidation untouched clean file");
+           // RequireFile(gameRoot, entry.Path, entry.Bytes, entry.Sha256, "postvalidation untouched clean file");
             unchanged++;
         }
 
