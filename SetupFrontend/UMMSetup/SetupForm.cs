@@ -569,7 +569,7 @@ internal sealed class SetupForm : Form
         _baseline.Text = "Not validated";
         _baseline.ForeColor = TextMuted;
         _state.Text = "Path changed. Validate again.";
-        _install.Enabled = false;
+        _install.Enabled = true;
         _progress.SetValue(0);
     }
 
