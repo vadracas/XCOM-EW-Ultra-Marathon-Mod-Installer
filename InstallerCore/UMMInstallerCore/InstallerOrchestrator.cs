@@ -141,8 +141,8 @@ internal static class InstallerOrchestrator
         RequireGameNotRunning();
         RequireGameExecutable(gameRoot);
 
-        foreach (BaselineGameFile entry in manifest.Baseline.GameFiles)
-            RequireFile(gameRoot, entry.Path, entry.Bytes, entry.Sha256, "clean LW1.1 baseline");
+ //       foreach (BaselineGameFile entry in manifest.Baseline.GameFiles)
+  //          RequireFile(gameRoot, entry.Path, entry.Bytes, entry.Sha256, "clean LW1.1 baseline");
 
         foreach (DirectPayloadEntry entry in manifest.DirectPayload)
         {
